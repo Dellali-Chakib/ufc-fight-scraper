@@ -18,15 +18,6 @@ The project was built to power **data-driven analytics and predictive modeling**
 
 ---
 
-## 🧩 Project Structure
-![Uploading image.png…]()
-
-
-markdown
-Copy code
-
----
-
 ## 🧠 How It Works
 1. **Collect URLs**  
    `get_fighter_urls.py` asynchronously visits each letter (A–Z) page on UFCStats and extracts every fighter’s profile URL.
