@@ -19,16 +19,8 @@ The project was built to power **data-driven analytics and predictive modeling**
 ---
 
 ## 🧩 Project Structure
-ufc-fight-scraper/
-│
-├── stat_scraper.py # Main entry point; orchestrates full scraping pipeline
-├── fighter_model.py # Fighter class for data transformation and validation
-├── fighter_stats.py # Scrapes individual fighter stats (height, reach, record, etc.)
-├── get_fighter_urls.py # Gathers all fighter profile URLs from UFCStats
-├── clean_data.py # Cleans and normalizes raw scraped data
-├── filter_data.py # Filters out incomplete or low-quality data
-├── fighters_to_csv.py # Writes cleaned data to CSV (also integrated in main)
-└── output.csv # Generated dataset (after running stat_scraper.py)
+![Uploading image.png…]()
+
 
 markdown
 Copy code
