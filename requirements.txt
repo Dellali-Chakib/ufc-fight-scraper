@@ -1,0 +1,38 @@
+# UFC Data Scraper - Python Dependencies
+# ========================================
+
+# Web scraping
+beautifulsoup4==4.13.4
+requests==2.32.4
+aiohttp==3.10.10
+
+# Data processing
+pandas==2.3.1
+numpy==2.3.1
+
+# Database ORM (Object-Relational Mapping)
+# SQLAlchemy is the most popular Python ORM
+# It works with SQLite, PostgreSQL, MySQL, and more
+SQLAlchemy==2.0.36
+
+# Additional dependencies for date handling
+python-dateutil==2.9.0
+
+# Phase 2: API Layer (FastAPI)
+# ========================================
+# FastAPI - Modern web framework for building APIs
+# - Fast performance (on par with NodeJS and Go)
+# - Automatic API documentation (Swagger UI)
+# - Type checking and validation
+fastapi==0.115.5
+
+# Uvicorn - ASGI server to run FastAPI
+# - Lightning-fast async server
+# - Hot reload during development
+uvicorn[standard]==0.32.1
+
+# Pydantic - Data validation (included with FastAPI but pinned for clarity)
+# - Uses Python type hints for validation
+# - Powers FastAPI's request/response models
+pydantic==2.10.3
+
