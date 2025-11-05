@@ -322,7 +322,8 @@ def add_fighters(fighters, engine):
             fighter_db = FighterDB.from_fighter(fighter)
             
             # Add to session (not yet saved to database)
-            session.add(fighter_db)
+
+            session.merge(fighter_db)
             added_count += 1
         
         # IMPORTANT: This is where data actually gets saved!
