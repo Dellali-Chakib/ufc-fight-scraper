@@ -1,13 +1,17 @@
 # UFC Fighter Stats Scraper & API
 
-A UFC fighter statistics scraper with REST API and automated updates.
+A production-ready UFC fighter statistics scraper with REST API and automated updates.
 
 ## Features
 
 - **Data Collection**: Async scraping of 700+ UFC fighters from ufcstats.com
 - **Database**: SQLAlchemy ORM with SQLite (PostgreSQL-ready)
-- **REST API**: FastAPI with automatic documentation
+  - **Safe UPSERT Logic**: Prevents duplicate entries and UNIQUE constraint errors
+  - Reliable reruns in GitHub Actions environments
+- **REST API**: FastAPI with automatic documentation (Swagger UI)
 - **Automation**: API-triggered and scheduled updates via GitHub Actions
+- **CSV Export**: Automatic CSV generation for data analysis
+- **Query Tools**: Interactive database query examples and tutorials
 
 ## Quick Start
 
@@ -18,14 +22,21 @@ python -m venv venv
 source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 
-# 2. Scrape data
+# 2. Scrape data (creates ufc_fighters.db + output.csv)
 python run_scraper.py
 
 # 3. Start API
 uvicorn app:app --reload
+
+# 4. (Optional) Explore database with query examples
+python query_fighters.py
 ```
 
 Visit http://localhost:8000/docs for interactive API documentation.
+
+**Output files:**
+- `ufc_fighters.db` - SQLite database with all fighter data
+- `output.csv` - CSV export for data analysis/Excel
 
 ## API Endpoints
 
@@ -82,16 +93,24 @@ Returns immediately while scraper runs in background.
 ## Project Structure
 
 ```
-├── scraper/          # Scraping and database modules
-│   ├── database.py   # SQLAlchemy ORM
-│   ├── stat_scraper.py  # Main scraper
-│   └── ...
-├── app.py            # FastAPI application
-├── schemas.py        # Pydantic models
-├── run_scraper.py    # Scraper entry point
-├── requirements.txt  # Dependencies
+├── scraper/               # Scraping and database modules
+│   ├── database.py        # SQLAlchemy ORM with UPSERT logic
+│   ├── stat_scraper.py    # Main async scraper
+│   ├── fighter_model.py   # Fighter data model
+│   ├── get_fighter_urls.py  # URL collection
+│   ├── fighter_stats.py   # Stats parsing
+│   ├── clean_data.py      # Data cleaning utilities
+│   ├── filter_data.py     # Data filtering
+│   └── fighters_to_csv.py # CSV export
+├── app.py                 # FastAPI application (v3.0.0)
+├── schemas.py             # Pydantic validation models
+├── run_scraper.py         # Scraper entry point
+├── query_fighters.py      # Database query examples
+├── requirements.txt       # Python dependencies
+├── ufc_fighters.db        # SQLite database
+├── output.csv             # Exported fighter data
 └── .github/workflows/
-    └── update_data.yml  # GitHub Actions workflow
+    └── update_data.yml    # GitHub Actions workflow
 ```
 
 ## Database Schema
@@ -127,15 +146,50 @@ uvicorn app:app --reload --port 8001
 ## Development
 
 ```bash
-# Run scraper
+# Run scraper (creates/updates ufc_fighters.db + output.csv)
 python run_scraper.py
 
 # Start API with auto-reload
 uvicorn app:app --reload
 
-# Query database directly
+# Interactive database query tutorial
 python query_fighters.py
 ```
+
+### Database UPSERT Logic
+
+The scraper uses **safe UPSERT logic** to prevent UNIQUE constraint errors:
+
+- Queries existing fighters by URL (unique identifier)
+- Updates existing records if found
+- Inserts new records if not found
+- Single atomic commit at the end
+- Tracks separately: fighters added vs. updated
+
+This ensures reliable operation when:
+- GitHub Actions reruns the scraper
+- Updating stale fighter data
+- Running multiple scrapes without clearing the database
+
+**Key function:** `add_fighters()` in `scraper/database.py`
+
+### Query Examples Tutorial
+
+The `query_fighters.py` script provides interactive examples for learning database operations:
+
+```bash
+python query_fighters.py
+```
+
+**Includes examples for:**
+- Basic queries (count, retrieve all)
+- Filtering data (WHERE clauses, multiple conditions)
+- Sorting and ordering
+- Aggregate functions (AVG, MAX, MIN, COUNT)
+- Specific fighter lookups
+- Advanced queries (OR conditions, LIKE patterns)
+
+Perfect for learning SQLAlchemy ORM query patterns!
 
 ## License
 
