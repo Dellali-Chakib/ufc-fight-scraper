@@ -286,14 +286,23 @@ def init_database(engine):
 # =============================================================================
 def add_fighters(fighters, engine):
     """
-    Adds a list of Fighter objects to the database.
+    Adds or updates fighters in the database using safe UPSERT logic.
     
     HOW IT WORKS:
     -------------
     1. Convert Fighter objects → FighterDB objects (ORM models)
-    2. Add them to a session (staging area)
-    3. Commit the session (save to database)
-    4. Handle any errors gracefully
+    2. Query existing fighters by URL (unique identifier)
+    3. Update existing records or insert new ones
+    4. Commit the session (save to database)
+    5. Handle any errors gracefully
+    
+    WHY THIS AVOIDS UNIQUE CONSTRAINT ERRORS:
+    ------------------------------------------
+    - Instead of using merge() (which fails when ID is unknown),
+      we query by URL first to find existing records
+    - If found: update all attributes of the existing record
+    - If not found: add as a new fighter
+    - This works reliably when GitHub Actions reruns the scraper
     
     TRANSACTION SAFETY:
     -------------------
@@ -309,27 +318,58 @@ def add_fighters(fighters, engine):
     
     RETURNS:
     --------
-    int : Number of fighters successfully added
+    int : Total number of fighters processed (added + updated)
     """
     session = get_session(engine)
     added_count = 0
+    updated_count = 0
     
     try:
-        print(f"\n📊 Preparing to add {len(fighters)} fighters to database...")
+        print(f"\n📊 Preparing to upsert {len(fighters)} fighters to database...")
         
         for fighter in fighters:
             # Convert Fighter → FighterDB using our class method
             fighter_db = FighterDB.from_fighter(fighter)
             
-            # Add to session (not yet saved to database)
-
-            session.merge(fighter_db)
-            added_count += 1
+            # UPSERT LOGIC: Query for existing fighter by URL (unique column)
+            # This prevents UNIQUE constraint errors by checking first
+            existing_fighter = session.query(FighterDB).filter_by(url=fighter.url).first()
+            
+            if existing_fighter:
+                # Fighter exists → UPDATE all attributes with new data
+                # This ensures reruns of the scraper update stale data
+                existing_fighter.name = fighter.name
+                existing_fighter.height = fighter.height
+                existing_fighter.weight = fighter.weight
+                existing_fighter.weight_class = fighter.weight_class
+                existing_fighter.reach = fighter.reach
+                existing_fighter.stance = fighter.stance
+                existing_fighter.dob = fighter.dob
+                existing_fighter.slpm = fighter.slpm
+                existing_fighter.stracc = fighter.stracc
+                existing_fighter.sapm = fighter.sapm
+                existing_fighter.strdef = fighter.strdef
+                existing_fighter.tdavg = fighter.tdavg
+                existing_fighter.tdacc = fighter.tdacc
+                existing_fighter.tddef = fighter.tddef
+                existing_fighter.subavg = fighter.subavg
+                existing_fighter.record = fighter.record
+                existing_fighter.most_recent_fight = fighter.most_recent_fight
+                existing_fighter.fight_count = fighter.fight_count
+                existing_fighter.fights_in_ufc = fighter.fightswithinufc
+                existing_fighter.bad_sample = fighter.bad_sample
+                updated_count += 1
+            else:
+                # Fighter doesn't exist → INSERT as new record
+                session.add(fighter_db)
+                added_count += 1
         
         # IMPORTANT: This is where data actually gets saved!
-        # commit() executes SQL INSERT statements for all added objects
+        # commit() executes SQL INSERT/UPDATE statements for all changes
         session.commit()
-        print(f"✓ Successfully added {added_count} fighters to database!")
+        print(f"✓ Successfully processed {len(fighters)} fighters:")
+        print(f"  • {added_count} new fighters added")
+        print(f"  • {updated_count} existing fighters updated")
         
     except Exception as e:
         # If anything goes wrong, rollback (undo) all changes
@@ -341,7 +381,7 @@ def add_fighters(fighters, engine):
         # Always close the session to free up resources
         session.close()
     
-    return added_count
+    return added_count + updated_count
 
 
 # =============================================================================
