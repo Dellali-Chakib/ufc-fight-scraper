@@ -1,648 +1,319 @@
 Name,URL,Height,Weight,Weight Class,Reach,Stance,DOB,SLpm,StrAcc,SApM,StrDef,TDAvg,TDAcc,TDDef,SubAvg,Record,Most Recent Fight,FightCount,FightsInUFC,BadSample
-Karol Rosa,http://ufcstats.com/fighter-details/351c4ec637380ad5,65,135 lbs.,Bantamweight,67,Orthodox,"Dec 30, 1994",5.88,0.56,4.59,0.49,1.17,0.48,0.7,0.2,19-7-0,114,26,12,False
-Jared Gooden,http://ufcstats.com/fighter-details/c730a0be691dc081,72,170 lbs.,Welterweight,77,Orthodox,"Dec 05, 1993",4.4,0.48,6.74,0.45,0.91,0.45,0.65,0.4,23-10-0,408,33,7,False
-Vinicius Oliveira,http://ufcstats.com/fighter-details/18d01f7f8338ae72,69,135 lbs.,Bantamweight,70,Switch,"Nov 30, 1995",5.28,0.43,2.89,0.57,1.67,0.5,0.8,0.2,23-3-0,128,26,4,False
-Jesse Ronson,http://ufcstats.com/fighter-details/5580771f383e141f,70,155 lbs.,Lightweight,70,Southpaw,"Dec 24, 1985",3.54,0.47,3.39,0.57,0.46,0.28,0.57,0.5,21-12-0,1150,33,5,False
-Josefine Knutsson,http://ufcstats.com/fighter-details/971dba22c622af12,63,115 lbs.,Strawweight,60,Orthodox,"Jan 16, 1996",4.24,0.51,2.13,0.54,1.6,0.72,0.35,0.0,8-1-0,345,9,4,False
-Ryan Loder,http://ufcstats.com/fighter-details/d5bab53a1a603aac,74,185 lbs.,Middleweight,76,Southpaw,"Jun 05, 1991",5.1,0.69,2.46,0.5,1.37,0.14,1.0,1.4,8-3-0,2,11,3,False
-Antonio Carvalho,http://ufcstats.com/fighter-details/fef3d17e27e916e7,69,145 lbs.,Featherweight,70,Orthodox,"May 30, 1979",3.03,0.29,3.62,0.64,0.0,0.0,1.0,0.0,15-6-0,4636,21,4,False
-Mick Parkin,http://ufcstats.com/fighter-details/0d5cc0170c1a7e71,76,265 lbs.,Heavyweight,79,Orthodox,"Oct 02, 1995",4.7,0.5,4.13,0.58,1.38,0.46,0.5,0.2,10-1-0,247,11,5,False
-Maryna Moroz,http://ufcstats.com/fighter-details/b4192a975027aab6,67,125 lbs.,Flyweight,67,Orthodox,"Sep 08, 1991",4.42,0.33,4.89,0.51,0.7,0.24,0.42,0.6,11-6-0,625,17,12,False
-Johnny Walker,http://ufcstats.com/fighter-details/c21f26bbde777573,78,205 lbs.,Light Heavyweight,82,Orthodox,"Mar 30, 1992",4.06,0.55,3.09,0.45,0.42,0.6,0.57,0.8,22-9-0,93,31,15,False
-Markus Perez,http://ufcstats.com/fighter-details/2ac4628c08ec5125,73,185 lbs.,Middleweight,73,Orthodox,"Jun 22, 1988",2.6,0.47,3.72,0.52,0.81,0.25,0.77,1.0,12-5-0,1769,17,7,False
-Kai Kamaka,http://ufcstats.com/fighter-details/eee0ef3e2b14816b,67,145 lbs.,Featherweight,69,Orthodox,"Jan 05, 1995",4.96,0.57,5.29,0.55,1.93,0.58,0.52,0.3,8-4-1,1577,13,4,False
-Herbert Burns,http://ufcstats.com/fighter-details/4f140403000158b5,69,145 lbs.,Featherweight,73,Orthodox,"Feb 02, 1988",1.86,0.36,5.17,0.41,2.94,0.34,0.66,1.8,11-6-0,464,17,6,False
-James Llontop,http://ufcstats.com/fighter-details/93b2b7caa457cbea,72,155 lbs.,Lightweight,73,Orthodox,"Aug 02, 1999",5.57,0.41,4.12,0.57,0.0,0.0,0.54,0.0,14-5-0,373,19,3,False
-Luke Rockhold,http://ufcstats.com/fighter-details/00e11b5c8b7bfeeb,75,185 lbs.,Middleweight,77,Southpaw,"Oct 17, 1984",4.1,0.49,2.68,0.53,0.7,0.29,0.65,1.0,16-6-0,1192,22,11,False
-Bevon Lewis,http://ufcstats.com/fighter-details/899923ff6ab13917,75,185 lbs.,Middleweight,79,Orthodox,"May 05, 1991",3.73,0.43,2.67,0.54,0.0,0.0,0.66,0.0,7-3-0,1843,10,4,False
-Josh Quinlan,http://ufcstats.com/fighter-details/876f478f796495f7,72,170 lbs.,Welterweight,72,Orthodox,"Feb 06, 1993",3.57,0.42,6.38,0.53,0.34,0.11,0.71,0.0,6-3-0,527,9,4,False
-John Phillips,http://ufcstats.com/fighter-details/e9ac7bfb65c25497,71,185 lbs.,Middleweight,75,Southpaw,"Jun 09, 1985",1.72,0.34,4.03,0.49,0.0,0.0,0.07,0.0,22-11-0,1864,33,6,False
-Ken Stone,http://ufcstats.com/fighter-details/fbf0947399d14323,68,135 lbs.,Bantamweight,71,Southpaw,"Oct 08, 1982",3.85,0.49,2.9,0.48,1.24,0.33,0.6,0.6,11-4-0,4853,15,3,False
-Reza Madadi,http://ufcstats.com/fighter-details/e25bcbcdaf6537a1,71,155 lbs.,Lightweight,73,Orthodox,"Jun 20, 1978",2.51,0.46,3.31,0.66,3.17,0.33,0.89,0.5,14-6-0,3102,20,7,False
-Shonie Carter,http://ufcstats.com/fighter-details/7b6e40a73b567072,70,170 lbs.,Welterweight,,Southpaw,"May 03, 1972",1.62,0.36,2.32,0.47,0.75,0.66,0.75,0.0,51-31-7,6921,89,6,False
-Mike Easton,http://ufcstats.com/fighter-details/bc7230f231701d66,66,135 lbs.,Bantamweight,70,Southpaw,"Jan 25, 1984",3.51,0.37,4.28,0.61,0.75,0.22,0.66,0.0,13-6-0,4181,19,7,False
-Alvaro Herrera Mendoza,http://ufcstats.com/fighter-details/74d35fbc9c6a61bd,72,155 lbs.,Lightweight,74,Orthodox,"May 14, 1990",1.89,0.38,3.4,0.55,0.0,0.0,0.33,1.1,9-6-0,2676,15,4,False
-Shi Ming,http://ufcstats.com/fighter-details/d683f4870742b273,62,115 lbs.,Strawweight,60,Orthodox,"Nov 14, 1994",3.12,0.36,2.92,0.53,0.81,0.3,0.57,0.0,17-6-0,94,23,4,False
-Cameron Saaiman,http://ufcstats.com/fighter-details/3c8a5200436e19f3,68,135 lbs.,Bantamweight,67,Southpaw,"Dec 20, 2000",5.3,0.46,4.14,0.51,0.89,0.28,0.47,0.7,9-3-0,212,12,6,False
-Gray Maynard,http://ufcstats.com/fighter-details/7d96bc577e5178b2,69,155 lbs.,Lightweight,70,Orthodox,"May 09, 1979",1.92,0.32,2.64,0.66,2.91,0.47,0.81,0.7,13-7-1,2606,21,15,False
-Robert Whittaker,http://ufcstats.com/fighter-details/e1147d3d2dabe1ce,72,185 lbs.,Middleweight,73,Orthodox,"Dec 20, 1990",4.39,0.43,3.36,0.59,0.73,0.38,0.82,0.0,27-9-0,121,36,24,False
-John Salter,http://ufcstats.com/fighter-details/010986ee359fb863,73,185 lbs.,Middleweight,74,Southpaw,"Mar 21, 1985",1.68,0.32,1.68,0.68,2.85,0.46,0.66,0.5,14-3-0,5435,17,3,False
-Takeya Mizugaki,http://ufcstats.com/fighter-details/48e093ea1f43a053,67,135 lbs.,Bantamweight,69,Orthodox,"Dec 16, 1983",3.37,0.37,3.27,0.57,1.46,0.57,0.7,0.1,21-11-2,3264,34,14,False
-Askar Askarov,http://ufcstats.com/fighter-details/b1d19449397541dc,66,125 lbs.,Flyweight,67,Orthodox,"Oct 09, 1992",3.05,0.54,2.8,0.57,2.6,0.24,0.66,0.4,14-1-1,1339,16,5,False
-Matthew Lopez,http://ufcstats.com/fighter-details/2fc7e9701642ca38,67,135 lbs.,Bantamweight,69,Southpaw,"Jan 21, 1987",3.13,0.5,3.73,0.55,3.32,0.6,0.71,1.3,10-4-0,2543,14,6,False
-Oskar Piechota,http://ufcstats.com/fighter-details/1cf7ccf64a5bf24e,72,185 lbs.,Middleweight,76,Southpaw,"Jan 24, 1990",3.3,0.52,3.93,0.51,0.61,0.4,0.38,1.5,11-3-1,1983,15,5,False
-Gleison Tibau,http://ufcstats.com/fighter-details/75e5fec9f72910ef,70,155 lbs.,Lightweight,71,Southpaw,"Oct 07, 1983",1.95,0.31,2.51,0.63,4.08,0.53,0.92,0.8,33-14-0,2733,47,27,False
-Philipe Lins,http://ufcstats.com/fighter-details/53c943c873cffe90,74,205 lbs.,Light Heavyweight,78,Orthodox,"Aug 17, 1985",3.8,0.49,3.59,0.46,1.65,0.33,1.0,0.0,18-5-0,625,23,6,False
-Aleksei Kunchenko,http://ufcstats.com/fighter-details/e2ccd9a9ace60de7,68,170 lbs.,Welterweight,70,Orthodox,"May 02, 1984",3.67,0.44,2.83,0.63,0.25,0.33,0.8,0.0,20-2-0,2081,22,4,False
-Dricus Du Plessis,http://ufcstats.com/fighter-details/0d7b51c9d2649a6e,73,185 lbs.,Middleweight,76,Switch,"Jan 14, 1994",5.18,0.48,4.33,0.52,2.22,0.51,0.34,0.7,23-3-0,100,26,10,False
-Albert Morales,http://ufcstats.com/fighter-details/544d7460b3e44393,69,135 lbs.,Bantamweight,72,Orthodox,"May 25, 1991",3.81,0.35,3.96,0.56,0.91,0.35,0.7,0.2,7-4-1,2830,12,6,False
-Anthony Pettis,http://ufcstats.com/fighter-details/cbb682f5fcc44bfc,70,155 lbs.,Lightweight,72,Orthodox,"Jan 27, 1987",3.05,0.47,3.44,0.54,0.61,0.5,0.6,1.1,24-10-0,1801,34,19,False
-Anthony Hamilton,http://ufcstats.com/fighter-details/c727c7d31c50c4cf,77,260 lbs.,Heavyweight,76,Orthodox,"Apr 14, 1980",3.91,0.65,3.02,0.45,2.62,0.42,0.78,0.0,15-9-0,2928,24,10,False
-Corey Hill,http://ufcstats.com/fighter-details/abbc737317f66b81,76,155 lbs.,Lightweight,80,Orthodox,"Oct 03, 1978",3.57,0.46,1.61,0.7,3.02,0.8,1.0,0.0,6-9-0,6193,15,3,False
-Dennis Siver,http://ufcstats.com/fighter-details/5f87a5c00b3d17ed,66,145 lbs.,Featherweight,70,Orthodox,"Jan 13, 1979",3.87,0.32,2.67,0.65,0.87,0.32,0.65,0.3,23-11-0,3074,34,20,False
-Vaughan Lee,http://ufcstats.com/fighter-details/8bb6f4479685bbcc,66,125 lbs.,Flyweight,66,Orthodox,"Oct 15, 1982",3.47,0.47,2.07,0.7,0.81,0.33,0.72,1.0,14-13-1,3782,28,8,False
-Jennifer Maia,http://ufcstats.com/fighter-details/8e1f36476ef02a6a,64,125 lbs.,Flyweight,64,Orthodox,"Oct 06, 1988",4.35,0.38,4.52,0.55,0.42,0.27,0.58,0.1,21-10-1,772,32,12,False
-Leandro Issa,http://ufcstats.com/fighter-details/d1e1fdcea7c8a90a,67,135 lbs.,Bantamweight,69,Orthodox,"Sep 19, 1983",2.08,0.37,3.17,0.58,2.38,0.22,0.5,1.2,13-6-0,3369,19,4,False
-Alen Amedovski,http://ufcstats.com/fighter-details/70fa1c64a2c439ef,70,185 lbs.,Middleweight,74,Orthodox,"Apr 06, 1988",0.99,0.3,3.85,0.46,0.0,0.0,0.0,0.0,8-4-0,1164,12,4,False
-Diego Sanchez,http://ufcstats.com/fighter-details/82e7929bf6c2b689,70,170 lbs.,Welterweight,72,Southpaw,"Dec 31, 1981",2.69,0.37,3.02,0.56,1.51,0.24,0.46,0.8,31-13-0,1885,44,28,False
-Forrest Griffin,http://ufcstats.com/fighter-details/fcffee71cff5530e,75,205 lbs.,Light Heavyweight,77,Orthodox,"Mar 16, 1979",4.38,0.36,2.81,0.61,1.05,0.48,0.57,0.7,19-7-0,4888,26,14,False
-Eduardo Garagorri,http://ufcstats.com/fighter-details/7bde387d50829adf,69,145 lbs.,Featherweight,70,Orthodox,"May 28, 1989",3.42,0.51,2.36,0.58,0.48,1.0,0.61,0.0,13-2-0,1843,15,3,False
-Juliana Lima,http://ufcstats.com/fighter-details/75a6a390fd5dca46,65,115 lbs.,Strawweight,65,Orthodox,"Mar 15, 1982",1.94,0.44,2.11,0.55,1.72,0.31,0.7,0.0,9-5-0,2858,14,6,False
-Tyson Pedro,http://ufcstats.com/fighter-details/49e96ff8ab781589,75,205 lbs.,Light Heavyweight,79,Orthodox,"Sep 17, 1991",2.9,0.59,2.39,0.56,0.76,0.3,0.5,0.8,10-5-0,632,15,11,False
-Jean Silva,http://ufcstats.com/fighter-details/52ef95b5860fb28c,67,145 lbs.,Featherweight,69,Orthodox,"Dec 27, 1996",4.79,0.51,4.69,0.54,0.5,0.5,0.78,0.8,16-3-0,72,19,6,False
-William Macario,http://ufcstats.com/fighter-details/ed74afc8b5b47a61,71,170 lbs.,Welterweight,75,Orthodox,"Jul 01, 1991",4.92,0.54,3.96,0.65,1.85,0.45,0.78,0.0,9-3-0,3928,12,4,False
-Tom Nolan,http://ufcstats.com/fighter-details/6c3b2525436cf5d4,75,155 lbs.,Lightweight,73,Southpaw,"Mar 08, 2000",5.87,0.45,4.73,0.48,0.74,0.22,0.71,1.9,10-1-0,58,11,5,False
-Mark Munoz,http://ufcstats.com/fighter-details/179f1948dc234f1f,72,185 lbs.,Middleweight,71,Orthodox,"Feb 09, 1978",3.12,0.51,2.26,0.57,3.17,0.29,0.57,0.6,14-6-0,3845,20,15,False
-Mitch Clarke,http://ufcstats.com/fighter-details/c76ec2bc3a57666a,70,155 lbs.,Lightweight,73,Orthodox,"Nov 24, 1985",2.35,0.34,3.27,0.47,0.64,0.15,0.5,0.4,11-5-0,2998,16,7,False
-Jonathan Goulet,http://ufcstats.com/fighter-details/fb1538b46877a695,72,170 lbs.,Welterweight,73,Orthodox,"Jul 13, 1979",1.61,0.41,2.01,0.46,4.17,0.7,0.45,0.6,23-12-0,5679,35,8,False
-Ben Alloway,http://ufcstats.com/fighter-details/c4fe2e9a06ea5bcb,71,170 lbs.,Welterweight,76,Orthodox,"Feb 19, 1981",1.28,0.49,1.9,0.59,0.62,0.5,0.26,0.0,18-8-0,4471,26,3,False
-Jason Brilz,http://ufcstats.com/fighter-details/497ba5b12a4bfc47,71,205 lbs.,Light Heavyweight,71,Orthodox,"Jul 07, 1975",2.66,0.4,1.78,0.65,2.37,0.25,0.25,1.3,22-6-1,5119,29,7,False
-Jenel Lausa,http://ufcstats.com/fighter-details/ec664422b22d9787,65,125 lbs.,Flyweight,68,Orthodox,"Aug 01, 1988",1.44,0.42,3.53,0.53,0.55,0.66,0.51,0.8,7-5-0,2711,12,4,False
-Hacran Dias,http://ufcstats.com/fighter-details/ed209f6618c82e41,68,155 lbs.,Lightweight,69,Orthodox,"Jun 16, 1984",2.08,0.41,3.31,0.55,2.5,0.39,0.76,0.5,23-6-1,2949,30,8,False
-Marcio Alexandre Junior,http://ufcstats.com/fighter-details/d53482bef23235ba,72,185 lbs.,Middleweight,75,Southpaw,"May 05, 1989",1.61,0.45,2.89,0.42,0.35,0.2,0.66,0.7,17-4-0,2662,21,3,False
-Mark De La Rosa,http://ufcstats.com/fighter-details/f57dd0bfa8c17813,66,135 lbs.,Bantamweight,65,Orthodox,"Aug 31, 1994",3.13,0.35,5.0,0.48,0.54,0.13,0.4,0.2,11-5-0,1990,16,7,False
-Sodiq Yusuff,http://ufcstats.com/fighter-details/94426bb170c88115,69,155 lbs.,Lightweight,71,Orthodox,"May 19, 1993",5.27,0.49,4.29,0.53,0.36,0.23,0.62,0.4,13-5-0,191,18,10,False
-Steve Garcia,http://ufcstats.com/fighter-details/97cf1a2c7c5e7889,72,145 lbs.,Featherweight,75,Southpaw,"May 22, 1992",5.39,0.49,2.12,0.59,0.86,0.4,0.88,0.4,19-5-0,23,24,10,False
-Kailin Curran,http://ufcstats.com/fighter-details/05b43e0ead3df345,64,115 lbs.,Strawweight,65,Orthodox,"Apr 11, 1991",3.89,0.43,4.75,0.53,2.0,0.57,0.61,0.6,4-5-0,2921,9,6,False
-Benito Lopez,http://ufcstats.com/fighter-details/773f7feacf96153e,70,135 lbs.,Bantamweight,73,Switch,"Apr 06, 1994",4.39,0.45,5.18,0.56,0.0,0.0,0.73,0.3,10-2-0,1115,12,4,False
-Maurice Smith,http://ufcstats.com/fighter-details/33e33d51f289d2a1,74,221 lbs.,Heavyweight,,Orthodox,"Dec 13, 1961",0.41,0.46,0.47,0.6,0.89,0.5,0.2,0.9,12-14-0,6484,26,7,False
-Ilia Topuria,http://ufcstats.com/fighter-details/54f64b5e283b0ce7,67,155 lbs.,Lightweight,69,Orthodox,"Jan 21, 1997",4.81,0.48,3.83,0.64,1.96,0.61,0.93,1.1,17-0-0,149,17,9,False
-Thiago Silva,http://ufcstats.com/fighter-details/2924886ee9c4c527,74,205 lbs.,Light Heavyweight,74,Orthodox,"Nov 12, 1982",3.92,0.5,2.55,0.67,1.03,0.47,0.7,0.7,19-6-0,4429,25,12,False
-Damien Brown,http://ufcstats.com/fighter-details/d024ed963e8bf7ea,70,155 lbs.,Lightweight,68,Orthodox,"Dec 25, 1984",3.66,0.38,4.86,0.5,0.68,0.27,0.53,0.7,17-12-0,2844,29,6,False
-Eddie Gordon,http://ufcstats.com/fighter-details/8cad40a75e5c97f5,72,185 lbs.,Middleweight,76,Orthodox,"Jul 22, 1983",2.03,0.32,2.57,0.6,1.93,0.83,0.63,0.0,8-4-0,3803,12,3,False
-Anshul Jubli,http://ufcstats.com/fighter-details/a72a2a769fa5a2be,72,155 lbs.,Lightweight,69,Switch,"Jan 13, 1995",6.42,0.46,5.72,0.5,0.81,0.18,0.63,0.4,7-2-0,289,9,4,False
-Brett Johns,http://ufcstats.com/fighter-details/ec52462a1b41f714,67,135 lbs.,Bantamweight,71,Orthodox,"Feb 21, 1992",2.86,0.49,3.84,0.53,4.92,0.49,0.58,1.0,17-2-0,1955,19,6,False
-Mike Swick,http://ufcstats.com/fighter-details/9fe85152f351e737,73,170 lbs.,Welterweight,77,Orthodox,"Jun 19, 1979",2.36,0.37,2.29,0.54,1.06,0.5,0.61,0.6,15-6-0,3789,21,14,False
-Josh Neer,http://ufcstats.com/fighter-details/d1a1314976c50bef,71,170 lbs.,Welterweight,72,Orthodox,"Mar 24, 1983",3.29,0.46,3.63,0.58,1.09,0.34,0.46,1.3,36-16-1,4657,53,15,False
-Ketlen Vieira,http://ufcstats.com/fighter-details/b9706f80d005036c,68,135 lbs.,Bantamweight,68,Orthodox,"Aug 26, 1991",2.76,0.4,3.75,0.5,1.33,0.44,0.9,0.6,15-5-0,23,20,14,False
-Jesse Lennox,http://ufcstats.com/fighter-details/3ae10ac4df3df05c,69,170 lbs.,Welterweight,72,Orthodox,"Mar 10, 1982",2.69,0.32,3.2,0.64,1.22,0.66,0.63,0.3,14-4-0,5644,18,3,False
-Jamie Pickett,http://ufcstats.com/fighter-details/830f60497fab345a,74,185 lbs.,Middleweight,80,Orthodox,"Aug 29, 1988",2.65,0.47,3.62,0.5,1.26,0.4,0.67,0.1,13-11-0,632,24,9,False
-Laureano Staropoli,http://ufcstats.com/fighter-details/a12a8314adc1c1c9,73,185 lbs.,Middleweight,71,Orthodox,"Feb 27, 1993",3.31,0.34,3.73,0.54,0.83,0.26,0.48,0.0,9-5-0,1493,14,6,False
-Alatengheili,http://ufcstats.com/fighter-details/1897b7b913736a7c,65,135 lbs.,Bantamweight,66,Orthodox,"Dec 14, 1991",2.82,0.32,5.12,0.57,1.74,0.43,0.75,0.0,17-10-2,212,29,9,False
-Josh Koscheck,http://ufcstats.com/fighter-details/dd37fd509af89f15,70,170 lbs.,Welterweight,73,Orthodox,"Nov 30, 1977",1.79,0.36,2.27,0.63,2.46,0.48,0.64,0.4,17-11-0,3901,28,24,False
-Gegard Mousasi,http://ufcstats.com/fighter-details/232c582f29f8f65e,74,185 lbs.,Middleweight,76,Orthodox,"Aug 01, 1985",3.75,0.5,1.21,0.68,1.59,0.6,0.59,1.1,42-6-2,3152,50,12,False
-Kay Hansen,http://ufcstats.com/fighter-details/4100c7a09497ad41,62,115 lbs.,Strawweight,63,Orthodox,"Aug 14, 1999",3.01,0.5,3.19,0.51,1.83,0.22,0.37,0.8,7-6-0,1325,13,4,False
-Mike Guymon,http://ufcstats.com/fighter-details/eaea0fc7b76525a8,72,170 lbs.,Welterweight,74,Orthodox,"Sep 17, 1974",2.75,0.65,0.79,0.66,1.87,0.37,0.54,1.2,15-6-1,5420,22,4,False
-Shamil Gaziev,http://ufcstats.com/fighter-details/6747ccd6d1acd266,76,265 lbs.,Heavyweight,78,Orthodox,"Feb 10, 1990",2.62,0.47,3.97,0.45,0.93,0.3,0.83,0.3,14-2-0,2,16,5,False
-Ariane da Silva,http://ufcstats.com/fighter-details/6551c64fbcd1a467,66,125 lbs.,Flyweight,67,Orthodox,"Jan 26, 1994",4.05,0.41,4.4,0.5,0.47,0.38,0.68,0.3,17-11-0,170,28,14,False
-Gloria de Paula,http://ufcstats.com/fighter-details/5dd180c8b3196786,65,115 lbs.,Strawweight,67,Orthodox,"Jun 10, 1995",4.89,0.53,3.77,0.66,0.74,0.37,0.65,0.5,6-5-0,1255,11,4,False
-Alexander Hernandez,http://ufcstats.com/fighter-details/262a7d06203657e6,69,155 lbs.,Lightweight,72,Orthodox,"Oct 01, 1992",4.31,0.4,4.5,0.59,1.14,0.36,0.73,0.1,18-8-0,72,26,17,False
-Malcolm Gordon,http://ufcstats.com/fighter-details/dee294e9717012c2,67,125 lbs.,Flyweight,71,Switch,"May 19, 1990",2.5,0.45,2.0,0.43,1.72,0.35,0.26,1.0,14-8-0,674,22,7,False
-Montse Rendon,http://ufcstats.com/fighter-details/60193e707634e560,68,135 lbs.,Bantamweight,68,Orthodox,"Mar 16, 1989",3.09,0.28,3.42,0.59,2.0,0.37,1.0,0.3,7-1-0,72,8,3,False
-John Lineker,http://ufcstats.com/fighter-details/c268b2cfebccf652,63,135 lbs.,Bantamweight,67,Orthodox,"Jun 12, 1990",5.36,0.4,4.27,0.56,0.56,0.58,0.67,0.6,31-9-0,2403,40,16,False
-Ramsey Nijem,http://ufcstats.com/fighter-details/22aa91e402d0fe1f,71,155 lbs.,Lightweight,75,Orthodox,"Apr 01, 1988",3.05,0.44,1.62,0.62,5.32,0.62,0.55,1.1,9-6-0,3775,15,9,False
-Tuco Tokkos,http://ufcstats.com/fighter-details/3e8118c1ab52f211,76,205 lbs.,Light Heavyweight,76,Orthodox,"Jun 30, 1990",2.12,0.4,4.27,0.46,4.21,0.47,0.33,0.5,11-5-0,135,16,4,False
-Georges St-Pierre,http://ufcstats.com/fighter-details/6506c1d34da9c013,71,185 lbs.,Middleweight,76,Orthodox,"May 19, 1981",3.78,0.53,1.4,0.72,4.16,0.74,0.83,1.1,26-2-0,2942,28,22,False
-Alessio Sakara,http://ufcstats.com/fighter-details/7f955f71fa2ce7ac,72,185 lbs.,Middleweight,72,Orthodox,"Sep 02, 1981",3.96,0.47,2.8,0.59,2.18,0.78,0.62,0.0,19-11-0,4412,30,15,False
-Gasan Umalatov,http://ufcstats.com/fighter-details/7a39bbac8cc0fa70,71,170 lbs.,Welterweight,71,Orthodox,"Sep 11, 1982",2.23,0.39,4.1,0.59,0.75,0.17,0.9,0.0,17-4-2,3670,23,4,False
-Manel Kape,http://ufcstats.com/fighter-details/5d1b7e3dd9e11074,65,125 lbs.,Flyweight,68,Southpaw,"Nov 14, 1993",5.04,0.55,4.05,0.57,0.42,0.3,0.81,0.3,21-7-0,268,28,9,False
-Azat Maksum,http://ufcstats.com/fighter-details/7f1bf0c255ec8756,67,125 lbs.,Flyweight,70,Southpaw,"Feb 02, 1995",2.75,0.27,4.25,0.52,3.5,0.31,0.85,0.2,15-3-0,30,18,4,False
-Issei Tamura,http://ufcstats.com/fighter-details/57bf89d42364d39e,65,135 lbs.,Bantamweight,63,Orthodox,"Mar 12, 1984",1.89,0.53,4.58,0.44,0.92,0.25,0.33,0.0,10-8-0,4636,18,3,False
-Darko Stosic,http://ufcstats.com/fighter-details/025f0b1b58fbad01,72,205 lbs.,Light Heavyweight,76,Orthodox,"Feb 09, 1992",2.61,0.45,4.04,0.58,3.42,0.5,0.83,0.0,13-4-0,2130,17,4,False
-Daniel Spitz,http://ufcstats.com/fighter-details/f86cb5f25d545e0e,79,245 lbs.,Heavyweight,82,Orthodox,"Jul 31, 1990",2.6,0.35,5.3,0.46,0.74,0.66,0.0,0.0,6-3-0,2229,9,4,False
-Anthony Njokuani,http://ufcstats.com/fighter-details/6bf5a7d3e081ade2,73,155 lbs.,Lightweight,75,Orthodox,"Mar 01, 1980",3.94,0.46,2.41,0.65,0.5,0.45,0.53,0.2,16-12-0,4069,28,8,False
-Steve Jennum,http://ufcstats.com/fighter-details/ad047e3073a775f3,70,215 lbs.,Heavyweight,,Orthodox,"Sep 23, 1963",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2-3-0,10936,5,3,False
-Brad Pickett,http://ufcstats.com/fighter-details/c945adc22c2bfe8f,66,135 lbs.,Bantamweight,68,Orthodox,"Sep 24, 1978",3.02,0.31,4.63,0.55,2.47,0.44,0.58,0.4,25-14-0,3173,39,14,False
-Demian Maia,http://ufcstats.com/fighter-details/427b5953ac8e3a27,73,170 lbs.,Welterweight,72,Southpaw,"Nov 06, 1977",1.8,0.43,2.07,0.63,2.49,0.24,0.61,1.0,28-11-0,1626,39,32,False
-Jimmie Rivera,http://ufcstats.com/fighter-details/9c907996820d2d69,64,135 lbs.,Bantamweight,68,Orthodox,"Jun 29, 1989",4.03,0.4,3.9,0.6,0.88,0.27,0.92,0.1,23-5-0,1731,28,11,False
-Jodie Esquibel,http://ufcstats.com/fighter-details/411539901068522f,61,115 lbs.,Strawweight,64,Orthodox,"May 07, 1986",4.1,0.31,7.37,0.52,0.75,0.21,0.83,0.0,6-6-0,2291,12,4,False
-Sage Northcutt,http://ufcstats.com/fighter-details/ed9d8ee3a4239b1c,72,170 lbs.,Welterweight,71,Orthodox,"Mar 01, 1996",3.58,0.52,1.96,0.58,1.81,0.34,0.41,0.6,11-2-0,2690,13,8,False
-Raoni Barcelos,http://ufcstats.com/fighter-details/b9f28e7045fdfce7,67,135 lbs.,Bantamweight,67,Orthodox,"May 01, 1987",4.92,0.51,4.4,0.61,2.22,0.31,0.87,0.6,21-5-0,16,26,13,False
-Sean McCorkle,http://ufcstats.com/fighter-details/008dc37cca279def,79,265 lbs.,Heavyweight,81,Orthodox,"Jul 17, 1976",0.85,0.44,2.48,0.52,2.12,0.4,0.33,4.2,17-7-0,5357,24,3,False
-Kazula Vargas,http://ufcstats.com/fighter-details/ec18eb918121787c,68,155 lbs.,Lightweight,71,Southpaw,"Aug 15, 1985",3.65,0.53,1.77,0.57,0.4,0.25,0.3,0.4,12-5-0,1346,17,4,False
-Joselyne Edwards,http://ufcstats.com/fighter-details/f9ab66e67240db7b,68,135 lbs.,Bantamweight,70,Orthodox,"Sep 29, 1995",4.73,0.53,3.28,0.5,1.29,0.38,0.61,0.5,16-6-0,107,22,11,False
-Austen Lane,http://ufcstats.com/fighter-details/be9bdec19b7e9ffe,78,245 lbs.,Heavyweight,80,Orthodox,"Nov 09, 1987",2.74,0.5,2.23,0.4,1.52,0.28,0.33,0.0,13-7-0,135,20,6,False
-Marcus Bossett,http://ufcstats.com/fighter-details/e8fb8e53bc2e29d6,73,215 lbs.,Heavyweight,,Orthodox,--,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1-3-0,10579,4,3,False
-Jordan Leavitt,http://ufcstats.com/fighter-details/ac026518a9b4dc0f,69,155 lbs.,Lightweight,71,Southpaw,"Jun 02, 1995",2.49,0.61,1.79,0.57,2.92,0.3,0.3,1.3,12-3-0,177,15,8,False
-Vagner Rocha,http://ufcstats.com/fighter-details/d403b1a6f278c95e,70,155 lbs.,Lightweight,73,Orthodox,"Jun 06, 1982",2.64,0.42,4.5,0.48,1.4,0.33,0.5,1.9,14-4-0,4035,18,4,False
-Derrick Lewis,http://ufcstats.com/fighter-details/d3df1add9d9a7efb,75,260 lbs.,Heavyweight,79,Orthodox,"Feb 07, 1985",2.51,0.5,2.49,0.4,0.56,0.26,0.52,0.0,29-12-0,135,41,29,False
-Jorge Santiago,http://ufcstats.com/fighter-details/f8dc544e7077d014,73,170 lbs.,Welterweight,75,Orthodox,"Oct 09, 1980",1.69,0.35,2.62,0.56,0.58,0.3,0.52,0.8,25-12-0,4664,37,6,False
-Pascal Krauss,http://ufcstats.com/fighter-details/a01e84abefd85ec0,73,170 lbs.,Welterweight,,Orthodox,"Apr 19, 1987",5.45,0.47,3.88,0.59,1.53,0.5,0.6,0.9,11-2-0,4468,13,4,False
-Patrick Williams,http://ufcstats.com/fighter-details/39330403ad27c2bb,68,135 lbs.,Bantamweight,73,Orthodox,"Sep 07, 1981",4.12,0.51,4.12,0.52,2.71,0.41,1.0,0.5,8-6-0,2781,14,4,False
-Navajo Stirling,http://ufcstats.com/fighter-details/b4b496ec2197ee3e,76,205 lbs.,Light Heavyweight,79,Orthodox,"Nov 07, 1997",6.13,0.52,2.6,0.58,1.15,0.28,0.75,0.0,8-0-0,58,8,3,False
-Geoff Neal,http://ufcstats.com/fighter-details/b997be68943010fc,71,170 lbs.,Welterweight,75,Southpaw,"Aug 28, 1990",5.05,0.51,5.48,0.57,0.54,0.45,0.87,0.1,16-7-0,100,23,13,False
-Norman Parke,http://ufcstats.com/fighter-details/14ff46596ad80609,71,155 lbs.,Lightweight,70,Southpaw,"Dec 22, 1986",3.06,0.35,2.88,0.64,1.98,0.26,0.77,0.0,23-6-1,3558,30,9,False
-Kevin Randleman,http://ufcstats.com/fighter-details/6859f67468ba8489,70,205 lbs.,Light Heavyweight,,Orthodox,"Aug 10, 1971",1.26,0.54,1.12,0.57,2.0,0.56,0.3,0.8,17-16-0,5672,33,7,False
-Hu Yaozong,http://ufcstats.com/fighter-details/f1175ea3aafbf351,75,185 lbs.,Middleweight,72,Orthodox,"Apr 07, 1995",3.35,0.48,5.09,0.35,0.0,0.0,0.33,0.4,3-3-0,1486,6,3,False
-Sergio Moraes,http://ufcstats.com/fighter-details/1bcaac2d99b90fce,72,170 lbs.,Welterweight,72,Orthodox,"Jul 23, 1982",2.42,0.42,3.73,0.59,1.2,0.38,0.75,0.4,14-6-1,2200,21,14,False
-Rich Clementi,http://ufcstats.com/fighter-details/7d21de9c6d7c98b2,69,155 lbs.,Lightweight,72,Southpaw,"Mar 31, 1976",1.43,0.37,2.29,0.6,1.72,0.42,0.25,1.1,45-23-1,5293,69,9,False
-JaeHyun Park,http://ufcstats.com/fighter-details/fe1595732dfb08fc,68,155 lbs.,Lightweight,73,Orthodox,"Dec 10, 2001",1.75,0.67,1.36,0.45,2.31,0.85,0.22,0.4,8-4-0,94,12,3,False
-Erick Gonzalez,http://ufcstats.com/fighter-details/a2ccf35a88346a91,71,155 lbs.,Lightweight,75,Orthodox,"Jan 20, 1992",2.4,0.36,8.08,0.4,6.0,0.55,0.5,0.0,14-8-0,1003,22,3,False
-Ricardo Funch,http://ufcstats.com/fighter-details/e9e1acc96536bb4f,70,170 lbs.,Welterweight,74,Southpaw,"Aug 14, 1980",2.61,0.65,3.57,0.4,1.24,0.18,0.6,0.0,9-6-0,4903,15,4,False
-Kevin Lee,http://ufcstats.com/fighter-details/ee9ebceabfd16fa7,69,170 lbs.,Welterweight,77,Orthodox,"Sep 04, 1992",3.88,0.42,3.6,0.5,3.18,0.43,0.75,0.8,18-8-0,877,26,17,False
-King Green,http://ufcstats.com/fighter-details/887961364be5ceb3,70,155 lbs.,Lightweight,71,Orthodox,"Sep 09, 1986",6.4,0.52,3.72,0.62,1.22,0.39,0.74,0.3,32-17-1,261,50,27,False
-Aaron Simpson,http://ufcstats.com/fighter-details/d5f820c11a121050,72,170 lbs.,Welterweight,73,Orthodox,"Jul 20, 1974",3.6,0.52,2.53,0.56,3.78,0.34,0.83,0.5,12-5-0,4798,17,10,False
-Khalid Taha,http://ufcstats.com/fighter-details/b4537562f88ac582,65,135 lbs.,Bantamweight,69,Orthodox,"Feb 15, 1992",2.64,0.32,4.12,0.46,0.0,0.0,0.61,0.2,13-5-0,1178,18,6,False
-Nate Diaz,http://ufcstats.com/fighter-details/8355922d564b152c,72,170 lbs.,Welterweight,76,Southpaw,"Apr 16, 1985",4.57,0.45,3.77,0.52,1.05,0.3,0.41,1.3,22-13-0,1171,35,24,False
-Jon Madsen,http://ufcstats.com/fighter-details/7691a80e6ca3e55b,72,240 lbs.,Heavyweight,72,Orthodox,"Feb 12, 1980",2.46,0.41,1.18,0.81,1.32,0.71,0.7,0.0,8-2-0,5357,10,4,False
-Cody Pfister,http://ufcstats.com/fighter-details/5904b0b38dc6718d,70,155 lbs.,Lightweight,73,Orthodox,"Jul 12, 1990",1.41,0.25,2.8,0.51,2.82,0.3,0.0,0.0,13-6-1,3421,20,4,False
-Jiniushiyue,http://ufcstats.com/fighter-details/c14a683dac2ebc4c,66,125 lbs.,Flyweight,68,Southpaw,"Dec 09, 2000",3.0,0.41,2.71,0.5,0.79,0.28,0.75,0.0,13-4-0,554,17,4,False
-Alvin Robinson,http://ufcstats.com/fighter-details/cbe79765d44bd172,69,155 lbs.,Lightweight,68,Southpaw,"Jul 16, 1982",1.57,0.5,1.29,0.51,1.24,0.5,0.25,1.2,15-9-0,6218,24,4,False
-Jhonata Diniz,http://ufcstats.com/fighter-details/25f9a5f3e8a52618,76,254 lbs.,Heavyweight,79,Orthodox,"Jun 23, 1991",3.89,0.56,3.62,0.56,0.0,0.0,0.7,0.0,9-2-0,44,11,5,False
-Chris Brennan,http://ufcstats.com/fighter-details/b19fc66613dc75b9,68,170 lbs.,Welterweight,,Orthodox,"Oct 12, 1971",0.6,0.4,0.97,0.5,0.0,0.0,0.25,2.1,21-13-1,7029,35,3,False
-Gunnar Nelson,http://ufcstats.com/fighter-details/fd55393021a8c255,71,170 lbs.,Welterweight,72,Switch,"Jul 28, 1988",1.77,0.61,3.06,0.48,2.0,0.52,0.68,1.0,19-6-1,247,26,16,False
-Ariane Carnelossi,http://ufcstats.com/fighter-details/c0d5c0c95c59050b,62,115 lbs.,Strawweight,61,Orthodox,"Nov 17, 1992",2.63,0.38,4.61,0.44,1.08,0.5,0.22,0.2,15-4-0,23,19,6,False
-Richie Vaculik,http://ufcstats.com/fighter-details/54578e5927adea53,66,125 lbs.,Flyweight,69,Orthodox,"Jun 19, 1983",3.69,0.46,4.09,0.57,3.0,0.45,0.31,1.0,10-4-0,3663,14,4,False
-Felipe Arantes,http://ufcstats.com/fighter-details/71002dbc1743b9a7,68,135 lbs.,Bantamweight,73,Orthodox,"Feb 09, 1988",2.37,0.45,2.66,0.64,0.93,0.47,0.41,0.7,18-10-1,2711,29,12,False
-Jeka Saragih,http://ufcstats.com/fighter-details/57186c150c645200,68,145 lbs.,Featherweight,69,Orthodox,"Jan 01, 1995",2.75,0.5,2.82,0.4,2.17,0.8,0.66,0.5,14-5-0,170,19,6,False
-Joe Lauzon,http://ufcstats.com/fighter-details/3bad7ef643840f67,70,155 lbs.,Lightweight,71,Orthodox,"May 22, 1984",2.84,0.39,5.39,0.54,2.39,0.45,0.54,2.0,28-16-0,2229,44,25,False
-Hyun Gyu Lim,http://ufcstats.com/fighter-details/203c957eac95dd87,75,170 lbs.,Welterweight,77,Orthodox,"Jan 16, 1985",4.45,0.41,5.07,0.51,0.23,1.0,0.73,0.2,13-7-1,2985,21,7,False
-Caio Magalhaes,http://ufcstats.com/fighter-details/0c5c66ddd1886b83,73,185 lbs.,Middleweight,73,Orthodox,"Dec 14, 1987",2.27,0.4,2.78,0.56,1.05,0.15,0.58,1.6,10-3-0,3362,13,6,False
-Andreas Michailidis,http://ufcstats.com/fighter-details/79325a3c1a5c3bf4,72,170 lbs.,Welterweight,76,Orthodox,"Jul 18, 1988",2.9,0.51,3.57,0.44,1.12,0.27,0.5,0.0,13-6-0,1269,19,4,False
-Josh Culibao,http://ufcstats.com/fighter-details/6751eacd16bd59bc,70,145 lbs.,Featherweight,73,Orthodox,"May 24, 1994",3.41,0.44,3.04,0.59,0.0,0.0,0.65,0.3,11-4-1,464,16,8,False
-Taylor Lapilus,http://ufcstats.com/fighter-details/8b1ed83b02303075,66,135 lbs.,Bantamweight,73,Southpaw,"Apr 08, 1992",4.59,0.48,2.61,0.62,0.27,0.33,0.77,0.3,21-4-0,422,25,8,False
-Shannon Gugerty,http://ufcstats.com/fighter-details/9f1641c08cf8fbe2,70,155 lbs.,Lightweight,71,Orthodox,"Dec 30, 1981",1.25,0.39,1.88,0.58,2.13,0.27,0.5,3.4,15-7-0,5727,22,5,False
-Carlos Ulberg,http://ufcstats.com/fighter-details/9014c02eff8b3d62,76,205 lbs.,Light Heavyweight,77,Orthodox,"Nov 07, 1990",6.54,0.55,4.04,0.51,0.55,0.6,0.85,0.2,14-1-0,58,15,10,False
-Cortney Casey,http://ufcstats.com/fighter-details/5f179af5fffeb9f6,67,125 lbs.,Flyweight,67,Orthodox,"May 05, 1987",4.29,0.39,4.0,0.55,0.39,0.31,0.39,0.5,10-10-0,1234,20,15,False
-Dione Barbosa,http://ufcstats.com/fighter-details/27b388f0aab49780,66,125 lbs.,Flyweight,66,Orthodox,"May 08, 1992",2.27,0.45,2.45,0.66,2.23,0.42,0.5,1.9,8-4-0,100,12,4,False
-Charles Byrd,http://ufcstats.com/fighter-details/76ee3d666c648f6b,70,185 lbs.,Middleweight,73,Orthodox,"Oct 11, 1983",3.43,0.55,2.63,0.55,2.5,0.5,0.4,1.5,10-7-0,1997,17,4,False
-Phillipe Nover,http://ufcstats.com/fighter-details/64360e618823a8e4,69,145 lbs.,Featherweight,72,Orthodox,"Feb 03, 1984",1.79,0.35,2.48,0.56,0.99,0.28,0.44,0.7,11-8-1,3208,20,6,False
-Steve Erceg,http://ufcstats.com/fighter-details/32ab52e5de93092d,68,125 lbs.,Flyweight,68,Orthodox,"Jul 27, 1995",4.0,0.45,3.79,0.52,1.15,0.27,0.62,0.4,13-4-0,107,17,7,False
-Kennedy Nzechukwu,http://ufcstats.com/fighter-details/8667caa0451d245b,77,236 lbs.,Heavyweight,83,Southpaw,"Jun 13, 1992",5.33,0.46,4.89,0.51,0.55,0.45,0.8,0.2,14-6-0,135,20,14,False
-Tom Aspinall,http://ufcstats.com/fighter-details/399afbabc02376b5,77,255 lbs.,Heavyweight,78,Orthodox,"Apr 11, 1993",7.63,0.67,3.62,0.56,2.62,0.8,1.0,1.3,15-3-0,30,18,10,False
-Marco Beltran,http://ufcstats.com/fighter-details/ec71a892fada28c7,68,125 lbs.,Flyweight,69,Orthodox,"May 18, 1986",2.07,0.37,1.93,0.63,0.7,0.5,0.46,0.2,8-6-0,2970,14,6,False
-Brandon Royval,http://ufcstats.com/fighter-details/6e15f63b6c2e2c15,69,125 lbs.,Flyweight,68,Southpaw,"Aug 16, 1992",5.55,0.41,4.23,0.43,0.67,0.75,0.45,1.1,17-8-0,149,25,11,False
-Luigi Vendramini,http://ufcstats.com/fighter-details/2f1a257d6777096d,68,155 lbs.,Lightweight,73,Orthodox,"Jan 16, 1996",2.82,0.4,3.82,0.57,1.11,0.15,1.0,0.6,9-3-0,1542,12,4,False
-Kurt Holobaugh,http://ufcstats.com/fighter-details/a7151778b3381036,71,155 lbs.,Lightweight,70,Orthodox,"Sep 08, 1986",4.58,0.44,4.24,0.49,0.65,0.33,0.38,0.8,22-10-0,177,32,9,False
-Dalcha Lungiambula,http://ufcstats.com/fighter-details/ce632027bf2a871b,68,185 lbs.,Middleweight,76,Orthodox,"Jul 31, 1987",3.07,0.45,3.93,0.52,2.14,0.45,0.77,0.0,11-6-0,1080,17,7,False
-Kyle Daukaus,http://ufcstats.com/fighter-details/d6c0cdd7e467c440,74,185 lbs.,Middleweight,76,Southpaw,"Feb 27, 1993",3.32,0.53,2.9,0.42,2.08,0.25,0.82,2.1,17-4-0,9,21,9,False
-Nick Osipczak,http://ufcstats.com/fighter-details/5b407acfe0ef9b76,74,170 lbs.,Welterweight,76,Orthodox,"Dec 30, 1984",2.83,0.5,3.77,0.5,1.2,0.45,0.71,1.0,6-3-0,5490,9,4,False
-Da'Mon Blackshear,http://ufcstats.com/fighter-details/da22387a0407a2dc,70,135 lbs.,Bantamweight,72,Switch,"Aug 12, 1994",4.33,0.45,4.19,0.52,1.48,0.33,0.71,1.5,17-8-1,121,26,10,False
-Jairzinho Rozenstruik,http://ufcstats.com/fighter-details/2cd428e9606856fd,74,242 lbs.,Heavyweight,78,Orthodox,"Mar 17, 1988",3.48,0.48,2.63,0.52,0.0,0.0,0.72,0.0,15-6-0,296,21,15,False
-Chas Skelly,http://ufcstats.com/fighter-details/4bd6b4800070b069,71,145 lbs.,Featherweight,72,Orthodox,"May 11, 1985",2.01,0.4,3.21,0.49,1.74,0.34,0.39,2.3,19-3-0,1374,22,12,False
-Mike Breeden,http://ufcstats.com/fighter-details/d80ee110748171ac,70,155 lbs.,Lightweight,70,Orthodox,"Apr 21, 1989",5.75,0.45,7.28,0.42,0.98,0.3,0.67,0.0,11-6-0,765,17,4,False
-Duane Ludwig,http://ufcstats.com/fighter-details/84ac950d4c1722dd,70,170 lbs.,Welterweight,70,Orthodox,"Aug 04, 1978",4.62,0.44,3.05,0.57,0.43,0.25,0.59,0.1,21-14-0,4804,35,9,False
-Jimy Hettes,http://ufcstats.com/fighter-details/893d51aaf024eddd,69,145 lbs.,Featherweight,71,Southpaw,"Jun 09, 1987",3.47,0.57,3.5,0.57,5.2,0.44,0.61,1.4,11-3-0,3873,14,6,False
-Joe Pyfer,http://ufcstats.com/fighter-details/c1085e1701b13eca,74,185 lbs.,Middleweight,75,Orthodox,"Sep 17, 1996",3.47,0.43,3.05,0.53,1.23,0.33,0.5,1.0,15-3-0,51,18,7,False
-Bobby Voelker,http://ufcstats.com/fighter-details/fb8a3025ae722e64,72,170 lbs.,Welterweight,74,Orthodox,"Apr 26, 1979",4.01,0.35,5.84,0.42,1.04,0.5,0.66,0.0,19-13-0,4188,32,4,False
-Justin Ledet,http://ufcstats.com/fighter-details/ba1e6cb3d43f7430,76,205 lbs.,Light Heavyweight,80,Orthodox,"Sep 28, 1988",3.35,0.39,4.82,0.49,0.23,0.5,0.42,0.2,9-4-0,1850,13,7,False
-Nurullo Aliev,http://ufcstats.com/fighter-details/ca28cdf526d6b6e9,70,155 lbs.,Lightweight,72,Orthodox,"Dec 08, 2000",2.72,0.44,1.63,0.58,2.12,0.43,0.8,0.3,11-0-0,2,11,3,False
-Daniel Marcos,http://ufcstats.com/fighter-details/850266b3dc4e506e,67,135 lbs.,Bantamweight,69,Orthodox,"Mar 07, 1993",4.9,0.53,3.79,0.61,1.35,0.52,0.85,0.1,18-1-0,16,19,7,False
-Myles Jury,http://ufcstats.com/fighter-details/08e908ed6d18d6a0,70,145 lbs.,Featherweight,73,Orthodox,"Oct 31, 1988",2.94,0.42,2.16,0.66,2.16,0.55,0.5,0.3,17-4-0,2472,21,11,False
-Mostapha Al-Turk,http://ufcstats.com/fighter-details/1cf1310684a841f5,74,245 lbs.,Heavyweight,77,Orthodox,"Jul 14, 1973",1.36,0.19,3.61,0.53,0.0,0.0,0.0,0.0,6-6-0,5707,12,3,False
-Viacheslav Borshchev,http://ufcstats.com/fighter-details/19c591115a58982c,71,155 lbs.,Lightweight,69,Orthodox,"Jan 08, 1992",5.1,0.5,4.46,0.57,0.0,0.0,0.43,0.1,8-7-1,9,16,10,False
-Siyar Bahadurzada,http://ufcstats.com/fighter-details/aec185309b4843d0,71,170 lbs.,Welterweight,73,Orthodox,"Apr 17, 1984",2.91,0.4,3.23,0.49,1.32,0.61,0.62,0.3,24-8-1,2249,33,8,False
-Rory MacDonald,http://ufcstats.com/fighter-details/cbd5d3cdd862e90e,72,170 lbs.,Welterweight,76,Orthodox,"Jul 22, 1989",3.75,0.42,2.8,0.62,1.77,0.47,0.88,0.4,19-4-0,3446,23,13,False
-Abdul Razak Alhassan,http://ufcstats.com/fighter-details/eae431e70064e046,70,185 lbs.,Middleweight,73,Orthodox,"Aug 11, 1985",3.64,0.49,4.01,0.54,0.84,0.33,0.51,0.2,12-7-0,317,19,14,False
-Sumudaerji,http://ufcstats.com/fighter-details/3cf18e01cb6cbde3,68,125 lbs.,Flyweight,72,Southpaw,"Jan 20, 1996",4.48,0.52,2.39,0.6,0.16,0.11,0.71,0.6,18-7-0,93,25,9,False
-Karo Parisyan,http://ufcstats.com/fighter-details/349aaa3da11eb587,70,170 lbs.,Welterweight,72,Orthodox,"Aug 28, 1982",2.49,0.41,2.19,0.58,5.27,0.59,0.59,1.0,24-11-0,5483,35,13,False
-Tor Troeng,http://ufcstats.com/fighter-details/8abf70f79e9e27c2,74,185 lbs.,Middleweight,,Orthodox,"Jan 25, 1983",1.16,0.46,3.26,0.32,0.62,0.07,0.66,0.3,16-7-1,4069,24,4,False
-Jim Miller,http://ufcstats.com/fighter-details/d1941565abf50b16,68,155 lbs.,Lightweight,71,Southpaw,"Aug 30, 1983",2.92,0.42,3.44,0.56,1.5,0.45,0.48,1.7,38-19-0,226,57,46,False
-Niklas Backstrom,http://ufcstats.com/fighter-details/39cc64bf0a269db9,73,145 lbs.,Featherweight,,Orthodox,"Aug 22, 1989",1.12,0.41,3.65,0.4,2.92,0.8,0.72,2.2,11-3-0,3810,14,3,False
-Mark Madsen,http://ufcstats.com/fighter-details/da0995f19b749cfa,68,155 lbs.,Lightweight,72,Orthodox,"Sep 23, 1984",3.56,0.49,3.97,0.52,2.86,0.66,0.62,0.0,12-2-0,744,14,6,False
-Hermes Franca,http://ufcstats.com/fighter-details/e0ec3c3b6b611f7e,66,155 lbs.,Lightweight,71,Orthodox,"Aug 26, 1974",1.78,0.39,2.85,0.55,1.53,0.36,0.37,2.4,24-17-0,5910,41,11,False
-Dominick Cruz,http://ufcstats.com/fighter-details/10f3ba6cd2f44a97,68,135 lbs.,Bantamweight,68,Orthodox,"Mar 09, 1985",3.91,0.33,2.61,0.7,2.82,0.42,0.83,0.1,24-4-0,1199,28,10,False
-Magomed Ankalaev,http://ufcstats.com/fighter-details/d802174b0c0c1f4e,75,205 lbs.,Light Heavyweight,75,Orthodox,"Jun 02, 1992",3.65,0.52,2.59,0.56,0.79,0.22,0.87,0.0,21-2-1,51,24,16,False
-Sim Kai Xiong,http://ufcstats.com/fighter-details/79e2cb1e813f881b,66,135 lbs.,Bantamweight,67,Orthodox,"Sep 06, 1997",2.85,0.42,3.64,0.55,3.49,0.25,1.0,0.0,7-2-0,94,9,3,False
-Jared Cannonier,http://ufcstats.com/fighter-details/13a0275fa13c4d26,71,185 lbs.,Middleweight,77,Switch,"Mar 16, 1984",4.42,0.49,4.35,0.56,0.54,0.4,0.64,0.0,18-9-0,100,27,18,False
-Royce Gracie,http://ufcstats.com/fighter-details/429e7d3725852ce9,73,175 lbs.,None,,Southpaw,"Dec 12, 1966",0.88,0.41,1.13,0.37,0.0,0.0,0.66,0.8,15-2-3,6750,20,13,False
-Mara Romero Borella,http://ufcstats.com/fighter-details/82cbb809d5ee565c,66,125 lbs.,Flyweight,69,Orthodox,"Jun 03, 1986",2.54,0.37,2.48,0.71,1.83,0.44,0.66,0.2,12-9-0,1892,21,7,False
-Jasmine Jasudavicius,http://ufcstats.com/fighter-details/a9e260472d321361,67,125 lbs.,Flyweight,68,Orthodox,"Mar 01, 1989",3.7,0.45,3.71,0.51,2.59,0.44,0.75,0.6,14-4-0,37,18,11,False
-Jacqueline Cavalcanti,http://ufcstats.com/fighter-details/e3964ece586e0635,68,135 lbs.,Bantamweight,70,Orthodox,"Aug 29, 1997",5.65,0.46,3.17,0.68,0.0,0.0,0.88,0.0,10-1-0,16,11,5,False
-Marcio Cruz,http://ufcstats.com/fighter-details/6aa1cbc1466e9a0b,76,232 lbs.,Heavyweight,,Orthodox,"Apr 24, 1978",2.92,0.46,1.51,0.68,0.53,0.07,0.37,1.6,8-3-0,6904,11,4,False
-Miranda Maverick,http://ufcstats.com/fighter-details/f29a6350c69f4a33,63,125 lbs.,Flyweight,65,Southpaw,"Jul 01, 1997",3.22,0.44,2.25,0.61,2.16,0.4,0.45,0.4,17-6-0,163,23,12,False
-Kyle Nelson,http://ufcstats.com/fighter-details/31f8081c7600da93,71,155 lbs.,Lightweight,71,Switch,"Apr 20, 1991",3.6,0.45,4.48,0.53,1.18,0.23,0.66,0.5,17-6-1,37,24,11,False
-Alistair Overeem,http://ufcstats.com/fighter-details/b4ad3a06ee4d660c,76,265 lbs.,Heavyweight,80,Orthodox,"May 17, 1980",3.67,0.64,2.44,0.57,1.42,0.55,0.73,0.8,47-19-0,1752,66,20,False
-Ashlee Evans-Smith,http://ufcstats.com/fighter-details/fc6e681bf6658faf,68,135 lbs.,Bantamweight,67,Orthodox,"Jul 09, 1987",4.03,0.34,4.59,0.53,0.95,0.22,0.5,0.0,6-6-0,863,12,9,False
-John Maguire,http://ufcstats.com/fighter-details/1a7745388839e52b,69,155 lbs.,Lightweight,69,Southpaw,"May 19, 1983",1.41,0.41,2.44,0.65,2.8,0.46,0.77,1.1,24-9-0,4545,33,5,False
-Curt Warburton,http://ufcstats.com/fighter-details/2721bb808bb2523c,72,155 lbs.,Lightweight,73,Orthodox,--,2.13,0.42,3.44,0.43,2.35,0.5,0.83,0.9,13-6-0,5265,19,3,False
-Gabriel Benitez,http://ufcstats.com/fighter-details/436f970c9ea9169c,68,155 lbs.,Lightweight,71,Southpaw,"Jun 15, 1988",5.26,0.41,4.49,0.63,0.22,0.5,0.55,0.9,23-13-0,576,36,15,False
-Danny Silva,http://ufcstats.com/fighter-details/d964a59c48381cb6,71,145 lbs.,Featherweight,70,Switch,"Jan 30, 1997",6.67,0.55,7.47,0.61,2.0,0.33,0.81,0.2,10-2-0,114,12,3,False
-Andrei Arlovski,http://ufcstats.com/fighter-details/3738e68d2261e60f,75,240 lbs.,Heavyweight,77,Orthodox,"Feb 04, 1979",3.82,0.45,3.22,0.57,0.37,0.35,0.76,0.2,34-24-0,513,58,42,False
-Mizuto Hirota,http://ufcstats.com/fighter-details/35faad160d346839,67,155 lbs.,Lightweight,67,Orthodox,"May 05, 1981",3.36,0.4,3.5,0.54,1.36,0.5,0.58,0.1,18-10-2,2550,30,7,False
-Matheus Nicolau,http://ufcstats.com/fighter-details/1a31ef98efce7a79,66,125 lbs.,Flyweight,66,Orthodox,"Jan 06, 1993",3.31,0.51,2.98,0.65,1.22,0.43,0.9,0.8,19-6-1,401,26,10,False
-Nazim Sadykhov,http://ufcstats.com/fighter-details/ff62013d2fce6d13,70,155 lbs.,Lightweight,69,Southpaw,"May 16, 1994",5.55,0.5,5.89,0.5,1.29,0.55,0.75,0.3,11-1-1,156,13,5,False
-Sam Sicilia,http://ufcstats.com/fighter-details/b8aef0faf4ce9b31,68,145 lbs.,Featherweight,67,Orthodox,"Feb 01, 1986",2.46,0.33,3.55,0.59,1.45,0.43,0.7,0.9,15-8-0,3200,23,10,False
-Jason DeLucia,http://ufcstats.com/fighter-details/6ceff86fae4f6b3b,71,190 lbs.,None,,Southpaw,"Jul 24, 1969",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33-21-1,9502,55,4,False
-Robert Sanchez,http://ufcstats.com/fighter-details/546f8599a63c29da,66,125 lbs.,Flyweight,66,Orthodox,"Mar 05, 1986",0.96,0.4,1.78,0.46,3.61,0.62,0.5,0.7,8-2-0,2634,10,3,False
-Julianna Pena,http://ufcstats.com/fighter-details/3253b16d38ae087d,66,135 lbs.,Bantamweight,69,Orthodox,"Aug 19, 1989",3.1,0.44,2.56,0.57,1.7,0.54,0.24,0.8,13-6-0,170,19,11,False
-Jalin Turner,http://ufcstats.com/fighter-details/4d8fa64202cee4c1,75,155 lbs.,Lightweight,77,Southpaw,"May 18, 1995",5.53,0.48,4.55,0.41,0.77,0.55,0.75,1.1,14-9-0,261,23,13,False
-Kevin Borjas,http://ufcstats.com/fighter-details/34b96d52db1d26e6,65,125 lbs.,Flyweight,68,Orthodox,"Dec 06, 1997",4.19,0.44,5.74,0.49,0.0,0.0,0.71,0.0,10-4-0,93,14,4,False
-Juan Adams,http://ufcstats.com/fighter-details/83b00f7597e5ac83,77,265 lbs.,Heavyweight,80,Orthodox,"Jan 16, 1992",7.09,0.55,4.06,0.34,0.91,0.66,0.57,0.0,5-3-0,2116,8,4,False
-Claude Patrick,http://ufcstats.com/fighter-details/56116a79e4deed06,71,170 lbs.,Welterweight,75,Orthodox,"Jun 14, 1980",1.8,0.55,0.89,0.69,2.32,0.53,0.84,1.7,14-2-0,5098,16,4,False
-Marina Rodriguez,http://ufcstats.com/fighter-details/cd2c4d30c6e13b47,66,115 lbs.,Strawweight,65,Orthodox,"Apr 29, 1987",4.51,0.46,3.01,0.55,0.27,0.5,0.61,0.3,17-6-2,205,25,15,False
-Karlos Vemola,http://ufcstats.com/fighter-details/d23ccf4a6c221284,72,185 lbs.,Middleweight,75,Orthodox,"Jul 03, 1985",1.67,0.44,2.13,0.37,1.93,0.25,0.31,1.7,17-5-0,4552,22,6,False
-Pedro Munhoz,http://ufcstats.com/fighter-details/6bd02119599741a4,66,135 lbs.,Bantamweight,65,Orthodox,"Sep 07, 1986",5.38,0.41,6.29,0.55,0.48,0.16,0.82,0.5,20-10-0,387,30,21,False
-Peter Danesoe,http://ufcstats.com/fighter-details/5f119b24c0f9679c,69,135 lbs.,Bantamweight,68,Orthodox,"Sep 01, 2000",4.99,0.52,6.73,0.38,0.0,0.0,0.62,0.0,8-4-0,185,12,3,False
-Sheldon Westcott,http://ufcstats.com/fighter-details/ec2d13a87d3d9541,73,170 lbs.,Welterweight,71,Southpaw,"Aug 20, 1984",2.26,0.4,3.73,0.37,3.23,0.37,0.14,0.0,10-3-1,3614,14,3,False
-Yan Xiaonan,http://ufcstats.com/fighter-details/c41d426cc7326d1b,65,115 lbs.,Strawweight,63,Orthodox,"Jun 16, 1989",4.69,0.45,3.23,0.6,0.84,0.73,0.64,0.0,19-5-0,226,24,13,False
-Jake O'Brien,http://ufcstats.com/fighter-details/20bcc9966affb19c,75,205 lbs.,Light Heavyweight,76,Orthodox,"Sep 25, 1984",1.31,0.31,1.92,0.69,6.39,0.54,0.25,0.2,15-4-0,5616,19,7,False
-Dustin Pague,http://ufcstats.com/fighter-details/55f80a8aeffcdb33,69,135 lbs.,Bantamweight,74,Orthodox,"Aug 05, 1987",1.65,0.53,2.96,0.41,1.03,0.44,0.55,2.6,12-11-0,4419,23,5,False
-Jiri Prochazka,http://ufcstats.com/fighter-details/009341ed974bad72,75,205 lbs.,Light Heavyweight,80,Orthodox,"Oct 14, 1992",5.69,0.55,5.6,0.45,0.51,0.6,0.68,0.2,32-5-1,51,38,8,False
-Felipe Lima,http://ufcstats.com/fighter-details/9256f591b30c073e,66,135 lbs.,Bantamweight,68,Orthodox,"May 07, 1998",2.86,0.45,2.91,0.64,2.18,0.27,0.85,0.7,14-2-0,149,16,3,False
-Marcelo Guimaraes,http://ufcstats.com/fighter-details/0c9c0a43d3f3f49d,72,185 lbs.,Middleweight,73,Orthodox,"Jun 25, 1983",4.67,0.51,4.41,0.62,1.99,0.13,0.0,0.0,9-2-1,3551,12,4,False
-Dan Miller,http://ufcstats.com/fighter-details/d0c29452d3272603,73,185 lbs.,Middleweight,74,Orthodox,"Jun 30, 1981",2.03,0.36,3.06,0.49,1.67,0.54,0.47,1.8,14-8-0,3788,22,12,False
-Michael Chandler,http://ufcstats.com/fighter-details/4b93a88f3b1de35b,68,155 lbs.,Lightweight,71,Orthodox,"Apr 24, 1986",4.04,0.49,4.52,0.43,1.96,0.41,0.61,0.6,23-10-0,226,33,7,False
-Kyle Prepolec,http://ufcstats.com/fighter-details/873626e5547b5235,70,155 lbs.,Lightweight,70,Southpaw,"Aug 30, 1989",3.25,0.34,5.69,0.48,0.0,0.0,0.45,0.0,18-10-0,37,28,4,False
-Ian McCall,http://ufcstats.com/fighter-details/701e057d63c124d9,65,125 lbs.,Flyweight,64,Orthodox,"May 07, 1984",3.59,0.39,3.25,0.67,2.08,0.3,0.88,0.0,13-5-1,3950,19,6,False
-Mitch Gagnon,http://ufcstats.com/fighter-details/b8592b4a383696cd,65,135 lbs.,Bantamweight,65,Southpaw,"Oct 10, 1984",2.76,0.46,2.21,0.61,1.16,0.25,0.65,1.9,12-5-0,2396,17,8,False
-Zhu Kangjie,http://ufcstats.com/fighter-details/6f4ec5aa3eced219,68,145 lbs.,Featherweight,70,Orthodox,"Jan 16, 1996",2.89,0.48,1.33,0.7,0.33,1.0,0.51,0.0,21-4-0,185,25,3,False
-Brandon Moreno,http://ufcstats.com/fighter-details/792be9a24df82ed6,67,125 lbs.,Flyweight,70,Orthodox,"Dec 07, 1993",3.96,0.44,3.62,0.6,1.51,0.44,0.64,0.4,23-8-2,240,33,17,False
-Jonathan Martinez,http://ufcstats.com/fighter-details/f2477cf43c4975cc,68,135 lbs.,Bantamweight,70,Southpaw,"Apr 20, 1994",4.44,0.49,4.09,0.56,0.38,0.35,0.68,0.1,19-6-0,373,25,15,False
-Tae Hyun Bang,http://ufcstats.com/fighter-details/9a2d3567abc02e34,69,155 lbs.,Lightweight,71,Switch,"Apr 15, 1983",2.72,0.38,2.07,0.66,0.49,0.33,0.57,0.5,18-10-0,3369,28,5,False
-David Mitchell,http://ufcstats.com/fighter-details/8f3df4c579cfbb69,72,170 lbs.,Welterweight,75,Orthodox,"Oct 24, 1979",1.74,0.32,2.06,0.55,0.66,0.5,0.29,2.0,22-7-0,4429,29,5,False
-Thiago Santos,http://ufcstats.com/fighter-details/dea070ed4a2a8281,74,205 lbs.,Light Heavyweight,76,Orthodox,"Jan 07, 1984",3.72,0.48,2.57,0.53,0.88,0.33,0.65,0.1,22-11-0,1206,33,24,False
-Julia Avila,http://ufcstats.com/fighter-details/86d9dbe1bfcbade7,67,135 lbs.,Bantamweight,68,Orthodox,"May 11, 1988",2.81,0.42,3.28,0.55,0.63,0.37,0.52,0.2,9-4-0,282,13,6,False
-Kevin Casey,http://ufcstats.com/fighter-details/8d9586726252dbf7,71,185 lbs.,Middleweight,77,Southpaw,"Jun 15, 1981",2.27,0.53,3.76,0.46,0.79,0.22,0.27,0.4,9-5-2,3376,16,6,False
-John Castaneda,http://ufcstats.com/fighter-details/5fa2974cbd18e05c,66,135 lbs.,Bantamweight,71,Switch,"Dec 18, 1991",4.42,0.5,4.94,0.53,1.68,0.37,0.73,0.1,21-8-0,212,29,8,False
-Tito Ortiz,http://ufcstats.com/fighter-details/2f732dd9210d301f,75,205 lbs.,Light Heavyweight,74,Orthodox,"Jan 23, 1975",2.59,0.46,2.88,0.6,2.47,0.35,0.54,0.6,19-12-1,4888,32,26,False
-Jason Saggo,http://ufcstats.com/fighter-details/4ac1ecf8ce59ef23,71,155 lbs.,Lightweight,71,Orthodox,"Nov 23, 1985",2.5,0.39,2.94,0.52,2.33,0.4,0.23,0.0,12-4-0,2991,16,6,False
-Denis Tiuliulin,http://ufcstats.com/fighter-details/0112352cb32f5026,73,185 lbs.,Middleweight,77,Orthodox,"May 17, 1988",3.61,0.41,5.23,0.38,0.96,0.42,0.72,0.0,10-10-0,478,20,6,False
-Molly McCann,http://ufcstats.com/fighter-details/51018a31ddf31eb2,64,115 lbs.,Strawweight,62,Orthodox,"May 04, 1990",5.28,0.49,4.65,0.62,1.78,0.36,0.38,0.5,14-8-0,247,22,14,False
-Rafael Cerqueira,http://ufcstats.com/fighter-details/09a4447655fd4b7b,75,205 lbs.,Light Heavyweight,76,Southpaw,"Mar 15, 1990",1.56,0.43,5.05,0.36,0.0,0.0,0.36,0.0,11-4-0,2,15,4,False
-Drew Fickett,http://ufcstats.com/fighter-details/d814f5192e58fb2f,70,155 lbs.,Lightweight,70,Orthodox,"Dec 14, 1979",2.33,0.41,2.29,0.57,1.3,0.35,0.3,2.2,42-21-0,5245,63,7,False
-Anthony Perosh,http://ufcstats.com/fighter-details/4b4753d19489297f,75,205 lbs.,Light Heavyweight,75,Orthodox,"Oct 05, 1972",2.27,0.43,3.77,0.53,2.03,0.22,0.33,1.1,15-10-0,3663,25,12,False
-Marvin Vettori,http://ufcstats.com/fighter-details/7acbb0972e75281a,72,185 lbs.,Middleweight,74,Southpaw,"Sep 20, 1993",4.68,0.45,4.52,0.56,1.43,0.45,0.65,0.4,19-9-1,128,29,17,False
-Marc Diakiese,http://ufcstats.com/fighter-details/32c355b04fc57f3a,70,155 lbs.,Lightweight,73,Orthodox,"Mar 16, 1993",2.54,0.4,2.64,0.52,3.29,0.43,0.66,0.0,17-7-0,751,24,14,False
-Abus Magomedov,http://ufcstats.com/fighter-details/36b8f265bcd1b7a4,74,185 lbs.,Middleweight,78,Orthodox,"Sep 02, 1990",3.07,0.49,3.43,0.55,2.61,0.59,1.0,0.4,28-7-1,51,36,7,False
-Roman Kopylov,http://ufcstats.com/fighter-details/9d83f6da776ff7d6,72,185 lbs.,Middleweight,75,Southpaw,"May 04, 1992",4.59,0.5,5.18,0.52,1.14,0.47,0.88,0.0,14-5-0,9,19,11,False
-Albert Tumenov,http://ufcstats.com/fighter-details/ff6a1f63c254127e,71,170 lbs.,Welterweight,73,Orthodox,"Dec 26, 1991",3.76,0.42,3.34,0.58,0.2,0.2,0.75,0.0,18-4-0,3334,22,8,False
-Urijah Faber,http://ufcstats.com/fighter-details/78114b7199cef90c,66,135 lbs.,Bantamweight,67,Orthodox,"May 14, 1979",2.65,0.4,2.59,0.64,1.54,0.3,0.58,0.8,35-11-0,2172,46,17,False
-Paul Daley,http://ufcstats.com/fighter-details/23725c826c481e7f,69,170 lbs.,Welterweight,76,Orthodox,"Feb 21, 1983",3.14,0.47,2.37,0.6,0.91,0.4,0.64,0.0,39-15-2,5014,56,3,False
-Francisco Trinaldo,http://ufcstats.com/fighter-details/a8283a4f415e1eb9,69,170 lbs.,Welterweight,70,Southpaw,"Aug 24, 1978",3.13,0.45,2.67,0.6,0.98,0.42,0.6,0.5,28-9-0,1150,37,26,False
-Chris Camozzi,http://ufcstats.com/fighter-details/6c2030e0a143a94b,74,185 lbs.,Middleweight,75,Orthodox,"Nov 20, 1986",3.57,0.44,2.96,0.56,0.27,0.19,0.57,0.5,24-13-0,3102,37,18,False
-Jon Jones,http://ufcstats.com/fighter-details/07f72a2a7591b409,76,248 lbs.,Heavyweight,84,Orthodox,"Jul 19, 1987",4.38,0.58,2.24,0.64,1.89,0.45,0.95,0.5,28-1-0,373,29,23,False
-Glaico Franca Moreira,http://ufcstats.com/fighter-details/00a3ff40c4b2cf21,72,155 lbs.,Lightweight,77,Orthodox,"Feb 28, 1991",2.35,0.42,3.46,0.47,2.68,0.42,0.76,0.3,15-5-0,3348,20,3,False
-Michael Bisping,http://ufcstats.com/fighter-details/2b93ebd9f5417ad2,73,185 lbs.,Middleweight,75,Orthodox,"Feb 28, 1979",4.33,0.38,2.71,0.65,1.05,0.43,0.63,0.3,30-9-0,2921,39,27,False
-Marcus LeVesseur,http://ufcstats.com/fighter-details/182f2b78582de3d8,69,155 lbs.,Lightweight,70,Southpaw,"Jul 17, 1982",2.55,0.64,3.7,0.37,3.89,0.36,0.83,0.6,22-7-0,4734,29,3,False
-Danny Henry,http://ufcstats.com/fighter-details/f7d73e452b064bf2,72,145 lbs.,Featherweight,73,Orthodox,"Jul 17, 1988",5.2,0.51,4.16,0.45,0.74,0.33,0.5,2.2,12-4-0,1962,16,4,False
-Takanori Gomi,http://ufcstats.com/fighter-details/3be081c29bf734d9,67,155 lbs.,Lightweight,70,Southpaw,"Sep 22, 1978",3.81,0.41,3.52,0.6,1.23,0.65,0.63,0.8,35-14-0,2985,49,13,False
-Joe Solecki,http://ufcstats.com/fighter-details/af65aa688d13eedf,69,155 lbs.,Lightweight,70,Orthodox,"Aug 27, 1993",1.97,0.53,1.85,0.5,2.06,0.48,0.14,1.4,13-6-0,317,19,9,False
-Charles Johnson,http://ufcstats.com/fighter-details/814e5233e2acf2ee,69,125 lbs.,Flyweight,70,Switch,"Jan 10, 1991",4.73,0.49,3.78,0.56,0.56,0.2,0.66,0.4,18-7-0,93,25,12,False
-Michael Kuiper,http://ufcstats.com/fighter-details/b7f38813485745da,72,185 lbs.,Middleweight,73,Orthodox,"Jun 07, 1989",3.28,0.54,3.62,0.54,2.3,0.55,0.79,0.0,15-5-0,4412,20,4,False
-John Dodson,http://ufcstats.com/fighter-details/99506df1af6c8b3b,63,135 lbs.,Bantamweight,66,Orthodox,"Sep 26, 1984",3.2,0.4,3.58,0.61,0.71,0.28,0.82,0.0,22-12-0,1927,34,16,False
-Ivana Petrovic,http://ufcstats.com/fighter-details/38c5817ade8a8014,68,125 lbs.,Flyweight,70,Southpaw,"Jun 11, 1994",1.91,0.41,2.05,0.56,2.12,0.38,0.61,0.8,7-3-0,205,10,4,False
-Thiago Alves,http://ufcstats.com/fighter-details/31ee470ef5dc8d7f,69,170 lbs.,Welterweight,70,Orthodox,"Oct 03, 1983",3.73,0.41,3.42,0.62,0.71,0.6,0.63,0.3,23-15-0,2179,38,26,False
-Keith Hackney,http://ufcstats.com/fighter-details/bf12aca029bfcc47,71,200 lbs.,None,,Sideways,"Apr 15, 1958",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2-2-0,10936,4,4,False
-Rick Story,http://ufcstats.com/fighter-details/5b5307450405abf0,69,170 lbs.,Welterweight,71,Southpaw,"Aug 28, 1984",3.8,0.41,2.17,0.62,2.53,0.48,0.63,0.9,19-9-0,3383,28,18,False
-Matt Hobar,http://ufcstats.com/fighter-details/b57edace7b647f07,70,135 lbs.,Bantamweight,70,Southpaw,"Jan 07, 1987",3.23,0.42,4.27,0.52,3.66,0.44,0.5,0.0,9-3-0,4006,12,3,False
-Viktoriia Dudakova,http://ufcstats.com/fighter-details/6c9b66b43663f2f7,65,115 lbs.,Strawweight,67,Orthodox,"Jan 26, 1999",2.87,0.47,3.4,0.5,2.73,0.35,0.33,0.0,8-2-0,317,10,4,False
-Gillian Robertson,http://ufcstats.com/fighter-details/38c7f72747f4f712,65,115 lbs.,Strawweight,63,Orthodox,"May 17, 1995",2.86,0.48,2.86,0.56,2.74,0.4,0.41,0.9,16-8-0,205,24,18,False
-Tatsuro Taira,http://ufcstats.com/fighter-details/4461d7e47375a895,67,125 lbs.,Flyweight,70,Orthodox,"Jan 27, 2000",2.87,0.6,2.54,0.47,3.21,0.48,0.45,1.7,17-1-0,114,18,8,False
-Scott Ferrozzo,http://ufcstats.com/fighter-details/977081bc01197656,71,323 lbs.,Heavyweight,,Orthodox,"Apr 26, 1965",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4-2-0,10517,6,5,False
-Ben Nguyen,http://ufcstats.com/fighter-details/840d2c82ea68b9aa,65,125 lbs.,Flyweight,65,Switch,"Aug 03, 1988",3.51,0.4,3.01,0.59,0.25,0.33,0.63,1.0,16-8-0,2550,24,7,False
-Danny Chavez,http://ufcstats.com/fighter-details/0de720c0f1d4ab9c,68,145 lbs.,Featherweight,67,Orthodox,"Mar 14, 1987",2.86,0.38,3.83,0.5,1.95,0.6,0.87,0.0,11-5-1,1255,17,4,False
-Jordan Griffin,http://ufcstats.com/fighter-details/ebef46976554f975,70,145 lbs.,Featherweight,73,Southpaw,"Feb 28, 1990",2.52,0.46,3.02,0.5,1.45,0.35,0.42,1.9,18-9-0,1689,27,5,False
-Charles Rosa,http://ufcstats.com/fighter-details/40093d1d2d78394e,69,145 lbs.,Featherweight,69,Switch,"Aug 24, 1986",3.08,0.36,3.86,0.47,1.67,0.35,0.38,1.0,14-8-0,1220,22,13,False
-Brian Camozzi,http://ufcstats.com/fighter-details/1999ffb5cebc314f,74,170 lbs.,Welterweight,78,Orthodox,"Jun 24, 1991",3.15,0.26,6.39,0.54,0.0,0.0,0.0,0.7,7-5-0,2836,12,3,False
-Luis Pena,http://ufcstats.com/fighter-details/2844b047183a1adb,75,155 lbs.,Lightweight,75,Southpaw,"Jul 05, 1993",3.66,0.46,3.12,0.51,1.17,0.33,0.48,1.2,9-3-0,1682,12,7,False
-Pete Sell,http://ufcstats.com/fighter-details/0359313549d230a1,71,170 lbs.,Welterweight,75,Orthodox,"Aug 05, 1982",2.6,0.42,3.65,0.51,0.91,0.21,0.47,0.9,10-7-0,6106,17,6,False
-Joseph Holmes,http://ufcstats.com/fighter-details/8d20d76af3f213ce,76,185 lbs.,Middleweight,80,Orthodox,"Jul 04, 1995",2.88,0.53,3.08,0.54,1.49,0.4,0.5,0.8,8-4-0,933,12,4,False
-Santiago Ponzinibbio,http://ufcstats.com/fighter-details/6d1bffff14897645,72,170 lbs.,Welterweight,73,Orthodox,"Sep 26, 1986",4.78,0.41,4.68,0.61,0.6,0.27,0.71,0.0,31-9-0,205,40,20,False
-Shawn Jordan,http://ufcstats.com/fighter-details/ca2efc9d7d523c43,72,260 lbs.,Heavyweight,75,Southpaw,"Oct 21, 1984",2.87,0.5,3.3,0.47,1.97,0.38,0.76,0.1,19-8-0,3705,27,10,False
-Josh Sampo,http://ufcstats.com/fighter-details/f65dcb22dada2223,64,125 lbs.,Flyweight,64,Orthodox,"Jul 24, 1984",1.99,0.36,2.96,0.55,1.06,0.33,0.4,2.1,11-5-0,3838,16,3,False
-Trevor Prangley,http://ufcstats.com/fighter-details/f5ff7bcdcfeba3ad,73,185 lbs.,Middleweight,75,Orthodox,"Aug 24, 1972",2.59,0.6,2.02,0.48,3.38,0.55,0.74,1.0,34-11-2,5245,47,4,False
-Sabina Mazo,http://ufcstats.com/fighter-details/70d2329a92864fdb,67,125 lbs.,Flyweight,70,Orthodox,"Mar 25, 1997",6.1,0.43,4.35,0.57,0.65,0.8,0.59,0.2,9-4-0,1353,13,7,False
-Kamuela Kirk,http://ufcstats.com/fighter-details/c7d7fda69ec410d3,70,155 lbs.,Lightweight,75,Switch,"Apr 13, 1994",3.22,0.5,5.87,0.4,1.5,0.26,0.47,1.2,12-6-0,870,18,3,False
-Kyler Phillips,http://ufcstats.com/fighter-details/60425d07ef4b91a7,68,135 lbs.,Bantamweight,72,Orthodox,"Jun 12, 1995",5.04,0.42,3.83,0.6,2.31,0.45,0.75,0.4,12-4-0,128,16,9,False
-Gabe Ruediger,http://ufcstats.com/fighter-details/ccba80d4820ef557,70,155 lbs.,Lightweight,,Orthodox,"Aug 29, 1977",1.7,0.31,5.16,0.41,2.04,0.11,0.28,0.0,18-8-0,5406,26,3,False
-Yves Edwards,http://ufcstats.com/fighter-details/5f04e3d58d9ce982,69,155 lbs.,Lightweight,73,Southpaw,"Sep 30, 1976",2.91,0.42,2.34,0.66,0.76,0.53,0.69,0.7,42-22-1,4020,65,20,False
-Kaiwen,http://ufcstats.com/fighter-details/0565706b1e7f7e7c,68,145 lbs.,Featherweight,71,Switch,"Oct 16, 1995",3.73,0.42,4.72,0.54,1.41,0.26,0.92,0.0,15-7-0,94,22,5,False
-Jeremy Kimball,http://ufcstats.com/fighter-details/917a5cb9821df261,72,205 lbs.,Light Heavyweight,72,Switch,"Jan 03, 1991",2.81,0.46,3.84,0.49,1.41,0.2,0.5,0.0,15-8-0,2682,23,4,False
-John Alessio,http://ufcstats.com/fighter-details/7a15f3694c5cbc02,70,155 lbs.,Lightweight,72,Orthodox,"Jul 05, 1979",2.1,0.39,2.91,0.54,1.85,0.38,0.7,1.2,35-17-0,4888,52,4,False
-Kyle Noke,http://ufcstats.com/fighter-details/7339d340aa2889cb,73,170 lbs.,Welterweight,76,Southpaw,"Mar 18, 1980",3.23,0.5,2.09,0.64,1.53,0.54,0.66,0.8,22-10-1,3285,33,11,False
-Jacob Volkmann,http://ufcstats.com/fighter-details/6f81b6de2557739a,69,155 lbs.,Lightweight,71,Southpaw,"Sep 05, 1980",1.19,0.34,1.78,0.52,3.19,0.48,0.52,2.0,19-7-0,4678,26,10,False
-JP Buys,http://ufcstats.com/fighter-details/0b362247806341e5,65,135 lbs.,Bantamweight,67,Orthodox,"Apr 30, 1996",1.88,0.39,3.02,0.4,1.55,0.25,0.25,2.3,9-6-0,835,15,4,False
-Francisco Figueiredo,http://ufcstats.com/fighter-details/cdadae5363b66eef,66,125 lbs.,Flyweight,68,Southpaw,"Oct 23, 1989",2.04,0.61,2.59,0.61,2.51,0.75,0.76,0.4,13-5-1,1192,19,4,False
-Kiefer Crosbie,http://ufcstats.com/fighter-details/4729c93ba705a3bf,71,170 lbs.,Welterweight,70,Switch,"Apr 05, 1990",4.46,0.64,5.8,0.46,0.0,0.0,0.4,0.0,10-6-0,93,16,3,False
-Jessica Penne,http://ufcstats.com/fighter-details/c742287ed86a09bc,65,115 lbs.,Strawweight,67,Orthodox,"Jan 30, 1983",2.63,0.33,5.05,0.45,1.29,0.18,0.36,0.5,14-9-0,401,23,8,False
-Amanda Ribas,http://ufcstats.com/fighter-details/beecb672a279223e,64,115 lbs.,Strawweight,66,Orthodox,"Aug 26, 1993",4.26,0.39,3.29,0.6,2.05,0.52,0.82,0.6,13-7-0,121,20,13,False
-Kalib Starnes,http://ufcstats.com/fighter-details/c8136ab8aa32c974,75,185 lbs.,Middleweight,74,Orthodox,"Jan 06, 1975",2.71,0.48,4.43,0.53,1.46,0.33,0.25,0.6,17-11-1,6428,29,4,False
-Rafaello Oliveira,http://ufcstats.com/fighter-details/15b1b21cd743d652,68,155 lbs.,Lightweight,71,Orthodox,"Jan 26, 1982",2.19,0.33,3.38,0.59,2.49,0.36,0.11,1.6,17-8-0,4293,25,8,False
-Edgar Chairez,http://ufcstats.com/fighter-details/5ef94841c4bc3f86,67,125 lbs.,Flyweight,71,Orthodox,"Jan 27, 1996",3.44,0.44,5.08,0.42,0.0,0.0,0.33,1.7,12-6-0,240,18,5,False
-Alexandr Romanov,http://ufcstats.com/fighter-details/c0badf3243907e59,74,262 lbs.,Heavyweight,75,Southpaw,"Dec 11, 1990",3.78,0.51,2.13,0.54,4.49,0.55,0.28,0.9,18-3-0,387,21,10,False
-Keita Nakamura,http://ufcstats.com/fighter-details/65ddc8a9ac4e8531,71,170 lbs.,Welterweight,73,Southpaw,"May 22, 1984",2.23,0.36,3.2,0.58,1.65,0.48,0.63,0.3,34-10-2,2410,46,11,False
-Magnus Cedenblad,http://ufcstats.com/fighter-details/0e21976afc92e4d1,77,185 lbs.,Middleweight,79,Orthodox,"Apr 10, 1982",2.38,0.51,3.02,0.4,2.87,0.64,0.66,1.0,14-5-0,3292,19,6,False
-Dooho Choi,http://ufcstats.com/fighter-details/e93b04e308913c2e,70,145 lbs.,Featherweight,70,Orthodox,"Apr 10, 1991",4.67,0.56,4.02,0.56,1.43,0.53,0.47,0.6,16-4-1,352,21,8,False
-Ode Osbourne,http://ufcstats.com/fighter-details/6d68c1afe954f121,67,125 lbs.,Flyweight,73,Southpaw,"Jan 09, 1992",3.07,0.41,3.43,0.47,1.09,0.3,0.66,0.5,13-9-0,107,22,12,False
-Joe Proctor,http://ufcstats.com/fighter-details/a36556bb1565e32d,70,155 lbs.,Lightweight,72,Orthodox,"Aug 10, 1985",3.39,0.36,3.93,0.59,0.0,0.0,0.7,1.8,11-5-0,3138,16,6,False
-Daniel Sarafian,http://ufcstats.com/fighter-details/7e47047d0971d566,69,185 lbs.,Middleweight,73,Orthodox,"Aug 21, 1982",2.23,0.46,3.1,0.58,0.36,0.07,0.53,0.7,10-6-0,3564,16,6,False
-Katsunori Kikuno,http://ufcstats.com/fighter-details/44470bfd9483c7ad,68,145 lbs.,Featherweight,66,Orthodox,"Oct 31, 1981",2.64,0.4,2.47,0.61,1.88,0.75,0.76,0.8,24-8-2,3712,34,5,False
-Ryo Chonan,http://ufcstats.com/fighter-details/55a7b2d4e54ffac9,69,170 lbs.,Welterweight,70,Orthodox,"Oct 08, 1976",2.57,0.43,2.25,0.6,0.61,0.41,0.39,0.3,22-13-0,5077,35,4,False
-Daria Zhelezniakova,http://ufcstats.com/fighter-details/07047eb7d17fb0a2,69,135 lbs.,Bantamweight,68,Orthodox,"Jan 23, 1996",4.75,0.41,2.83,0.68,0.44,1.0,0.5,0.0,10-2-0,156,12,3,False
-Ramiz Brahimaj,http://ufcstats.com/fighter-details/3d074044a33825e7,70,170 lbs.,Welterweight,72,Orthodox,"Nov 17, 1992",2.23,0.46,3.42,0.44,1.74,0.38,0.48,2.0,13-5-0,51,18,8,False
-Yves Jabouin,http://ufcstats.com/fighter-details/b4eeac608fc82f88,67,135 lbs.,Bantamweight,68,Orthodox,"May 30, 1979",3.06,0.41,2.93,0.62,1.94,0.6,0.82,0.1,20-11-0,3746,31,10,False
-Paul Taylor,http://ufcstats.com/fighter-details/9b74de674c355425,72,155 lbs.,Lightweight,72,Orthodox,"Dec 15, 1979",4.44,0.47,4.47,0.55,0.27,0.25,0.56,0.5,11-6-1,5406,18,9,False
-Mark Coleman,http://ufcstats.com/fighter-details/21b8a0f5c231096f,73,205 lbs.,Light Heavyweight,75,Orthodox,"Dec 20, 1964",1.88,0.52,2.62,0.4,3.89,0.4,0.5,0.8,16-10-0,5770,26,12,False
-Chris Weidman,http://ufcstats.com/fighter-details/3a8176e15b9887c1,74,185 lbs.,Middleweight,78,Orthodox,"Jun 17, 1984",3.11,0.45,3.37,0.51,3.27,0.42,0.72,0.8,16-8-0,352,24,20,False
-Alex White,http://ufcstats.com/fighter-details/c17041f1bb5768d8,72,155 lbs.,Lightweight,71,Southpaw,"Oct 22, 1988",3.76,0.42,3.07,0.6,0.92,0.28,0.71,0.5,13-6-0,2221,19,10,False
-Sean Strickland,http://ufcstats.com/fighter-details/0d8011111be000b2,73,185 lbs.,Middleweight,76,Orthodox,"Feb 27, 1991",5.95,0.42,4.57,0.6,0.73,0.64,0.76,0.2,29-7-0,289,36,23,False
-James Head,http://ufcstats.com/fighter-details/19a8cce18a1cef9e,73,170 lbs.,Welterweight,73,Orthodox,"Feb 09, 1984",2.75,0.48,3.11,0.49,0.41,1.0,0.66,0.8,9-4-0,4471,13,4,False
-Victor Altamirano,http://ufcstats.com/fighter-details/dc7927cd622676a7,68,125 lbs.,Flyweight,70,Switch,"Jan 23, 1991",4.58,0.53,3.82,0.53,2.88,0.38,0.63,0.0,12-5-0,422,17,6,False
-Loopy Godinez,http://ufcstats.com/fighter-details/8e5d953bdb9ae5e7,62,115 lbs.,Strawweight,61,Orthodox,"Sep 06, 1993",4.51,0.49,4.03,0.62,2.96,0.41,0.81,0.9,14-5-0,100,19,14,False
-Valter Walker,http://ufcstats.com/fighter-details/f5779a2303ed76ec,78,244 lbs.,Heavyweight,78,Orthodox,"Dec 14, 1997",2.0,0.52,2.85,0.42,5.74,0.69,0.0,2.5,15-1-0,30,16,5,False
-Andre Fili,http://ufcstats.com/fighter-details/8fd808923cffff82,71,145 lbs.,Featherweight,74,Orthodox,"Jun 25, 1990",3.87,0.37,4.23,0.51,2.22,0.45,0.71,0.2,25-12-0,107,37,25,False
-Isaac Vallie-Flagg,http://ufcstats.com/fighter-details/c295de4e10acd4c9,68,155 lbs.,Lightweight,70,Orthodox,"Apr 08, 1978",5.56,0.47,5.6,0.45,0.2,0.12,0.58,0.0,16-7-1,4020,24,4,False
-Talita Bernardo,http://ufcstats.com/fighter-details/5b2325cd70dbe2ea,64,135 lbs.,Bantamweight,68,Orthodox,"Mar 04, 1987",3.12,0.42,4.04,0.55,1.62,0.22,0.28,0.5,6-4-0,2389,10,4,False
-Gerard Gordeau,http://ufcstats.com/fighter-details/279093302a6f44b3,77,216 lbs.,Heavyweight,,Orthodox,"Mar 30, 1959",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2-2-0,11700,4,3,False
-Yosdenis Cedeno,http://ufcstats.com/fighter-details/3e61082025db8137,68,155 lbs.,Lightweight,69,Orthodox,"Feb 12, 1985",1.64,0.29,1.6,0.67,0.0,0.0,0.31,0.3,10-6-1,3789,17,4,False
-Lone'er Kavanagh,http://ufcstats.com/fighter-details/bb2c3c3a466224af,66,125 lbs.,Flyweight,67,Orthodox,"Jun 09, 1999",4.29,0.49,3.69,0.58,1.79,0.5,0.88,0.4,9-1-0,93,10,3,False
-Liana Jojua,http://ufcstats.com/fighter-details/eebc23626e38f5dc,64,125 lbs.,Flyweight,62,Orthodox,"Mar 22, 1995",2.42,0.3,5.32,0.54,1.71,0.66,0.5,1.3,8-5-0,1472,13,4,False
-Ruslan Magomedov,http://ufcstats.com/fighter-details/369e1ce458ef50a6,75,242 lbs.,Heavyweight,78,Orthodox,"Nov 26, 1986",4.02,0.47,1.47,0.66,0.33,1.0,0.88,0.0,14-1-0,3705,15,3,False
-Dequan Townsend,http://ufcstats.com/fighter-details/3f7dab21b6c971bc,75,205 lbs.,Light Heavyweight,79,Orthodox,"May 11, 1986",1.23,0.34,3.92,0.38,0.0,0.0,0.46,0.0,21-12-0,1878,33,4,False
-Joshua Burkman,http://ufcstats.com/fighter-details/6da99156486ed6c2,70,170 lbs.,Welterweight,72,Orthodox,"Apr 10, 1980",2.69,0.43,3.13,0.51,2.53,0.36,0.72,0.3,28-16-0,2836,44,17,False
-Emily Ducote,http://ufcstats.com/fighter-details/02f8fedc18cbd26c,62,115 lbs.,Strawweight,63,Orthodox,"Jan 01, 1994",7.45,0.52,7.84,0.57,0.2,0.14,0.94,0.0,13-9-0,555,22,5,False
-Ryan Jimmo,http://ufcstats.com/fighter-details/bc3ec52ef70fc155,73,205 lbs.,Light Heavyweight,73,Orthodox,"Nov 27, 1981",3.12,0.66,2.77,0.46,0.45,0.28,0.87,0.0,19-5-0,3831,24,7,False
-Pingyuan Liu,http://ufcstats.com/fighter-details/31bbd39c0a075d4e,66,135 lbs.,Bantamweight,72,Orthodox,"Feb 13, 1993",2.36,0.33,2.99,0.54,0.25,0.2,0.56,1.0,13-7-0,2165,20,4,False
-Dong Hyun Ma,http://ufcstats.com/fighter-details/98a6b2361045898f,71,155 lbs.,Lightweight,70,Orthodox,"Sep 09, 1988",2.84,0.41,4.1,0.54,1.27,0.53,0.33,0.0,16-11-3,2165,30,7,False
-Erik Koch,http://ufcstats.com/fighter-details/99bd87a300079ed9,70,170 lbs.,Welterweight,71,Southpaw,"Oct 04, 1988",2.33,0.42,2.82,0.47,1.02,0.42,0.81,1.0,16-6-0,2312,22,10,False
-Luke Jumeau,http://ufcstats.com/fighter-details/4c288a2b250bb576,71,170 lbs.,Welterweight,72,Orthodox,"Feb 12, 1988",2.93,0.43,3.17,0.58,0.25,1.0,0.86,0.0,13-5-0,2242,18,4,False
-Guido Cannetti,http://ufcstats.com/fighter-details/d05412b513b19621,66,135 lbs.,Bantamweight,68,Southpaw,"Dec 19, 1979",3.44,0.55,2.84,0.51,2.27,0.55,0.64,0.4,10-8-0,989,18,10,False
-Gabriel Gonzaga,http://ufcstats.com/fighter-details/270b89c00ef0c55c,74,242 lbs.,Heavyweight,76,Orthodox,"May 18, 1979",2.12,0.45,2.94,0.57,2.8,0.39,0.66,1.1,17-11-0,3515,28,20,False
-Deron Winn,http://ufcstats.com/fighter-details/483a953b18d73bb3,66,185 lbs.,Middleweight,70,Orthodox,"Jun 13, 1989",4.55,0.44,6.21,0.46,4.28,0.52,0.4,0.0,7-3-0,1255,10,5,False
-Rafa Garcia,http://ufcstats.com/fighter-details/e132d47bd9efbbe0,67,155 lbs.,Lightweight,70,Orthodox,"Aug 05, 1994",4.31,0.45,4.54,0.61,3.13,0.44,0.76,0.5,18-4-0,72,22,10,False
-Don Frye,http://ufcstats.com/fighter-details/271fe91f4ba9d2c5,73,219 lbs.,Heavyweight,,Orthodox,"Nov 23, 1965",2.87,0.64,3.57,0.37,0.91,0.57,0.45,0.7,20-9-1,6805,30,10,False
-Mac Danzig,http://ufcstats.com/fighter-details/86f582852a5b240a,68,155 lbs.,Lightweight,70,Orthodox,"Jan 02, 1980",3.39,0.48,3.44,0.57,1.2,0.37,0.46,0.6,21-12-1,4363,34,12,False
-Randy Couture,http://ufcstats.com/fighter-details/0aa92558424ced9e,73,205 lbs.,Light Heavyweight,75,Orthodox,"Jun 22, 1963",2.85,0.57,1.53,0.59,2.78,0.46,0.58,0.5,19-11-0,5322,30,24,False
-Elvis Sinosic,http://ufcstats.com/fighter-details/817e0bdf08efce2e,75,205 lbs.,Light Heavyweight,77,Orthodox,"Feb 13, 1971",1.13,0.37,4.6,0.53,0.0,0.0,0.0,1.2,7-11-2,6792,20,7,False
-Khamzat Chimaev,http://ufcstats.com/fighter-details/767755fd74662dbf,74,185 lbs.,Middleweight,75,Orthodox,"May 01, 1994",4.04,0.6,2.32,0.43,5.29,0.55,0.85,1.8,15-0-0,100,15,9,False
-Mikey Burnett,http://ufcstats.com/fighter-details/4c805f5f58a75df0,66,170 lbs.,Welterweight,,Orthodox,"Apr 12, 1974",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5-2-0,9817,7,3,False
-Max Holloway,http://ufcstats.com/fighter-details/150ff4cc642270b9,71,145 lbs.,Featherweight,69,Orthodox,"Dec 04, 1991",7.2,0.48,4.74,0.59,0.24,0.53,0.83,0.3,27-8-0,128,35,30,False
-Charlie Brenneman,http://ufcstats.com/fighter-details/98f6da59d765ec94,70,155 lbs.,Lightweight,70,Orthodox,"Feb 09, 1981",1.52,0.56,1.55,0.46,4.23,0.42,0.72,0.0,19-8-0,4034,27,11,False
-Ismael Bonfim,http://ufcstats.com/fighter-details/eb393afdbe3293d5,68,155 lbs.,Lightweight,71,Orthodox,"Dec 28, 1995",5.51,0.54,3.71,0.65,1.06,0.33,0.76,0.0,20-6-0,16,26,5,False
-Chael Sonnen,http://ufcstats.com/fighter-details/48d1f690b763934c,73,205 lbs.,Light Heavyweight,73,Southpaw,"Apr 03, 1977",3.08,0.43,1.1,0.62,3.81,0.59,0.66,0.4,29-15-1,4391,45,14,False
-Katlyn Cerminara,http://ufcstats.com/fighter-details/e872e9a9a902c045,69,125 lbs.,Flyweight,68,Orthodox,"Dec 28, 1988",4.58,0.34,4.48,0.62,0.31,0.15,0.5,0.3,18-6-0,625,24,17,False
-Chris Wilson,http://ufcstats.com/fighter-details/a56607a451e4c70d,73,170 lbs.,Welterweight,75,Orthodox,"Jun 07, 1977",2.32,0.5,1.36,0.55,1.31,0.5,0.6,1.6,18-10-0,5913,28,4,False
-Aaron Riley,http://ufcstats.com/fighter-details/f2c8ebbeafd45f2b,68,155 lbs.,Lightweight,69,Southpaw,"Dec 09, 1980",3.45,0.34,3.78,0.61,1.18,0.34,0.6,0.1,30-14-1,4503,45,9,False
-Eddie Wineland,http://ufcstats.com/fighter-details/fc9a9559a05f2704,67,135 lbs.,Bantamweight,69,Orthodox,"Jun 26, 1984",3.4,0.29,3.76,0.68,0.34,0.33,0.86,0.1,24-16-1,1255,41,16,False
-Misha Cirkunov,http://ufcstats.com/fighter-details/67f272324a030d00,75,205 lbs.,Light Heavyweight,77,Orthodox,"Feb 27, 1987",3.86,0.51,3.06,0.57,4.15,0.39,0.76,1.7,15-9-0,1136,24,13,False
-Cristian Quinonez,http://ufcstats.com/fighter-details/7debc13b36343605,68,135 lbs.,Bantamweight,70,Orthodox,"Apr 26, 1996",4.19,0.4,4.55,0.55,1.37,0.37,0.84,0.0,18-5-0,639,23,3,False
-Scott Holtzman,http://ufcstats.com/fighter-details/df1eb4354d18a906,69,155 lbs.,Lightweight,69,Orthodox,"Sep 30, 1983",4.32,0.47,3.66,0.55,1.88,0.56,0.67,0.2,14-6-0,1087,20,13,False
-Gilbert Burns,http://ufcstats.com/fighter-details/23024fdfc966410a,70,170 lbs.,Welterweight,71,Orthodox,"Jul 20, 1986",3.15,0.48,3.64,0.52,2.12,0.37,0.53,0.5,22-9-0,191,31,24,False
-Mitch Raposo,http://ufcstats.com/fighter-details/0be6776db31d98ec,65,125 lbs.,Flyweight,64,Switch,"Oct 16, 1998",1.73,0.36,2.65,0.61,2.54,0.37,0.61,0.0,10-3-0,30,13,3,False
-Gary Goodridge,http://ufcstats.com/fighter-details/fbbde91f7bc2d3c5,75,249 lbs.,Heavyweight,,Orthodox,"Jan 17, 1966",1.84,0.56,2.14,0.48,0.4,1.0,0.53,0.8,23-22-1,5807,46,8,False
-Tecia Pennington,http://ufcstats.com/fighter-details/31ef8b67e13495b3,61,115 lbs.,Strawweight,60,Orthodox,"Aug 16, 1989",4.73,0.48,3.48,0.61,0.56,0.14,0.62,0.1,15-8-0,16,23,17,False
-Rob Broughton,http://ufcstats.com/fighter-details/a7d687e6ecb30981,74,265 lbs.,Heavyweight,74,Orthodox,"Mar 03, 1983",2.83,0.6,2.54,0.51,0.0,0.0,0.26,3.2,16-7-1,5133,24,3,False
-Poliana Botelho,http://ufcstats.com/fighter-details/5c126c6aac3ef364,68,125 lbs.,Flyweight,67,Orthodox,"Dec 15, 1988",2.9,0.58,2.8,0.54,0.85,0.57,0.76,0.0,8-5-0,1269,13,7,False
-Zhang Mingyang,http://ufcstats.com/fighter-details/8a65fd9ba31fd3f7,74,205 lbs.,Light Heavyweight,75,Orthodox,"Aug 16, 1998",7.71,0.6,5.33,0.43,0.0,0.0,0.75,0.0,19-7-0,93,26,5,False
-Movsar Evloev,http://ufcstats.com/fighter-details/76e2870ffafbe38f,67,145 lbs.,Featherweight,72,Orthodox,"Feb 11, 1994",3.99,0.48,2.66,0.6,4.67,0.48,0.61,0.2,19-0-0,352,19,9,False
-Yan Cabral,http://ufcstats.com/fighter-details/7cdd3e5d3aa9cb39,71,155 lbs.,Lightweight,73,Orthodox,"May 13, 1983",2.02,0.47,1.98,0.62,2.89,0.35,0.37,1.2,13-3-0,3487,16,5,False
-Hugo Viana,http://ufcstats.com/fighter-details/f95381efb3051d81,66,135 lbs.,Bantamweight,67,Orthodox,"Sep 26, 1982",3.05,0.38,3.2,0.57,0.22,0.06,0.5,0.0,8-4-0,3768,12,5,False
-Arman Tsarukyan,http://ufcstats.com/fighter-details/eae48ff31db420c2,67,155 lbs.,Lightweight,72,Orthodox,"Oct 11, 1996",3.85,0.5,1.8,0.54,3.26,0.37,0.75,0.1,23-3-0,2,26,12,False
-Vitor Belfort,http://ufcstats.com/fighter-details/0ee783aa00e468f0,72,185 lbs.,Middleweight,74,Southpaw,"Apr 01, 1977",1.59,0.46,2.83,0.5,1.02,0.6,0.53,0.6,26-14-0,2753,40,26,False
-Kevin Burns,http://ufcstats.com/fighter-details/a6d8bfe9e0c8153b,70,170 lbs.,Welterweight,74,Orthodox,"Mar 03, 1980",2.74,0.38,4.3,0.52,0.28,0.5,0.47,0.8,12-7-0,5826,19,3,False
-Kamal Shalorus,http://ufcstats.com/fighter-details/ece280745f8727b8,68,155 lbs.,Lightweight,68,Orthodox,"Aug 27, 1972",3.06,0.32,2.99,0.7,2.07,0.5,0.8,0.0,9-5-2,4941,16,3,False
-Jason Von Flue,http://ufcstats.com/fighter-details/c4b9296214f4c09c,72,170 lbs.,Welterweight,,Orthodox,"Aug 01, 1975",1.89,0.36,3.23,0.52,0.62,0.16,0.58,1.5,14-12-1,6730,27,3,False
-Austin Hubbard,http://ufcstats.com/fighter-details/d2cd7a69cc55e7ed,70,155 lbs.,Lightweight,71,Orthodox,"Dec 22, 1991",3.97,0.42,4.1,0.55,1.63,0.28,0.68,0.1,17-10-0,93,27,12,False
-Tanner Boser,http://ufcstats.com/fighter-details/04c8b08b16a5b99e,74,205 lbs.,Light Heavyweight,75,Orthodox,"Aug 02, 1991",4.7,0.52,2.75,0.58,0.0,0.0,0.63,0.0,21-10-1,842,32,10,False
-Branden Lee Hinkle,http://ufcstats.com/fighter-details/06f0ffa6446c5b6d,75,235 lbs.,Heavyweight,,Orthodox,"Jul 29, 1973",2.61,0.69,3.91,0.26,4.34,0.57,0.66,4.3,17-11-0,7089,28,3,False
-Papy Abedi,http://ufcstats.com/fighter-details/c9f6385af6df66d7,71,185 lbs.,Middleweight,,Southpaw,"Jun 30, 1978",2.8,0.55,3.15,0.48,3.47,0.57,0.5,1.3,10-4-0,4471,14,4,False
-Ailin Perez,http://ufcstats.com/fighter-details/06e4245d16fc5315,65,135 lbs.,Bantamweight,66,Switch,"Oct 05, 1994",3.1,0.54,1.79,0.55,4.68,0.46,0.66,0.2,12-2-0,310,14,6,False
-Trevor Smith,http://ufcstats.com/fighter-details/f797f0c57a83353e,75,185 lbs.,Middleweight,75,Orthodox,"Jan 05, 1981",3.29,0.55,3.31,0.51,1.7,0.32,0.6,0.7,15-10-0,2179,25,11,False
-Dylan Andrews,http://ufcstats.com/fighter-details/00debc804e2b1cd4,73,185 lbs.,Middleweight,74,Switch,"Nov 15, 1979",2.21,0.5,2.72,0.46,2.83,0.5,0.57,0.4,18-7-0,3852,25,4,False
-Arnold Allen,http://ufcstats.com/fighter-details/040a74bb0a465c54,68,145 lbs.,Featherweight,70,Southpaw,"Jan 22, 1994",3.45,0.41,2.88,0.61,0.93,0.47,0.75,0.3,20-3-0,485,23,13,False
-Zak Ottow,http://ufcstats.com/fighter-details/47cd337b86b1af92,71,170 lbs.,Welterweight,72,Orthodox,"Dec 22, 1986",2.63,0.36,2.73,0.58,0.97,0.29,0.57,0.4,17-7-0,2452,24,8,False
-Nora Cornolle,http://ufcstats.com/fighter-details/f2b3f4ef3f780168,67,135 lbs.,Bantamweight,67,Orthodox,"Dec 06, 1989",2.75,0.54,1.98,0.58,0.25,0.11,0.47,0.2,9-3-0,114,12,5,False
-Genaro Valdez,http://ufcstats.com/fighter-details/cda1099995b46cc2,69,155 lbs.,Lightweight,72,Orthodox,"Jan 16, 1992",4.08,0.3,7.16,0.48,1.54,0.44,0.36,0.4,10-3-0,863,13,3,False
-Frank Camacho,http://ufcstats.com/fighter-details/764342d39cdaa54a,70,155 lbs.,Lightweight,73,Orthodox,"May 18, 1989",6.56,0.46,7.44,0.51,1.11,0.31,0.73,0.0,22-10-0,1290,32,8,False
-Josh Fremd,http://ufcstats.com/fighter-details/ca43de99b07b6b40,76,185 lbs.,Middleweight,76,Orthodox,"Jan 15, 1994",2.52,0.44,2.23,0.47,0.66,0.25,0.3,1.1,11-6-0,499,17,6,False
-Devonte Smith,http://ufcstats.com/fighter-details/207773daeb4afa7b,69,155 lbs.,Lightweight,76,Orthodox,"Jul 30, 1993",4.55,0.53,3.91,0.49,0.35,0.25,0.85,0.3,11-4-0,1360,15,6,False
-Jean Matsumoto,http://ufcstats.com/fighter-details/ffd3224638c01b57,66,135 lbs.,Bantamweight,68,Orthodox,"Sep 09, 1999",5.43,0.41,5.43,0.48,2.14,0.41,0.53,0.6,17-1-0,107,18,4,False
-Abel Trujillo,http://ufcstats.com/fighter-details/e14b5aa06eea9653,68,155 lbs.,Lightweight,70,Orthodox,"Sep 18, 1983",2.65,0.41,2.31,0.59,2.18,0.45,0.4,0.4,15-8-0,2900,23,11,False
-Kiichi Kunimoto,http://ufcstats.com/fighter-details/71df36d6d8cf0d74,70,170 lbs.,Welterweight,71,Orthodox,"May 01, 1981",1.87,0.44,3.92,0.41,1.59,0.2,0.28,0.3,18-7-2,3089,27,5,False
-Olivier Aubin-Mercier,http://ufcstats.com/fighter-details/55ee431411ccf07a,69,155 lbs.,Lightweight,70,Southpaw,"Feb 23, 1989",2.48,0.51,2.97,0.55,2.36,0.33,0.7,0.5,11-5-0,2312,16,12,False
-Chris Clements,http://ufcstats.com/fighter-details/e5ecaf884b6da2bc,70,170 lbs.,Welterweight,70,Orthodox,"Feb 09, 1976",3.2,0.49,2.37,0.44,0.0,0.0,0.32,0.3,12-6-0,3866,18,5,False
-Justin McCully,http://ufcstats.com/fighter-details/75f871836d41f90f,73,225 lbs.,Heavyweight,73,Orthodox,"Feb 18, 1976",1.58,0.37,2.02,0.46,1.28,0.44,0.43,0.0,11-5-2,5931,18,4,False
-Justin Gaethje,http://ufcstats.com/fighter-details/9e8f6c728eb01124,71,155 lbs.,Lightweight,70,Orthodox,"Nov 14, 1988",6.59,0.58,7.18,0.51,0.1,0.14,0.68,0.0,26-5-0,261,31,13,False
-HyunSung Park,http://ufcstats.com/fighter-details/b671bdf981ad527d,67,125 lbs.,Flyweight,66,Orthodox,"Nov 04, 1995",3.38,0.41,3.14,0.55,1.5,0.31,0.47,1.8,10-2-0,37,12,7,False
-Darren Uyenoyama,http://ufcstats.com/fighter-details/6546af7ab545b90c,66,125 lbs.,Flyweight,65,Orthodox,"Oct 15, 1979",1.34,0.39,2.21,0.66,1.42,0.33,0.35,0.7,10-6-0,4363,16,4,False
-Bassil Hafez,http://ufcstats.com/fighter-details/f4d92416da98804b,71,170 lbs.,Welterweight,72,Orthodox,"Jan 31, 1992",3.71,0.38,5.68,0.41,2.21,0.24,0.5,0.0,9-4-1,373,14,3,False
-Yair Rodriguez,http://ufcstats.com/fighter-details/cbf5e6f231b55443,71,145 lbs.,Featherweight,71,Orthodox,"Oct 06, 1992",4.65,0.46,3.78,0.52,0.71,0.29,0.59,0.6,21-6-0,226,27,16,False
-Saparbeg Safarov,http://ufcstats.com/fighter-details/88d7b6d8230e1f3f,73,185 lbs.,Middleweight,78,Orthodox,"Oct 14, 1986",4.03,0.48,2.96,0.47,2.52,0.41,0.33,0.0,9-3-0,2088,12,4,False
-Assuerio Silva,http://ufcstats.com/fighter-details/e091482fa6648261,70,241 lbs.,Heavyweight,,Orthodox,"Jun 18, 1974",1.42,0.46,4.2,0.54,2.66,0.34,0.25,1.8,16-8-0,6792,24,3,False
-Teemu Packalen,http://ufcstats.com/fighter-details/8f4eeaf7a0df7c1a,73,155 lbs.,Lightweight,75,Orthodox,"May 22, 1987",2.57,0.54,3.91,0.47,2.31,0.25,1.0,1.5,8-3-0,2270,11,4,False
-Melissa Gatto,http://ufcstats.com/fighter-details/a4a80dd7336ffd59,65,135 lbs.,Bantamweight,69,Orthodox,"May 02, 1996",3.78,0.49,2.84,0.54,1.47,0.28,0.63,0.5,9-2-2,555,13,5,False
-Wes Sims,http://ufcstats.com/fighter-details/e0f7c4f3f67bc808,82,260 lbs.,Heavyweight,,Orthodox,"Aug 04, 1979",0.98,0.51,2.95,0.37,0.0,0.0,0.4,2.3,24-14-1,5777,39,3,False
-Josh Thomson,http://ufcstats.com/fighter-details/a566371ba2ad7152,70,155 lbs.,Lightweight,71,Orthodox,"Sep 21, 1978",2.59,0.47,2.12,0.64,1.92,0.39,0.54,1.3,22-9-0,3785,31,7,False
-Cat Zingano,http://ufcstats.com/fighter-details/3ecd936bd8814108,66,145 lbs.,Featherweight,68,Southpaw,"Jul 01, 1982",2.57,0.61,1.63,0.47,2.77,0.65,0.42,0.8,10-4-0,2522,14,6,False
-Mike Malott,http://ufcstats.com/fighter-details/dd6103dd7127db1d,73,170 lbs.,Welterweight,73,Orthodox,"Nov 07, 1991",3.93,0.48,3.06,0.56,1.88,0.5,0.14,0.8,13-2-1,37,16,7,False
-Victoria Leonardo,http://ufcstats.com/fighter-details/9dedfdd91070ddd8,65,125 lbs.,Flyweight,64,Orthodox,"Feb 16, 1990",3.22,0.38,4.81,0.47,1.57,0.27,0.71,0.0,9-7-0,457,16,5,False
-Ken Shamrock,http://ufcstats.com/fighter-details/63b65af1c5cb02cb,73,205 lbs.,Light Heavyweight,72,Orthodox,"Feb 11, 1964",1.47,0.46,4.3,0.39,0.94,0.6,0.44,2.5,28-17-2,6985,47,13,False
-Shane Young,http://ufcstats.com/fighter-details/4cd8b03aee1d0138,68,145 lbs.,Featherweight,72,Orthodox,"Jul 31, 1993",5.19,0.4,5.46,0.52,0.63,0.18,0.64,0.0,13-8-0,807,21,7,False
-Clay Guida,http://ufcstats.com/fighter-details/c47df9303d318c67,67,155 lbs.,Lightweight,70,Orthodox,"Dec 08, 1981",2.63,0.33,3.0,0.61,3.1,0.35,0.66,0.6,38-22-0,352,60,34,False
-Andrea Lee,http://ufcstats.com/fighter-details/05fa626cb33d15b8,66,125 lbs.,Flyweight,69,Orthodox,"Feb 11, 1989",4.62,0.45,3.91,0.61,1.65,0.52,0.53,0.6,13-11-0,268,24,14,False
-Daniel Cormier,http://ufcstats.com/fighter-details/d967f0128c323de6,71,235 lbs.,Heavyweight,72,Orthodox,"Mar 20, 1979",4.25,0.52,2.92,0.54,1.83,0.44,0.8,0.4,22-3-0,1927,25,15,False
-Bibulatov Magomed,http://ufcstats.com/fighter-details/87f19d19f4cb73f8,65,125 lbs.,Flyweight,65,Orthodox,"Aug 22, 1988",3.6,0.51,1.83,0.52,2.85,0.4,0.75,0.0,14-2-0,2487,16,3,False
-Elizabeth Phillips,http://ufcstats.com/fighter-details/dcbf01d605681ad1,66,135 lbs.,Bantamweight,65,Orthodox,"Aug 20, 1986",2.6,0.33,3.07,0.58,0.75,0.25,0.53,0.2,6-6-0,3383,12,4,False
-Jimi Manuwa,http://ufcstats.com/fighter-details/1e1dbd1cc5a7469e,73,205 lbs.,Light Heavyweight,79,Orthodox,"Feb 18, 1980",3.43,0.54,3.97,0.49,0.53,0.18,0.7,0.4,17-6-0,2368,23,12,False
-Kevin Holland,http://ufcstats.com/fighter-details/3a46b268013afede,75,170 lbs.,Welterweight,81,Orthodox,"Nov 05, 1992",4.26,0.49,3.22,0.5,0.83,0.39,0.56,0.5,28-15-0,37,43,28,False
-Vince Morales,http://ufcstats.com/fighter-details/37098a6e6c27fb66,67,135 lbs.,Bantamweight,70,Orthodox,"Nov 12, 1990",3.57,0.37,4.0,0.53,0.59,0.4,0.58,0.5,16-10-0,240,26,11,False
-Pat Miletich,http://ufcstats.com/fighter-details/cedfdf8d423d500c,70,170 lbs.,Welterweight,,Orthodox,"Mar 09, 1968",1.79,0.45,1.66,0.63,1.96,1.0,0.54,1.0,29-7-2,8648,38,10,False
-Bruno Santos,http://ufcstats.com/fighter-details/da1d8d76404bb6b5,69,185 lbs.,Middleweight,,Orthodox,"Jul 17, 1987",1.18,0.46,2.27,0.56,3.0,0.37,0.66,0.3,15-2-0,4069,17,3,False
-Ignacio Bahamondes,http://ufcstats.com/fighter-details/e4a47b07044ddd72,75,155 lbs.,Lightweight,75,Orthodox,"Aug 27, 1997",6.55,0.45,4.33,0.56,0.0,0.0,0.75,0.4,17-6-0,156,23,9,False
-Chris Padilla,http://ufcstats.com/fighter-details/06626b6287e1ae1e,69,155 lbs.,Lightweight,74,Orthodox,"Sep 14, 1995",4.78,0.54,3.87,0.55,1.18,0.3,0.75,0.4,17-6-0,16,23,4,False
-Michel Prazeres,http://ufcstats.com/fighter-details/e51fcd9cd84c0b93,66,170 lbs.,Welterweight,67,Orthodox,"Jul 25, 1981",2.38,0.47,2.51,0.57,3.94,0.36,0.47,0.6,26-4-0,1612,30,14,False
-Natan Levy,http://ufcstats.com/fighter-details/a29db9cd4f9ccea5,69,155 lbs.,Lightweight,71,Southpaw,"Sep 30, 1991",3.7,0.52,3.19,0.58,5.03,0.58,0.41,0.5,8-2-0,618,10,4,False
-Andy Ogle,http://ufcstats.com/fighter-details/b6c4451cb13c9303,68,145 lbs.,Featherweight,69,Orthodox,"Feb 16, 1989",2.24,0.44,2.23,0.5,1.44,0.26,0.58,0.0,9-6-0,3957,15,6,False
-Tim Kennedy,http://ufcstats.com/fighter-details/3c660c90d48fc80d,71,185 lbs.,Middleweight,74,Orthodox,"Sep 01, 1979",2.78,0.47,1.84,0.62,2.58,0.35,0.7,0.7,18-6-0,3271,24,5,False
-Seth Baczynski,http://ufcstats.com/fighter-details/fd5b6598a3b70c0a,75,170 lbs.,Welterweight,75,Orthodox,"Oct 26, 1981",3.08,0.31,3.14,0.51,0.89,0.16,0.48,0.8,20-14-0,3880,34,10,False
-Mark Eddiva,http://ufcstats.com/fighter-details/40ff198adda94b9f,68,145 lbs.,Featherweight,68,Orthodox,"Feb 16, 1986",3.37,0.45,2.98,0.54,1.45,0.22,0.63,0.0,6-3-0,3537,9,4,False
-Matthew Semelsberger,http://ufcstats.com/fighter-details/4aa58269d0664b5b,73,170 lbs.,Welterweight,75,Switch,"Nov 23, 1992",3.77,0.42,4.24,0.54,1.01,0.57,0.45,0.4,11-8-0,380,19,11,False
-Roland Delorme,http://ufcstats.com/fighter-details/173acb3f920082b8,69,135 lbs.,Bantamweight,71,Orthodox,"Dec 18, 1983",2.28,0.44,4.32,0.4,2.51,0.34,0.42,1.6,9-5-0,4111,14,6,False
-Jacob Malkoun,http://ufcstats.com/fighter-details/d4270315cbcf2569,69,185 lbs.,Middleweight,73,Orthodox,"Aug 26, 1995",3.86,0.56,2.48,0.52,6.62,0.42,0.2,0.4,8-3-0,604,11,7,False
-Jack Jenkins,http://ufcstats.com/fighter-details/a9da3158dd2c2b5a,67,145 lbs.,Featherweight,68,Switch,"Nov 03, 1993",4.48,0.61,2.95,0.59,1.98,0.6,0.71,0.2,14-4-0,58,18,6,False
-Vinicius Moreira,http://ufcstats.com/fighter-details/acb36c908d415c4a,76,205 lbs.,Light Heavyweight,76,Orthodox,"Feb 28, 1989",3.15,0.59,5.07,0.43,1.97,0.18,0.0,1.3,9-5-0,1769,14,4,False
-Shanna Young,http://ufcstats.com/fighter-details/568bbad0eaced57c,67,125 lbs.,Flyweight,65,Orthodox,"Feb 20, 1991",3.18,0.47,4.88,0.43,0.0,0.0,0.53,0.6,9-6-0,1115,15,4,False
-Antonina Shevchenko,http://ufcstats.com/fighter-details/d7338bcb141abd2c,68,125 lbs.,Flyweight,67,Southpaw,"Nov 20, 1984",3.86,0.55,2.93,0.52,0.43,0.42,0.53,0.4,10-4-0,1234,14,7,False
-Brunno Ferreira,http://ufcstats.com/fighter-details/1e719d4b676dc19a,70,185 lbs.,Middleweight,72,Orthodox,"Nov 04, 1992",3.41,0.5,3.34,0.51,1.39,0.28,0.57,1.0,14-2-0,128,16,7,False
-Terry Etim,http://ufcstats.com/fighter-details/33011768c3c4dc9a,73,155 lbs.,Lightweight,73,Orthodox,"Jan 11, 1986",2.16,0.35,2.53,0.67,0.43,0.3,0.39,1.4,16-5-0,4664,21,11,False
-Michinori Tanaka,http://ufcstats.com/fighter-details/64788ee44b062ded,65,135 lbs.,Bantamweight,67,Orthodox,"Oct 04, 1990",1.97,0.37,1.99,0.5,2.4,0.38,0.43,0.2,11-3-0,3215,14,5,False
-Forrest Petz,http://ufcstats.com/fighter-details/e86bc32f5997a8f7,69,170 lbs.,Welterweight,71,Orthodox,"Sep 22, 1975",2.27,0.29,2.2,0.57,1.3,1.0,0.66,0.0,26-10-0,5549,36,6,False
-Lauren Murphy,http://ufcstats.com/fighter-details/729d4bd5a6cd0a97,65,125 lbs.,Flyweight,67,Orthodox,"Jul 27, 1983",3.94,0.38,5.19,0.56,1.09,0.24,0.67,0.2,16-7-0,135,23,14,False
-Sasha Palatnikov,http://ufcstats.com/fighter-details/a6c20202c701e5ca,73,170 lbs.,Welterweight,72,Switch,"Mar 15, 1989",6.69,0.53,5.44,0.52,0.72,1.0,0.7,0.0,6-4-0,1556,10,3,False
-Wellington Turman,http://ufcstats.com/fighter-details/4dcfb28c011c11b2,72,170 lbs.,Welterweight,72,Orthodox,"Jul 22, 1996",3.23,0.51,4.17,0.45,1.55,0.2,0.42,0.8,18-8-0,723,26,9,False
-Sarah Moras,http://ufcstats.com/fighter-details/539ed332b3078821,67,135 lbs.,Bantamweight,67,Orthodox,"Apr 30, 1988",2.28,0.34,3.58,0.5,0.67,0.21,0.33,0.8,6-8-0,1773,14,8,False
-Alan Jouban,http://ufcstats.com/fighter-details/cf65d56b0755ed3b,72,170 lbs.,Welterweight,73,Southpaw,"Nov 25, 1981",5.67,0.5,3.77,0.6,0.51,0.44,0.58,0.3,17-7-0,1829,24,13,False
-Yizha,http://ufcstats.com/fighter-details/3f11fd1751fa83b1,67,145 lbs.,Featherweight,71,Orthodox,"Jan 08, 1997",2.97,0.45,2.81,0.47,3.51,0.3,0.54,1.1,26-5-0,93,31,8,False
-Jon Fitch,http://ufcstats.com/fighter-details/6f018c039b4d5d80,72,170 lbs.,Welterweight,74,Orthodox,"Feb 24, 1978",2.61,0.5,1.65,0.54,3.6,0.51,0.56,0.8,30-7-1,4678,38,18,False
-Punahele Soriano,http://ufcstats.com/fighter-details/64facb6cc564262d,71,170 lbs.,Welterweight,72,Southpaw,"Nov 22, 1992",4.66,0.54,3.42,0.47,1.83,0.48,0.4,0.1,12-4-0,51,16,10,False
-DaMarques Johnson,http://ufcstats.com/fighter-details/322a56923b396b4d,73,170 lbs.,Welterweight,75,Orthodox,"Jun 28, 1982",2.11,0.37,3.75,0.51,1.18,0.55,0.19,0.7,15-15-0,4804,30,9,False
-Luke Sanders,http://ufcstats.com/fighter-details/96428b9e9bd048ea,66,135 lbs.,Bantamweight,67,Southpaw,"Dec 12, 1985",6.61,0.52,4.37,0.5,0.71,0.3,0.72,0.2,13-5-0,1668,18,8,False
-Hamdy Abdelwahab,http://ufcstats.com/fighter-details/3329d692aea4dc28,74,265 lbs.,Heavyweight,72,Southpaw,"Jan 22, 1993",4.27,0.55,3.67,0.51,3.25,0.65,1.0,0.0,7-1-0,30,8,4,False
-Muin Gafurov,http://ufcstats.com/fighter-details/a54660deb6a8489c,67,135 lbs.,Bantamweight,68,Orthodox,"May 17, 1996",2.89,0.45,2.21,0.52,1.47,0.26,0.7,0.0,20-6-0,310,26,4,False
-Petr Yan,http://ufcstats.com/fighter-details/d661ce4da776fc20,67,135 lbs.,Bantamweight,67,Switch,"Feb 11, 1993",5.12,0.54,4.14,0.58,1.58,0.48,0.85,0.1,19-5-0,121,24,15,False
-Clifford Starks,http://ufcstats.com/fighter-details/5abf827d62f98fee,72,185 lbs.,Middleweight,78,Orthodox,"Apr 25, 1981",1.94,0.33,2.49,0.58,1.94,1.0,0.6,0.0,13-3-0,4601,16,3,False
-Yaotzin Meza,http://ufcstats.com/fighter-details/3623bd267a2eef2e,69,145 lbs.,Featherweight,71,Orthodox,"Feb 04, 1981",1.43,0.41,1.62,0.64,1.06,0.2,0.18,1.4,21-11-0,3558,32,7,False
-Mark Hunt,http://ufcstats.com/fighter-details/eef9b891edbd4604,70,265 lbs.,Heavyweight,72,Orthodox,"Mar 23, 1974",2.81,0.43,2.9,0.51,0.51,0.55,0.64,0.2,13-14-1,2550,28,18,False
-Hector Aldana,http://ufcstats.com/fighter-details/c487223b0289bda9,71,170 lbs.,Welterweight,72,Orthodox,"Aug 17, 1988",3.59,0.38,5.08,0.59,0.93,1.0,0.0,0.0,4-3-0,2235,7,3,False
-Dan Henderson,http://ufcstats.com/fighter-details/1ccf4e7caff270df,71,185 lbs.,Middleweight,74,Orthodox,"Aug 24, 1970",2.44,0.47,2.7,0.51,1.52,0.52,0.57,0.3,32-15-0,3334,47,18,False
-Shinsho Anzai,http://ufcstats.com/fighter-details/4665f9f909cd7214,67,170 lbs.,Welterweight,70,Orthodox,"Dec 01, 1985",3.23,0.58,3.75,0.45,1.83,0.16,0.75,0.0,10-3-0,2711,13,4,False
-Benji Radach,http://ufcstats.com/fighter-details/01b39decaf0abf6a,70,185 lbs.,Middleweight,,Orthodox,"Apr 05, 1979",2.62,0.49,2.31,0.51,1.06,0.41,0.71,0.4,21-7-0,5469,28,3,False
-Damian Stasiak,http://ufcstats.com/fighter-details/42a7e90605df3c8a,65,135 lbs.,Bantamweight,70,Orthodox,"Feb 20, 1990",1.86,0.36,3.1,0.52,2.64,0.35,0.43,0.6,10-6-0,2682,16,6,False
-Maurice Greene,http://ufcstats.com/fighter-details/068f8a189a47fea6,79,258 lbs.,Heavyweight,80,Orthodox,"Jul 05, 1986",3.28,0.45,3.61,0.45,0.0,0.0,0.27,0.4,9-7-0,1661,16,7,False
-Brad Riddell,http://ufcstats.com/fighter-details/37ed1ab2f8b819f4,67,155 lbs.,Lightweight,71,Orthodox,"Sep 30, 1991",4.71,0.53,3.53,0.53,1.77,0.36,0.63,0.0,10-4-0,1108,14,7,False
-ChangHo Lee,http://ufcstats.com/fighter-details/117a06469813e4ef,68,135 lbs.,Bantamweight,69,Orthodox,"May 09, 1994",3.88,0.66,2.13,0.37,3.2,0.34,0.4,0.3,11-2-0,23,13,5,False
-Rodrigo Nascimento,http://ufcstats.com/fighter-details/d31a5546c0e9b213,74,246 lbs.,Heavyweight,80,Orthodox,"Nov 26, 1992",3.71,0.47,4.34,0.44,1.02,0.37,0.6,0.5,11-3-0,387,14,8,False
-John Albert,http://ufcstats.com/fighter-details/7bd94b60d7521e4a,68,135 lbs.,Bantamweight,68,Orthodox,"Oct 13, 1986",3.05,0.49,2.82,0.35,0.0,0.0,0.5,6.1,6-5-0,4503,11,3,False
-Phil Davis,http://ufcstats.com/fighter-details/902ab9197b83d0db,74,205 lbs.,Light Heavyweight,79,Orthodox,"Sep 25, 1984",2.85,0.34,1.33,0.72,2.99,0.38,0.72,0.6,17-4-0,3957,21,13,False
-John Howard,http://ufcstats.com/fighter-details/fc31f896cde2bc2e,67,170 lbs.,Welterweight,72,Orthodox,"Mar 01, 1983",2.15,0.5,3.08,0.51,2.7,0.49,0.53,0.4,24-13-0,3637,37,13,False
-Gadzhimurad Antigulov,http://ufcstats.com/fighter-details/af997f7611673880,71,205 lbs.,Light Heavyweight,70,Orthodox,"Feb 09, 1987",2.08,0.55,4.21,0.4,5.08,0.36,0.0,1.4,20-8-0,1864,28,6,False
-Wesley Correira,http://ufcstats.com/fighter-details/4e9fb05d7e5e61b8,75,260 lbs.,Heavyweight,,Orthodox,"Nov 11, 1978",2.6,0.36,8.8,0.4,0.0,0.0,0.9,0.0,20-16-0,6862,36,4,False
-Blake Bilder,http://ufcstats.com/fighter-details/5095b0920a3602aa,68,145 lbs.,Featherweight,68,Switch,"Jul 12, 1990",3.81,0.48,4.15,0.53,0.31,0.07,0.71,0.6,8-2-1,660,11,3,False
-Valentina Shevchenko,http://ufcstats.com/fighter-details/132deb59abae64b1,65,125 lbs.,Flyweight,66,Southpaw,"Mar 07, 1988",3.04,0.52,2.0,0.63,2.65,0.61,0.76,0.3,26-4-1,9,31,19,False
-Yancy Medeiros,http://ufcstats.com/fighter-details/813550bc53b15fb0,70,155 lbs.,Lightweight,75,Orthodox,"Sep 07, 1987",4.36,0.37,5.67,0.47,0.33,0.5,0.73,0.7,15-8-0,1612,23,14,False
-Anthony Johnson,http://ufcstats.com/fighter-details/365fee2da473b177,74,205 lbs.,Light Heavyweight,78,Orthodox,"Mar 06, 1984",3.25,0.47,1.83,0.6,2.43,0.57,0.77,0.6,22-6-0,3152,28,18,False
-Patrick Cummins,http://ufcstats.com/fighter-details/e51e5cb722bd47a8,74,205 lbs.,Light Heavyweight,76,Orthodox,"Nov 16, 1980",4.26,0.5,3.35,0.55,4.49,0.41,0.28,0.1,10-7-0,2382,17,13,False
-Sean O'Connell,http://ufcstats.com/fighter-details/cb52f9490c2dc069,73,205 lbs.,Light Heavyweight,74,Orthodox,"Sep 02, 1983",5.46,0.48,6.77,0.45,0.0,0.0,0.3,0.5,17-9-0,3272,26,7,False
-Manny Bermudez,http://ufcstats.com/fighter-details/2dc1bc1a02961656,70,145 lbs.,Featherweight,71,Orthodox,"Jul 16, 1994",2.92,0.61,2.68,0.46,3.06,0.54,0.0,3.1,14-2-0,2229,16,5,False
-Edwin Figueroa,http://ufcstats.com/fighter-details/bbfca6d5c27d9cd8,67,135 lbs.,Bantamweight,69,Orthodox,"Jul 31, 1984",2.57,0.39,3.06,0.51,0.2,1.0,0.37,0.6,9-5-0,4391,14,6,False
-Thibault Gouti,http://ufcstats.com/fighter-details/51e86de150ee8be6,70,155 lbs.,Lightweight,72,Orthodox,"Feb 27, 1987",3.68,0.34,5.64,0.5,1.23,0.8,0.83,0.3,12-5-0,2585,17,6,False
-Yuki Kondo,http://ufcstats.com/fighter-details/1fe7adb23b3eedfb,71,183 lbs.,None,,Southpaw,"Jul 17, 1975",1.14,0.42,2.57,0.51,0.76,0.41,0.37,0.5,60-33-9,6903,102,3,False
-Mateus Mendonca,http://ufcstats.com/fighter-details/48812daf291a4e23,66,125 lbs.,Flyweight,71,Orthodox,"Jan 17, 1999",1.66,0.4,4.14,0.3,2.54,0.27,0.55,0.4,10-3-0,639,13,3,False
-Kevin Natividad,http://ufcstats.com/fighter-details/0c258d1d8e16e5f1,66,135 lbs.,Bantamweight,70,Orthodox,"Apr 02, 1993",2.68,0.34,4.29,0.47,3.66,0.5,0.83,0.0,9-4-0,1101,13,3,False
-Shane Nelson,http://ufcstats.com/fighter-details/2db7fa8db6bc9632,69,155 lbs.,Lightweight,70,Southpaw,"Nov 29, 1984",1.38,0.31,2.84,0.61,1.31,0.18,0.54,1.6,16-7-0,5826,23,3,False
-Norma Dumont,http://ufcstats.com/fighter-details/d3f5d33d61cd00c9,67,135 lbs.,Bantamweight,67,Orthodox,"Oct 01, 1990",3.89,0.5,2.12,0.65,1.56,0.56,0.68,0.0,13-2-0,23,15,11,False
-Nate Marquardt,http://ufcstats.com/fighter-details/a8e6a69796280f17,72,185 lbs.,Middleweight,74,Orthodox,"Apr 20, 1979",2.71,0.49,2.32,0.55,1.87,0.51,0.7,0.8,35-19-2,2935,56,24,False
-Stephanie Luciano,http://ufcstats.com/fighter-details/1b35af4d1529adf6,66,115 lbs.,Strawweight,65,Orthodox,"Dec 16, 1999",5.2,0.42,3.04,0.64,1.3,0.71,0.8,0.3,7-2-1,37,10,3,False
-Rob Emerson,http://ufcstats.com/fighter-details/dc0f07928009a127,69,155 lbs.,Lightweight,70,Orthodox,"Jul 30, 1981",2.5,0.3,2.83,0.64,2.02,0.52,0.65,0.4,18-12-0,5717,30,6,False
-Bryce Mitchell,http://ufcstats.com/fighter-details/d9c6f19f958643e9,70,135 lbs.,Bantamweight,70,Southpaw,"Oct 04, 1994",2.27,0.59,1.6,0.58,3.24,0.36,0.33,1.2,18-4-0,121,22,11,False
-Steven Peterson,http://ufcstats.com/fighter-details/b93c06d09d1c4ac0,70,145 lbs.,Featherweight,70,Orthodox,"May 29, 1990",4.76,0.4,5.94,0.53,1.42,0.26,0.64,0.7,19-11-0,975,30,7,False
-Sean Sherk,http://ufcstats.com/fighter-details/029880cdbf5ca089,66,155 lbs.,Lightweight,67,Orthodox,"Aug 05, 1973",2.17,0.35,2.71,0.55,4.09,0.46,0.56,0.4,36-4-1,5539,41,12,False
-Carmelo Marrero,http://ufcstats.com/fighter-details/aa03a3ca00ac6827,72,205 lbs.,Light Heavyweight,73,Orthodox,"Jan 26, 1981",0.84,0.34,2.04,0.54,3.21,0.36,0.36,0.9,16-6-0,6081,22,4,False
-Junior Albini,http://ufcstats.com/fighter-details/c482c8605455a213,75,264 lbs.,Heavyweight,74,Orthodox,"Mar 15, 1991",3.98,0.51,6.08,0.52,1.54,0.37,1.0,0.0,14-6-0,2340,20,5,False
-Constantinos Philippou,http://ufcstats.com/fighter-details/05560764359161e4,71,185 lbs.,Middleweight,73,Orthodox,"Nov 29, 1979",2.19,0.35,2.73,0.54,0.4,0.42,0.65,0.3,13-5-0,3845,18,10,False
-Khaos Williams,http://ufcstats.com/fighter-details/2558ae2e5671e318,72,170 lbs.,Welterweight,77,Orthodox,"Mar 30, 1994",4.94,0.39,5.39,0.4,0.0,0.0,0.51,0.0,15-5-0,170,20,10,False
-Sean O'Malley,http://ufcstats.com/fighter-details/b50a426a33da0012,71,135 lbs.,Bantamweight,72,Switch,"Oct 24, 1994",6.3,0.61,3.48,0.6,0.27,0.42,0.61,0.3,18-3-0,170,21,13,False
-Bo Nickal,http://ufcstats.com/fighter-details/35673bf5204524ee,73,185 lbs.,Middleweight,76,Southpaw,"Jan 14, 1996",3.35,0.61,2.07,0.59,3.1,0.55,1.0,2.5,8-1-0,9,9,6,False
-Kamaru Usman,http://ufcstats.com/fighter-details/f1b2aa7853d1ed6e,72,170 lbs.,Welterweight,76,Switch,"May 11, 1987",4.16,0.51,2.67,0.55,2.79,0.44,0.89,0.1,21-4-0,163,25,17,False
-Ben Rothwell,http://ufcstats.com/fighter-details/bd58d34e39b7b12a,76,265 lbs.,Heavyweight,78,Orthodox,"Oct 17, 1981",3.71,0.42,4.63,0.47,0.68,0.34,0.7,0.4,39-14-0,1472,53,17,False
-Makwan Amirkhani,http://ufcstats.com/fighter-details/87a1dc546b1c5caf,70,145 lbs.,Featherweight,72,Southpaw,"Nov 08, 1988",1.33,0.44,2.98,0.46,3.96,0.43,0.35,1.1,17-9-0,982,26,14,False
-Garett Whiteley,http://ufcstats.com/fighter-details/129537073431e52e,72,155 lbs.,Lightweight,72,Orthodox,"Dec 13, 1980",3.72,0.48,4.04,0.46,0.0,0.0,0.27,0.9,7-3-0,3999,10,3,False
-Akbarh Arreola,http://ufcstats.com/fighter-details/c136b2a8852da5bd,70,155 lbs.,Lightweight,71,Southpaw,"Jan 14, 1983",2.32,0.45,4.01,0.56,1.07,1.0,0.33,0.4,23-11-1,3663,35,4,False
-Antonio Carlos Junior,http://ufcstats.com/fighter-details/52e76bb4b3e852f3,74,185 lbs.,Middleweight,79,Orthodox,"Mar 16, 1990",1.95,0.42,2.14,0.52,3.42,0.39,0.53,0.8,11-5-0,1766,16,13,False
-Spencer Fisher,http://ufcstats.com/fighter-details/f34312c2ccfa0e00,67,155 lbs.,Lightweight,68,Southpaw,"May 09, 1976",3.17,0.43,3.03,0.64,0.67,0.3,0.6,0.8,24-9-0,4903,33,15,False
-Shamil Abdurakhimov,http://ufcstats.com/fighter-details/2f5cbecbbe18bac4,75,235 lbs.,Heavyweight,76,Orthodox,"Sep 02, 1981",2.41,0.44,3.02,0.55,1.01,0.23,0.45,0.1,20-8-0,1038,28,11,False
-Gilbert Yvel,http://ufcstats.com/fighter-details/d29b5c4f22c6357d,74,225 lbs.,Heavyweight,77,Orthodox,"Jun 30, 1976",1.05,0.47,1.78,0.5,0.0,0.0,0.25,1.0,39-16-1,5511,56,3,False
-Leonard Garcia,http://ufcstats.com/fighter-details/917e53fa0adea0d3,70,145 lbs.,Featherweight,68,Orthodox,"Jul 14, 1979",2.77,0.24,4.79,0.52,0.3,0.26,0.42,0.5,18-13-1,4594,32,7,False
-Edgar Garcia,http://ufcstats.com/fighter-details/8d49545dadf9b919,70,170 lbs.,Welterweight,71,Orthodox,"Feb 22, 1984",3.16,0.29,4.23,0.6,2.21,0.57,0.5,0.6,14-5-0,3614,19,3,False
-Leon Edwards,http://ufcstats.com/fighter-details/f1fac969a1d70b08,74,170 lbs.,Welterweight,74,Southpaw,"Aug 25, 1991",2.6,0.54,2.44,0.52,1.25,0.37,0.63,0.4,22-6-0,9,28,20,False
-Fredy Serrano,http://ufcstats.com/fighter-details/0ccab7c889ede9ea,63,125 lbs.,Flyweight,65,Orthodox,"Sep 22, 1979",1.58,0.26,1.89,0.61,2.84,0.25,0.84,0.0,3-2-0,3264,5,4,False
-Yin Shuai,http://ufcstats.com/fighter-details/a78dc3910554dbae,65,125 lbs.,Flyweight,66,Southpaw,"Jan 01, 1997",4.42,0.43,4.22,0.54,4.33,0.41,0.83,0.0,18-6-0,94,24,3,False
-Anthony Birchak,http://ufcstats.com/fighter-details/c5a126ace82a6025,68,135 lbs.,Bantamweight,69,Orthodox,"May 16, 1986",3.93,0.36,3.67,0.56,0.48,0.14,0.61,0.5,16-8-0,1682,24,6,False
-Montserrat Conejo Ruiz,http://ufcstats.com/fighter-details/1235b31de15d0c6e,60,115 lbs.,Strawweight,61,Southpaw,"Feb 03, 1993",2.21,0.29,6.19,0.44,1.75,0.5,0.44,0.6,10-5-0,23,15,5,False
-Piera Rodriguez,http://ufcstats.com/fighter-details/e375cb5caf4717b6,63,115 lbs.,Strawweight,63,Orthodox,"Nov 11, 1992",3.54,0.47,2.81,0.55,4.53,0.54,0.73,0.0,11-2-0,114,13,6,False
-Pat Sabatini,http://ufcstats.com/fighter-details/b8bbdeff718dbb7d,68,145 lbs.,Featherweight,70,Orthodox,"Nov 09, 1990",1.69,0.59,1.09,0.5,4.48,0.5,0.5,1.5,21-5-0,9,26,10,False
-Caio Machado,http://ufcstats.com/fighter-details/89839250eb25c9c1,76,250 lbs.,Heavyweight,78,Southpaw,"Jul 20, 1994",5.82,0.53,2.87,0.63,0.0,0.0,0.82,0.0,8-4-1,387,13,3,False
-Anthony Smith,http://ufcstats.com/fighter-details/d4c9dcd330403612,76,205 lbs.,Light Heavyweight,76,Orthodox,"Jul 26, 1988",3.19,0.49,5.04,0.44,0.44,0.22,0.5,0.6,38-22-0,212,60,23,False
-Brady Hiestand,http://ufcstats.com/fighter-details/7af33fc4435017f1,68,135 lbs.,Bantamweight,71,Orthodox,"Apr 30, 1999",2.7,0.5,3.75,0.51,4.8,0.46,0.42,1.1,9-2-0,527,11,4,False
-Song Kenan,http://ufcstats.com/fighter-details/32490e80ddab1e5a,72,170 lbs.,Welterweight,71,Orthodox,"Mar 10, 1990",4.49,0.46,5.82,0.51,0.42,0.3,0.73,0.0,22-9-0,366,31,11,False
-Gina Mazany,http://ufcstats.com/fighter-details/016a8d958883167c,66,125 lbs.,Flyweight,68,Southpaw,"Aug 19, 1988",3.73,0.5,3.52,0.5,4.34,0.52,0.33,0.2,7-6-0,1304,13,8,False
-Roy Nelson,http://ufcstats.com/fighter-details/3f7c14c7eca7195d,72,263 lbs.,Heavyweight,73,Orthodox,"Jun 20, 1976",2.18,0.36,4.79,0.46,1.14,0.27,0.65,0.1,22-14-0,3145,36,17,False
-Sergio Pettis,http://ufcstats.com/fighter-details/de75d1c45a39e221,66,125 lbs.,Flyweight,69,Orthodox,"Aug 18, 1993",3.88,0.37,2.91,0.65,0.85,0.4,0.67,0.4,18-5-0,2256,23,14,False
-Glover Teixeira,http://ufcstats.com/fighter-details/7ff97850e8c32bda,74,205 lbs.,Light Heavyweight,76,Orthodox,"Oct 28, 1979",3.73,0.49,4.43,0.51,2.11,0.33,0.6,0.9,33-9-0,1038,42,23,False
-Nick Maximov,http://ufcstats.com/fighter-details/12585614e0ed2626,72,185 lbs.,Middleweight,76,Southpaw,"Dec 23, 1997",1.93,0.45,2.64,0.46,4.16,0.45,0.35,0.2,8-2-0,1136,10,4,False
-Ross Pearson,http://ufcstats.com/fighter-details/4f732e58ed907eff,68,155 lbs.,Lightweight,69,Orthodox,"Sep 26, 1984",3.68,0.4,4.09,0.62,0.74,0.35,0.75,0.0,20-16-0,2431,36,24,False
-Gabriel Bonfim,http://ufcstats.com/fighter-details/01641ba5df0c69b0,73,170 lbs.,Welterweight,72,Orthodox,"Aug 20, 1997",4.61,0.46,3.68,0.63,3.6,0.55,0.76,1.4,19-1-0,16,20,7,False
-Brock Lesnar,http://ufcstats.com/fighter-details/513c6f1715e547a8,75,265 lbs.,Heavyweight,81,Orthodox,"Jul 12, 1977",3.53,0.72,2.11,0.5,3.9,0.55,0.6,0.5,5-3-0,3425,8,8,False
-Cody McKenzie,http://ufcstats.com/fighter-details/7be63795363029e8,72,155 lbs.,Lightweight,72,Switch,"Dec 16, 1987",1.74,0.34,2.5,0.67,2.5,0.25,0.14,2.5,16-10-0,4363,26,6,False
-Pawel Pawlak,http://ufcstats.com/fighter-details/9310418684bc896f,72,170 lbs.,Welterweight,73,Orthodox,"Feb 08, 1989",1.67,0.33,2.22,0.53,1.0,0.37,0.7,0.0,12-3-0,3782,15,3,False
-Bill Algeo,http://ufcstats.com/fighter-details/9abc648e76c4493a,72,145 lbs.,Featherweight,73,Switch,"Jun 09, 1989",5.88,0.51,4.38,0.47,1.03,0.5,0.55,0.1,18-9-0,492,27,10,False
-Dustin Jacoby,http://ufcstats.com/fighter-details/e4277e87a789d687,75,205 lbs.,Light Heavyweight,76,Orthodox,"Apr 04, 1988",5.37,0.47,4.02,0.57,0.33,0.25,0.62,0.0,21-9-1,177,31,16,False
-Marlon Moraes,http://ufcstats.com/fighter-details/fea79f9bc8c68769,66,135 lbs.,Bantamweight,67,Orthodox,"Apr 26, 1988",3.37,0.4,4.53,0.54,0.87,0.41,0.46,0.3,23-10-1,1353,34,11,False
-Zhang Tiequan,http://ufcstats.com/fighter-details/c23e3d4875340d8d,68,155 lbs.,Lightweight,69,Orthodox,"Jul 25, 1978",1.23,0.36,2.14,0.51,1.95,0.58,0.75,3.4,15-4-0,4762,19,4,False
-Rich Attonito,http://ufcstats.com/fighter-details/210935fd21670f6d,70,170 lbs.,Welterweight,72,Orthodox,"Jun 16, 1977",2.28,0.47,2.13,0.59,0.74,0.37,0.75,0.0,10-5-0,5098,15,3,False
-Diego Brandao,http://ufcstats.com/fighter-details/c2e3e67b5911bfb7,67,145 lbs.,Featherweight,64,Orthodox,"May 27, 1987",2.94,0.47,3.38,0.62,3.21,0.68,0.8,0.6,22-11-0,3614,33,9,False
-Saimon Oliveira,http://ufcstats.com/fighter-details/72ea1984c52019b5,64,135 lbs.,Bantamweight,72,Orthodox,"Apr 21, 1991",2.62,0.42,3.87,0.45,1.18,0.28,0.36,1.2,18-7-0,44,25,4,False
-Maxim Grishin,http://ufcstats.com/fighter-details/950d0ef5c17157c5,75,205 lbs.,Light Heavyweight,78,Orthodox,"May 02, 1984",3.26,0.52,2.27,0.58,0.21,0.16,0.66,0.0,32-10-2,905,44,5,False
-Mads Burnell,http://ufcstats.com/fighter-details/69f01b25dfabaf6b,68,145 lbs.,Featherweight,69,Orthodox,"Mar 06, 1994",1.28,0.41,2.71,0.51,3.45,0.47,0.22,0.4,9-3-0,2738,12,3,False
-Wulijiburen,http://ufcstats.com/fighter-details/2296125b6c362355,69,135 lbs.,Bantamweight,69,Orthodox,"Mar 01, 1989",1.61,0.42,3.02,0.56,3.28,0.42,0.77,0.4,20-9-0,1263,29,4,False
-Benson Henderson,http://ufcstats.com/fighter-details/2676b28836a5a836,69,170 lbs.,Welterweight,70,Southpaw,"Nov 16, 1983",2.93,0.45,1.79,0.63,2.4,0.45,0.63,0.8,24-7-0,3649,31,14,False
-Justine Kish,http://ufcstats.com/fighter-details/928ae2e5b5f7a9ec,65,125 lbs.,Flyweight,64,Orthodox,"Apr 13, 1988",4.51,0.48,4.59,0.57,0.87,0.33,0.5,0.1,7-4-0,1682,11,7,False
-Rob MacDonald,http://ufcstats.com/fighter-details/f3388d2cf7ab3f64,75,205 lbs.,Light Heavyweight,78,Orthodox,"Sep 05, 1978",1.8,0.5,2.04,0.46,7.19,0.8,0.8,5.4,5-4-0,7030,9,3,False
-Rafael Estevam,http://ufcstats.com/fighter-details/83455a9d17f57dae,68,125 lbs.,Flyweight,69,Orthodox,"Aug 10, 1996",2.1,0.54,2.59,0.47,6.01,0.38,0.66,0.3,14-0-0,114,14,3,False
-Jan Blachowicz,http://ufcstats.com/fighter-details/99df7d0a2a08a8a8,74,205 lbs.,Light Heavyweight,78,Orthodox,"Feb 24, 1983",3.44,0.49,3.03,0.52,1.03,0.48,0.69,0.3,29-11-1,247,41,21,False
-Tim Lajcik,http://ufcstats.com/fighter-details/c7e9d15cfce52f1d,73,225 lbs.,Heavyweight,,Orthodox,"Jun 21, 1965",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7-6-1,8543,14,3,False
-Roger Narvaez,http://ufcstats.com/fighter-details/3a12a2f096a6d975,75,185 lbs.,Middleweight,,Southpaw,"Sep 09, 1983",2.12,0.37,3.32,0.64,0.0,0.0,0.5,0.9,8-3-0,3908,11,3,False
-Estevan Payan,http://ufcstats.com/fighter-details/d0a5ef38a7778ac2,70,145 lbs.,Featherweight,,Orthodox,"Mar 14, 1982",4.25,0.42,3.58,0.57,0.36,1.0,0.6,0.4,16-12-0,4237,28,3,False
-Vitor Petrino,http://ufcstats.com/fighter-details/71171fc96445bf65,74,265 lbs.,Heavyweight,77,Orthodox,"Aug 28, 1997",2.75,0.46,2.48,0.47,3.04,0.51,0.79,0.8,13-2-0,44,15,8,False
-Muslim Salikhov,http://ufcstats.com/fighter-details/447f9858ae78f921,71,170 lbs.,Welterweight,70,Orthodox,"Jun 09, 1984",3.37,0.49,2.96,0.62,1.07,0.32,0.72,0.0,22-6-0,16,28,14,False
-Jay Hieron,http://ufcstats.com/fighter-details/5bb0a618ad03ac64,72,170 lbs.,Welterweight,75,Orthodox,"Jul 29, 1976",1.66,0.32,1.89,0.61,4.05,0.6,0.66,1.0,23-7-0,4678,30,4,False
-Tamires Vidal,http://ufcstats.com/fighter-details/4f3064faf17aa711,66,135 lbs.,Bantamweight,68,Orthodox,"Jul 27, 1998",2.91,0.53,4.46,0.49,0.0,0.0,0.35,0.7,7-4-0,401,11,4,False
-Seth Petruzelli,http://ufcstats.com/fighter-details/93b9496275bbbf80,72,205 lbs.,Light Heavyweight,76,Orthodox,"Dec 03, 1979",2.17,0.41,2.08,0.55,0.46,0.5,0.47,2.3,14-8-0,5490,22,3,False
-Jordan Mein,http://ufcstats.com/fighter-details/2aa49b3766a59bcd,72,170 lbs.,Welterweight,73,Orthodox,"Oct 10, 1989",3.35,0.44,2.55,0.69,1.56,0.58,0.66,0.2,31-12-0,2676,43,9,False
-Daermisi Zhawupasi,http://ufcstats.com/fighter-details/fd52e5f9ab25c94c,68,135 lbs.,Bantamweight,68,Switch,"Sep 15, 1999",1.86,0.4,2.36,0.55,7.74,0.65,0.53,1.4,9-2-0,458,11,4,False
-Marcus Brimage,http://ufcstats.com/fighter-details/81801f57bd0a7c41,64,135 lbs.,Bantamweight,71,Southpaw,"Apr 06, 1985",3.97,0.35,3.64,0.56,0.56,1.0,0.8,0.0,7-7-0,3782,14,7,False
-Danny Roberts,http://ufcstats.com/fighter-details/a6cba6bb66c1a8c9,73,170 lbs.,Welterweight,74,Southpaw,"Jul 14, 1987",3.18,0.39,3.73,0.5,0.24,0.09,0.57,0.2,18-8-0,856,26,14,False
-Paul Felder,http://ufcstats.com/fighter-details/e5010b1b94ca5755,71,155 lbs.,Lightweight,70,Orthodox,"Apr 25, 1984",3.7,0.44,3.44,0.48,0.29,0.28,0.64,0.2,17-6-0,1836,23,15,False
-James Irvin,http://ufcstats.com/fighter-details/a7f4d0902bb64092,74,205 lbs.,Light Heavyweight,75,Orthodox,"Sep 12, 1978",2.03,0.48,3.86,0.35,0.0,0.0,0.36,0.5,17-10-0,5594,27,10,False
-Chris Daukaus,http://ufcstats.com/fighter-details/d0aaedcf7ccd0b45,75,205 lbs.,Light Heavyweight,76,Orthodox,"Sep 25, 1989",6.05,0.5,4.64,0.55,0.0,0.0,1.0,0.0,12-7-0,835,19,8,False
-Valmir Lazaro,http://ufcstats.com/fighter-details/777dea713da2441d,72,155 lbs.,Lightweight,73,Orthodox,"Aug 15, 1985",4.87,0.37,4.09,0.61,1.33,0.4,0.96,0.0,15-5-0,3656,20,3,False
-Josh Barnett,http://ufcstats.com/fighter-details/ad3f53c454cbbead,75,250 lbs.,Heavyweight,78,Orthodox,"Nov 10, 1977",3.2,0.5,2.11,0.57,1.26,0.55,0.55,1.4,35-8-0,3369,43,10,False
-Hakeem Dawodu,http://ufcstats.com/fighter-details/2c9d00968f818270,68,145 lbs.,Featherweight,73,Orthodox,"Jul 02, 1991",5.45,0.5,3.37,0.56,0.0,0.0,0.65,0.0,13-4-1,835,18,10,False
-Rafael Dos Anjos,http://ufcstats.com/fighter-details/6a2f7c151031653d,68,170 lbs.,Welterweight,70,Southpaw,"Oct 26, 1984",3.48,0.47,3.23,0.6,1.95,0.35,0.54,0.6,32-17-0,394,49,35,False
-Anton Turkalj,http://ufcstats.com/fighter-details/82529ce93cd9a2cf,76,205 lbs.,Light Heavyweight,78,Orthodox,"Jun 10, 1996",2.45,0.42,3.42,0.54,4.98,0.41,0.16,0.0,8-4-0,604,12,4,False
-Che Mills,http://ufcstats.com/fighter-details/6cadfd8f1d9e7685,73,170 lbs.,Welterweight,76,Orthodox,"Sep 29, 1982",2.08,0.52,2.87,0.43,1.18,0.66,0.58,0.0,16-10-0,4664,26,4,False
-Luke Zachrich,http://ufcstats.com/fighter-details/2284092f8b63273b,74,185 lbs.,Middleweight,74,Orthodox,"Dec 19, 1981",4.56,0.32,4.46,0.62,0.74,0.33,0.8,0.0,14-4-0,4035,18,3,False
-Robbie Lawler,http://ufcstats.com/fighter-details/f2925e6db404bf1d,71,170 lbs.,Welterweight,74,Southpaw,"Mar 20, 1982",3.85,0.47,4.67,0.59,0.65,0.64,0.65,0.0,30-16-0,870,46,25,False
-Chris de la Rocha,http://ufcstats.com/fighter-details/e51ee8ded927fc51,75,250 lbs.,Heavyweight,80,Orthodox,"May 15, 1979",4.08,0.45,6.37,0.43,2.02,0.3,0.33,1.0,5-3-0,2536,8,4,False
-Carlos Prates,http://ufcstats.com/fighter-details/7ee0fd831c0fe7c3,73,170 lbs.,Welterweight,78,Switch,"Aug 17, 1993",3.77,0.55,4.53,0.47,0.21,1.0,0.8,0.0,23-7-0,9,30,7,False
-Mario Bautista,http://ufcstats.com/fighter-details/bc711b6dd95c1af6,69,135 lbs.,Bantamweight,69,Switch,"Jul 01, 1993",5.58,0.48,4.19,0.55,1.48,0.32,0.54,0.8,16-3-0,30,19,13,False
-Jai Herbert,http://ufcstats.com/fighter-details/4c88a1db5a46c6a4,73,155 lbs.,Lightweight,77,Orthodox,"May 13, 1988",3.07,0.4,3.26,0.53,0.43,0.21,0.66,0.0,13-6-1,247,20,9,False
-Diego Saraiva,http://ufcstats.com/fighter-details/4f4dac51adc1af4f,66,155 lbs.,Lightweight,,Orthodox,"Apr 23, 1982",1.64,0.32,3.58,0.62,1.33,0.4,0.0,0.7,22-20-1,6638,43,3,False
-Anthony Rocco Martin,http://ufcstats.com/fighter-details/5331b25a60417ffb,72,170 lbs.,Welterweight,73,Orthodox,"Dec 11, 1989",2.68,0.37,2.59,0.58,0.71,0.27,0.68,1.0,17-6-0,1997,23,15,False
-Asu Almabayev,http://ufcstats.com/fighter-details/8d3273573b85be09,64,125 lbs.,Flyweight,65,Orthodox,"Jan 25, 1994",2.31,0.5,1.99,0.53,4.46,0.42,0.44,1.5,23-3-0,2,26,7,False
-Sean Soriano,http://ufcstats.com/fighter-details/bd5403efbaa445c0,69,145 lbs.,Featherweight,70,Orthodox,"Oct 06, 1989",3.18,0.61,2.14,0.56,1.33,0.55,0.52,0.0,14-8-0,1465,22,5,False
-Louis Smolka,http://ufcstats.com/fighter-details/d2bc285ead803db0,69,135 lbs.,Bantamweight,68,Orthodox,"Jul 16, 1991",4.67,0.47,4.11,0.53,1.69,0.35,0.32,1.8,17-9-0,1290,26,17,False
-Caolan Loughran,http://ufcstats.com/fighter-details/42ac4020cba261ad,66,135 lbs.,Bantamweight,68,Orthodox,"May 18, 1996",4.73,0.42,5.2,0.52,3.0,0.34,0.87,0.0,10-2-0,247,12,4,False
-Kleydson Rodrigues,http://ufcstats.com/fighter-details/102a8fdf8cbf7467,65,135 lbs.,Bantamweight,67,Orthodox,"Oct 22, 1995",4.58,0.57,2.29,0.53,0.6,0.22,0.53,0.6,8-4-0,555,12,4,False
-Brogan Walker,http://ufcstats.com/fighter-details/4333a8e70a672eb7,64,125 lbs.,Flyweight,67,Switch,"Aug 02, 1988",1.84,0.32,3.32,0.47,1.02,0.75,0.11,0.0,8-5-0,51,13,3,False
-Carli Judice,http://ufcstats.com/fighter-details/f1ab6f37492c630a,67,125 lbs.,Flyweight,68,Southpaw,"Mar 02, 1999",10.73,0.52,8.08,0.55,0.7,0.25,0.77,0.0,5-2-0,128,7,3,False
-Evan Dunham,http://ufcstats.com/fighter-details/e5c9de15bb58b1c6,70,155 lbs.,Lightweight,70,Southpaw,"Dec 18, 1981",5.33,0.39,3.54,0.61,1.82,0.33,0.79,1.0,18-9-1,1997,28,20,False
-Jafel Filho,http://ufcstats.com/fighter-details/65adf3856c4d9256,67,125 lbs.,Flyweight,68,Orthodox,"May 05, 1993",1.85,0.41,1.62,0.5,2.52,0.45,0.66,2.2,17-4-0,44,21,5,False
-Ryan Bader,http://ufcstats.com/fighter-details/c0ab242c40decc55,74,205 lbs.,Light Heavyweight,74,Orthodox,"Jun 07, 1983",2.82,0.43,1.39,0.71,3.37,0.44,0.8,0.4,23-5-0,3292,28,19,False
-John Moraga,http://ufcstats.com/fighter-details/92437c6775b3f7d1,66,125 lbs.,Flyweight,66,Orthodox,"Mar 20, 1984",2.57,0.43,2.55,0.56,0.62,0.23,0.44,1.1,19-7-0,2648,26,13,False
-Jacare Souza,http://ufcstats.com/fighter-details/7a703c565ccaa18f,73,185 lbs.,Middleweight,72,Orthodox,"Dec 07, 1979",2.53,0.47,2.83,0.62,2.57,0.39,0.57,1.3,26-10-0,1654,36,16,False
-Godofredo Pepey,http://ufcstats.com/fighter-details/fa37628269132d1a,67,145 lbs.,Featherweight,73,Orthodox,"Jul 02, 1987",2.32,0.38,3.23,0.47,0.37,0.07,0.35,1.5,13-6-0,2858,19,11,False
-Michael Trizano,http://ufcstats.com/fighter-details/5bf31a46becc1204,71,145 lbs.,Featherweight,71,Orthodox,"Dec 31, 1991",3.63,0.53,4.4,0.5,0.36,0.66,0.72,0.5,11-3-0,1108,14,6,False
-Leslie Smith,http://ufcstats.com/fighter-details/76984112f697631f,69,135 lbs.,Bantamweight,66,Orthodox,"Aug 17, 1982",7.56,0.4,8.41,0.51,0.0,0.0,0.62,0.0,10-7-1,3053,18,7,False
-Matt Lindland,http://ufcstats.com/fighter-details/0e041d43a47d2e4b,72,185 lbs.,Middleweight,74,Southpaw,"May 17, 1970",2.62,0.5,1.56,0.52,3.01,0.48,0.6,1.3,22-9-0,5469,31,12,False
-Hannah Cifers,http://ufcstats.com/fighter-details/2244d9a2b64b8c3b,61,115 lbs.,Strawweight,62,Orthodox,"Jun 26, 1992",4.99,0.44,5.39,0.52,0.26,1.0,0.64,0.3,10-7-0,1913,17,7,False
-Valerie Letourneau,http://ufcstats.com/fighter-details/46a2f24feb258ae0,67,115 lbs.,Strawweight,68,Orthodox,"Apr 29, 1983",4.51,0.37,5.4,0.58,0.77,0.45,0.66,0.3,8-6-0,3271,14,6,False
-Miranda Granger,http://ufcstats.com/fighter-details/7559395ad833c074,67,115 lbs.,Strawweight,68,Orthodox,"Apr 13, 1992",2.79,0.47,2.57,0.57,0.0,0.0,0.33,0.0,7-3-0,1206,10,4,False
-Erin Blanchfield,http://ufcstats.com/fighter-details/669970f7feba8ecd,64,125 lbs.,Flyweight,66,Orthodox,"May 04, 1999",5.24,0.44,4.25,0.58,1.96,0.34,0.78,0.9,14-2-0,9,16,9,False
-Quillan Salkilld,http://ufcstats.com/fighter-details/17734443a833cdf7,72,155 lbs.,Lightweight,75,Orthodox,"Dec 28, 1999",5.49,0.57,3.5,0.43,7.77,0.34,1.0,0.5,10-1-0,30,11,3,False
-Drew McFedries,http://ufcstats.com/fighter-details/1fd4fbdcc67de844,72,185 lbs.,Middleweight,72,Southpaw,"Jul 27, 1978",5.13,0.51,4.56,0.52,1.42,1.0,0.56,0.7,12-7-0,5910,19,8,False
-Jay Perrin,http://ufcstats.com/fighter-details/01fed6f61ebea01f,67,135 lbs.,Bantamweight,67,Switch,"Jun 15, 1993",3.71,0.46,3.9,0.44,2.83,0.52,0.58,0.0,10-7-0,1080,17,3,False
-Claudia Gadelha,http://ufcstats.com/fighter-details/ec34349e7dffcde7,64,115 lbs.,Strawweight,63,Orthodox,"Dec 07, 1988",3.31,0.41,4.57,0.57,3.03,0.42,0.58,0.7,18-5-0,1843,23,11,False
-Walel Watson,http://ufcstats.com/fighter-details/92aafa8f4b26269b,71,135 lbs.,Bantamweight,75,Orthodox,"Jul 16, 1984",2.1,0.29,3.79,0.43,0.0,0.0,0.61,1.4,14-10-0,4811,24,4,False
-Melissa Martinez,http://ufcstats.com/fighter-details/3f4c3bc822bea45d,62,115 lbs.,Strawweight,66,Southpaw,"Aug 18, 1997",3.78,0.47,5.21,0.53,0.35,0.5,0.5,0.0,8-2-0,135,10,3,False
-Viviane Araujo,http://ufcstats.com/fighter-details/36541f1e6c5d4955,64,125 lbs.,Flyweight,68,Orthodox,"Nov 21, 1986",3.84,0.47,4.83,0.55,1.72,0.43,0.75,0.6,13-7-0,149,20,13,False
-Trevin Giles,http://ufcstats.com/fighter-details/b27a1fcb56a3035a,72,170 lbs.,Welterweight,74,Orthodox,"Aug 06, 1992",3.17,0.54,2.39,0.58,1.07,0.5,0.72,0.3,16-7-0,387,23,14,False
-Evan Tanner,http://ufcstats.com/fighter-details/8f2d9ee27f206f1f,72,185 lbs.,Middleweight,74,Orthodox,"Feb 11, 1971",3.05,0.59,2.64,0.56,2.55,0.43,0.25,1.3,32-8-0,6365,40,16,False
-Ilir Latifi,http://ufcstats.com/fighter-details/e9a3aeb207578eea,70,230 lbs.,Heavyweight,73,Orthodox,"Jul 28, 1982",2.05,0.45,2.93,0.56,2.11,0.35,1.0,0.3,17-9-0,919,26,16,False
-Sultan Aliev,http://ufcstats.com/fighter-details/e70de1859b7ee78e,71,170 lbs.,Welterweight,74,Orthodox,"Sep 17, 1984",1.41,0.45,2.2,0.56,1.76,0.38,1.0,0.0,15-3-0,2410,18,4,False
-Johnny Eduardo,http://ufcstats.com/fighter-details/528c24b99fbaab79,67,135 lbs.,Bantamweight,71,Orthodox,"Aug 03, 1978",2.95,0.39,3.22,0.63,0.22,0.2,0.58,0.4,28-13-0,1514,41,8,False
-Alex Pereira,http://ufcstats.com/fighter-details/e5549c82bfb5582d,76,205 lbs.,Light Heavyweight,79,Orthodox,"Jul 07, 1987",5.16,0.62,3.5,0.53,0.11,0.5,0.79,0.2,13-3-0,51,16,12,False
-Shane Campbell,http://ufcstats.com/fighter-details/784285b7ae7dd85f,72,155 lbs.,Lightweight,71,Orthodox,"Jan 21, 1987",3.99,0.59,3.19,0.55,1.36,0.28,0.82,0.0,14-6-0,3376,20,5,False
-Tarec Saffiedine,http://ufcstats.com/fighter-details/0749d968e932df53,70,170 lbs.,Welterweight,70,Switch,"Sep 06, 1986",4.05,0.47,3.06,0.62,0.52,0.36,0.84,0.1,16-7-0,3082,23,6,False
-Shane Burgos,http://ufcstats.com/fighter-details/98d961097baaf308,71,145 lbs.,Featherweight,75,Orthodox,"Mar 19, 1991",7.4,0.52,6.78,0.56,0.43,0.44,0.91,0.4,15-3-0,1227,18,11,False
-Chris Dempsey,http://ufcstats.com/fighter-details/dfae5da5676e4194,70,185 lbs.,Middleweight,72,Orthodox,"Sep 08, 1987",2.25,0.32,2.82,0.65,2.64,0.23,0.16,0.0,11-5-0,3558,16,4,False
-Marlon Vera,http://ufcstats.com/fighter-details/7c7332319c14094c,68,135 lbs.,Bantamweight,70,Switch,"Dec 02, 1992",4.25,0.48,5.37,0.49,0.49,0.39,0.72,0.8,23-11-1,37,35,25,False
-Loma Lookboonmee,http://ufcstats.com/fighter-details/4e30e4250cb08b61,61,115 lbs.,Strawweight,61,Orthodox,"Jan 18, 1996",3.67,0.55,2.52,0.53,1.81,0.5,0.68,0.1,10-4-0,58,14,10,False
-Mariya Agapova,http://ufcstats.com/fighter-details/a08ddd04eaffd81d,66,125 lbs.,Flyweight,68,Southpaw,"Apr 07, 1997",4.43,0.54,3.62,0.52,0.55,0.66,0.45,0.8,10-5-0,499,15,6,False
-Tony DeSouza,http://ufcstats.com/fighter-details/6ad9058b7c7898b0,72,170 lbs.,Welterweight,70,Southpaw,"Jul 26, 1974",1.12,0.52,1.57,0.41,2.25,0.42,0.4,1.5,11-4-0,6540,15,5,False
-Carlos Condit,http://ufcstats.com/fighter-details/f9f07bb5a43535ed,74,170 lbs.,Welterweight,75,Orthodox,"Apr 26, 1984",3.66,0.39,2.67,0.55,0.59,0.46,0.38,1.0,32-14-0,1598,46,19,False
-Alexis Davis,http://ufcstats.com/fighter-details/4c2d90e335e6df19,66,135 lbs.,Bantamweight,68,Orthodox,"Oct 04, 1984",4.63,0.49,4.45,0.54,0.95,0.44,0.34,0.7,21-11-0,1388,32,13,False
-Zhang Lipeng,http://ufcstats.com/fighter-details/7b310409440c9102,71,155 lbs.,Lightweight,71,Southpaw,"Mar 10, 1990",1.28,0.48,1.88,0.53,1.75,0.3,0.69,0.8,23-9-1,3845,33,4,False
-Daniel Omielanczuk,http://ufcstats.com/fighter-details/470fedbc8563ac47,72,247 lbs.,Heavyweight,74,Southpaw,"Aug 31, 1982",3.09,0.57,3.29,0.47,0.56,0.26,0.68,0.1,19-8-1,3061,28,9,False
-Lauren Mueller,http://ufcstats.com/fighter-details/f923e012414c883e,65,125 lbs.,Flyweight,67,Orthodox,"Nov 15, 1991",4.08,0.41,3.77,0.58,0.7,0.5,0.71,0.0,5-3-0,2235,8,4,False
-Kevin Jousset,http://ufcstats.com/fighter-details/dda15dbfafb792df,74,170 lbs.,Welterweight,75,Orthodox,"May 02, 1993",6.61,0.51,6.49,0.5,0.69,0.4,1.0,0.3,10-4-0,289,14,4,False
-Francis Carmont,http://ufcstats.com/fighter-details/3591d0d5d382a381,75,205 lbs.,Light Heavyweight,78,Orthodox,"Oct 11, 1981",2.22,0.42,1.64,0.59,1.79,0.36,0.73,0.6,25-12-0,4111,37,9,False
-Trevor Peek,http://ufcstats.com/fighter-details/0bc697c5936a2d0a,69,145 lbs.,Featherweight,70,Switch,"Jan 09, 1995",4.39,0.53,3.88,0.43,1.45,0.5,0.52,0.0,9-3-0,443,12,5,False
-Trey Ogden,http://ufcstats.com/fighter-details/cfc3e7bb44685289,71,155 lbs.,Lightweight,72,Orthodox,"Nov 14, 1989",3.2,0.5,3.49,0.55,1.89,0.32,1.0,0.7,18-7-0,317,25,7,False
-Tresean Gore,http://ufcstats.com/fighter-details/147e70aa6cc48cfc,72,185 lbs.,Middleweight,75,Switch,"Jun 21, 1994",2.76,0.42,7.48,0.4,1.83,0.75,0.88,0.9,6-4-0,114,10,6,False
-Toshiomi Kazama,http://ufcstats.com/fighter-details/148bb103cfbf123e,67,135 lbs.,Bantamweight,69,Orthodox,"May 15, 1997",1.49,0.53,4.56,0.38,1.94,0.16,0.66,1.0,11-5-0,107,16,5,False
-Felicia Spencer,http://ufcstats.com/fighter-details/39d91e95949de3d9,66,145 lbs.,Featherweight,68,Orthodox,"Nov 29, 1990",3.21,0.48,4.54,0.45,1.18,0.18,0.27,0.2,9-3-0,1472,12,6,False
-Ange Loosa,http://ufcstats.com/fighter-details/1497e735d9f2560a,70,170 lbs.,Welterweight,74,Orthodox,"Mar 18, 1993",5.46,0.46,6.59,0.52,2.53,0.39,0.83,0.2,10-5-0,163,15,6,False
-David Michaud,http://ufcstats.com/fighter-details/49f4b511932f71e9,69,155 lbs.,Lightweight,,Orthodox,"Nov 10, 1988",3.25,0.43,4.45,0.54,2.53,0.58,0.77,0.7,11-3-0,3866,14,3,False
-Ryan Hall,http://ufcstats.com/fighter-details/8866c6f509c19089,70,145 lbs.,Featherweight,70,Southpaw,"Feb 22, 1985",2.38,0.5,1.33,0.65,0.22,0.09,0.0,2.2,9-2-0,1444,11,4,False
-Ivan Menjivar,http://ufcstats.com/fighter-details/5755960ebd0b16f6,66,145 lbs.,Featherweight,64,Orthodox,"May 30, 1982",2.78,0.37,2.76,0.65,0.56,0.28,0.38,1.0,25-12-0,4286,37,9,False
-Alex Chambers,http://ufcstats.com/fighter-details/26b63bc5c0c1f65d,63,115 lbs.,Strawweight,63,Southpaw,"Oct 25, 1978",2.97,0.54,5.1,0.5,2.31,0.41,0.53,1.0,5-5-0,2620,10,4,False
-Alptekin Ozkilic,http://ufcstats.com/fighter-details/e18a19001a3f7c7d,65,125 lbs.,Flyweight,65,Orthodox,"Mar 27, 1986",3.81,0.32,5.72,0.59,4.21,0.58,0.75,0.0,9-5-0,3852,14,4,False
-Martin Kampmann,http://ufcstats.com/fighter-details/8b69839f3555a67b,72,170 lbs.,Welterweight,72,Orthodox,"Apr 17, 1982",3.22,0.42,3.28,0.62,1.86,0.41,0.78,2.0,20-7-0,4471,27,15,False
-Jimmy Crute,http://ufcstats.com/fighter-details/70e1f8a821b72c8b,74,205 lbs.,Light Heavyweight,74,Orthodox,"Mar 04, 1996",4.15,0.52,3.65,0.42,4.39,0.52,0.58,2.0,14-4-2,58,20,12,False
-Masanori Kanehara,http://ufcstats.com/fighter-details/f3a078277b3b8ff4,67,135 lbs.,Bantamweight,67,Orthodox,"Nov 19, 1982",1.88,0.49,1.63,0.62,1.44,0.5,0.63,0.9,26-12-5,3614,43,3,False
-Darian Weeks,http://ufcstats.com/fighter-details/326a001926ffb7ec,71,170 lbs.,Welterweight,72,Orthodox,"Nov 23, 1993",4.49,0.51,4.56,0.51,2.0,0.3,1.0,0.0,5-3-0,1171,8,3,False
-Billy Quarantillo,http://ufcstats.com/fighter-details/aa171d55d4b5208f,70,145 lbs.,Featherweight,70,Orthodox,"Dec 08, 1988",7.44,0.54,5.83,0.42,1.47,0.24,0.61,1.0,18-7-0,345,25,11,False
-Mirko Filipovic,http://ufcstats.com/fighter-details/c32fb8c0f6471a4d,74,230 lbs.,Heavyweight,73,Southpaw,"Sep 10, 1974",2.11,0.5,1.89,0.63,0.19,0.4,0.78,0.3,35-11-2,3880,48,11,False
-Scott Smith,http://ufcstats.com/fighter-details/3410cf010558dc8b,72,185 lbs.,Middleweight,70,Orthodox,"May 21, 1979",1.9,0.27,5.87,0.5,0.12,0.06,0.58,0.5,18-11-0,5014,29,3,False
+Alberto Mina,http://ufcstats.com/fighter-details/4b1d46a1b5c0fd11,72,170 lbs.,Welterweight,77,Orthodox,"May 02, 1982",3.23,0.38,3.7,0.47,1.85,0.2,0.5,0.0,13-1-0,2760,14,4,False
+Philip De Fries,http://ufcstats.com/fighter-details/6ef65b6a152e49d5,77,250 lbs.,Heavyweight,79,Orthodox,"Apr 21, 1986",2.3,0.47,3.0,0.37,3.29,0.42,1.0,0.6,12-6-0,4622,18,5,False
+Valter Walker,http://ufcstats.com/fighter-details/f5779a2303ed76ec,78,244 lbs.,Heavyweight,78,Orthodox,"Dec 14, 1997",2.0,0.52,2.85,0.42,5.74,0.69,0.0,2.5,15-1-0,37,16,5,False
+Papy Abedi,http://ufcstats.com/fighter-details/c9f6385af6df66d7,71,185 lbs.,Middleweight,,Southpaw,"Jun 30, 1978",2.8,0.55,3.15,0.48,3.47,0.57,0.5,1.3,10-4-0,4478,14,4,False
+JJ Aldrich,http://ufcstats.com/fighter-details/6fd953151d981979,65,125 lbs.,Flyweight,67,Southpaw,"Sep 29, 1992",3.96,0.47,4.32,0.61,0.75,0.26,0.67,0.0,14-7-0,275,21,16,False
+Magomed Mustafaev,http://ufcstats.com/fighter-details/31d7446b184e3305,68,155 lbs.,Lightweight,71,Orthodox,"Aug 02, 1988",2.59,0.58,2.68,0.41,3.31,0.5,0.23,0.4,14-4-0,2109,18,5,False
+Felipe Bunes,http://ufcstats.com/fighter-details/53c10176e3bc7416,67,125 lbs.,Flyweight,69,Orthodox,"Oct 29, 1989",2.93,0.5,4.66,0.44,1.13,0.22,0.4,2.3,14-8-0,121,22,3,False
+Ihor Potieria,http://ufcstats.com/fighter-details/260bd4cef10b033f,75,185 lbs.,Middleweight,75,Southpaw,"May 29, 1996",4.44,0.5,4.96,0.5,0.73,0.18,0.66,0.0,20-8-0,324,28,8,False
+Maurice Smith,http://ufcstats.com/fighter-details/33e33d51f289d2a1,74,221 lbs.,Heavyweight,,Orthodox,"Dec 13, 1961",0.41,0.46,0.47,0.6,0.89,0.5,0.2,0.9,12-14-0,6491,26,7,False
+Sam Adkins,http://ufcstats.com/fighter-details/0e9869d712e81f8f,75,225 lbs.,Heavyweight,,Orthodox,"Apr 26, 1965",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7-20-2,10664,29,4,False
+Yoshihiro Akiyama,http://ufcstats.com/fighter-details/b0550072e5f0afa7,70,170 lbs.,Welterweight,75,Orthodox,"Jul 29, 1975",3.1,0.41,3.62,0.57,2.29,0.67,0.92,1.0,14-6-0,3656,20,7,False
+Alonzo Menifield,http://ufcstats.com/fighter-details/a495f599e787614f,72,205 lbs.,Light Heavyweight,76,Orthodox,"Oct 18, 1987",3.77,0.53,3.81,0.5,0.5,0.31,0.78,0.2,17-6-1,9,24,17,False
+Chris Curtis,http://ufcstats.com/fighter-details/5442f1bc4b47eaf3,70,170 lbs.,Welterweight,75,Orthodox,"Jul 15, 1987",5.98,0.5,6.19,0.54,0.0,0.0,0.82,0.0,32-12-0,142,44,11,False
+Chris Barnett,http://ufcstats.com/fighter-details/7a5e8c94a86f9895,69,261 lbs.,Heavyweight,75,Orthodox,"Jun 14, 1986",3.36,0.47,6.55,0.36,0.0,0.0,0.35,0.0,23-10-0,37,33,6,False
+William Macario,http://ufcstats.com/fighter-details/ed74afc8b5b47a61,71,170 lbs.,Welterweight,75,Orthodox,"Jul 01, 1991",4.92,0.54,3.96,0.65,1.85,0.45,0.78,0.0,9-3-0,3935,12,4,False
+Song Kenan,http://ufcstats.com/fighter-details/32490e80ddab1e5a,72,170 lbs.,Welterweight,71,Orthodox,"Mar 10, 1990",4.49,0.46,5.82,0.51,0.42,0.3,0.73,0.0,22-9-0,373,31,11,False
+Journey Newson,http://ufcstats.com/fighter-details/78f485f851891d68,65,135 lbs.,Bantamweight,67,Orthodox,"Mar 07, 1989",2.64,0.32,2.57,0.64,0.56,0.16,0.43,0.3,10-5-0,947,15,6,False
+Kalindra Faria,http://ufcstats.com/fighter-details/27b164b0d1833df0,67,125 lbs.,Flyweight,,Switch,"Jul 23, 1986",2.23,0.56,1.44,0.45,1.31,0.66,0.2,0.7,18-8-1,2655,27,3,False
+James Irvin,http://ufcstats.com/fighter-details/a7f4d0902bb64092,74,205 lbs.,Light Heavyweight,75,Orthodox,"Sep 12, 1978",2.03,0.48,3.86,0.35,0.0,0.0,0.36,0.5,17-10-0,5601,27,10,False
+Lando Vannata,http://ufcstats.com/fighter-details/f9b200db02b488d9,69,155 lbs.,Lightweight,71,Orthodox,"Mar 14, 1992",4.52,0.45,4.76,0.55,1.09,0.37,0.69,0.3,12-7-2,961,21,13,False
+Ian Heinisch,http://ufcstats.com/fighter-details/2e585c701f72fe55,71,185 lbs.,Middleweight,72,Orthodox,"Aug 05, 1988",3.25,0.5,2.98,0.59,1.02,0.17,0.59,0.7,14-5-0,1591,19,7,False
+Lorenz Larkin,http://ufcstats.com/fighter-details/9450848a71d53776,71,170 lbs.,Welterweight,72,Orthodox,"Sep 03, 1986",3.53,0.46,2.74,0.63,0.27,0.42,0.79,0.1,18-6-0,3390,24,10,False
+Shannon Ross,http://ufcstats.com/fighter-details/51c655162e462ceb,66,125 lbs.,Flyweight,66,Switch,"May 12, 1989",5.96,0.39,7.39,0.55,0.0,0.0,1.0,0.0,13-9-0,723,22,3,False
+Anthony Njokuani,http://ufcstats.com/fighter-details/6bf5a7d3e081ade2,73,155 lbs.,Lightweight,75,Orthodox,"Mar 01, 1980",3.94,0.46,2.41,0.65,0.5,0.45,0.53,0.2,16-12-0,4076,28,8,False
+Hannah Goldy,http://ufcstats.com/fighter-details/26e3f3928b1891d9,64,115 lbs.,Strawweight,61,Orthodox,"May 18, 1992",5.19,0.47,4.67,0.5,0.66,0.12,0.54,0.2,6-4-0,800,10,5,False
+Cesar Almeida,http://ufcstats.com/fighter-details/64d47ef881a437a4,73,185 lbs.,Middleweight,74,Orthodox,"Mar 28, 1988",4.16,0.58,2.32,0.48,0.0,0.0,0.6,0.3,7-1-0,324,8,4,False
+Arjan Bhullar,http://ufcstats.com/fighter-details/7e511f8d842a109d,73,245 lbs.,Heavyweight,75,Orthodox,"May 13, 1986",2.33,0.56,3.25,0.59,1.73,0.75,1.0,0.0,9-1-0,2403,10,4,False
+Israel Adesanya,http://ufcstats.com/fighter-details/1338e2c7480bdf9e,76,185 lbs.,Middleweight,80,Switch,"Jul 22, 1989",4.02,0.48,3.2,0.55,0.05,0.11,0.76,0.1,24-5-0,303,29,17,False
+Matt Wiman,http://ufcstats.com/fighter-details/eb29176b03dfa888,70,155 lbs.,Lightweight,68,Orthodox,"Sep 19, 1983",3.17,0.5,3.57,0.51,2.13,0.37,0.56,1.5,16-10-0,1822,26,17,False
+Cyrille Diabate,http://ufcstats.com/fighter-details/43563a32c3f10e95,78,205 lbs.,Light Heavyweight,81,Southpaw,"Oct 06, 1973",4.06,0.71,1.78,0.6,1.17,0.83,0.53,0.2,19-10-1,4286,30,8,False
+Rick Story,http://ufcstats.com/fighter-details/5b5307450405abf0,69,170 lbs.,Welterweight,71,Southpaw,"Aug 28, 1984",3.8,0.41,2.17,0.62,2.53,0.48,0.63,0.9,19-9-0,3390,28,18,False
+Yves Jabouin,http://ufcstats.com/fighter-details/b4eeac608fc82f88,67,135 lbs.,Bantamweight,68,Orthodox,"May 30, 1979",3.06,0.41,2.93,0.62,1.94,0.6,0.82,0.1,20-11-0,3753,31,10,False
+Hacran Dias,http://ufcstats.com/fighter-details/ed209f6618c82e41,68,155 lbs.,Lightweight,69,Orthodox,"Jun 16, 1984",2.08,0.41,3.31,0.55,2.5,0.39,0.76,0.5,23-6-1,2956,30,8,False
+Diana Belbita,http://ufcstats.com/fighter-details/d7e40dca3ae125be,67,125 lbs.,Flyweight,68,Orthodox,"Jun 26, 1996",6.45,0.41,6.55,0.51,0.86,0.62,0.64,0.0,15-10-0,240,25,8,False
+Tim Sylvia,http://ufcstats.com/fighter-details/2a542ee8a8b83559,80,265 lbs.,Heavyweight,80,Orthodox,"Mar 05, 1976",4.23,0.41,2.61,0.61,0.11,1.0,0.75,0.1,31-10-0,6344,41,13,False
+Mackenzie Dern,http://ufcstats.com/fighter-details/7447e9f28508106a,64,115 lbs.,Strawweight,63,Orthodox,"Mar 24, 1993",3.47,0.41,3.93,0.51,0.93,0.18,0.37,1.1,16-5-0,37,21,16,False
+Casey Kenney,http://ufcstats.com/fighter-details/e7bba7ce4d6c7b07,67,135 lbs.,Bantamweight,68,Southpaw,"Mar 20, 1991",4.85,0.42,4.67,0.58,1.09,0.35,0.61,0.4,16-4-1,1577,21,8,False
+Tecia Pennington,http://ufcstats.com/fighter-details/31ef8b67e13495b3,61,115 lbs.,Strawweight,60,Orthodox,"Aug 16, 1989",4.73,0.48,3.48,0.61,0.56,0.14,0.62,0.1,15-8-0,23,23,17,False
+John Makdessi,http://ufcstats.com/fighter-details/c21a036b4e012f1c,68,155 lbs.,Lightweight,68,Orthodox,"May 03, 1985",5.52,0.49,4.15,0.68,0.0,0.0,0.86,0.0,18-9-0,814,27,20,False
+Marcus Brimage,http://ufcstats.com/fighter-details/81801f57bd0a7c41,64,135 lbs.,Bantamweight,71,Southpaw,"Apr 06, 1985",3.97,0.35,3.64,0.56,0.56,1.0,0.8,0.0,7-7-0,3789,14,7,False
+Dhiego Lima,http://ufcstats.com/fighter-details/e9213f53ddeca978,74,170 lbs.,Welterweight,75,Orthodox,"Jan 31, 1989",3.12,0.39,3.88,0.58,1.26,0.34,0.73,0.6,17-9-0,1626,26,9,False
+Guram Kutateladze,http://ufcstats.com/fighter-details/7772b283d288dbe2,71,155 lbs.,Lightweight,72,Orthodox,"Jan 08, 1992",3.53,0.45,4.22,0.54,0.61,0.15,0.75,0.0,13-5-0,254,18,5,False
+Islam Makhachev,http://ufcstats.com/fighter-details/275aca31f61ba28c,70,170 lbs.,Welterweight,70,Southpaw,"Oct 27, 1991",2.45,0.58,1.45,0.61,3.1,0.56,0.91,1.0,28-1-0,16,29,18,False
+Drew Fickett,http://ufcstats.com/fighter-details/d814f5192e58fb2f,70,155 lbs.,Lightweight,70,Orthodox,"Dec 14, 1979",2.33,0.41,2.29,0.57,1.3,0.35,0.3,2.2,42-21-0,5252,63,7,False
+Cal Worsham,http://ufcstats.com/fighter-details/de3ed2e152520c8d,71,230 lbs.,Heavyweight,,Orthodox,"Jun 11, 1963",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-10-0,10586,23,3,False
+Lukasz Sajewski,http://ufcstats.com/fighter-details/fb41432b622992a9,68,155 lbs.,Lightweight,71,Orthodox,"Nov 27, 1990",2.06,0.35,3.88,0.57,1.01,0.25,0.66,0.0,13-3-0,3341,16,3,False
+Rob Broughton,http://ufcstats.com/fighter-details/a7d687e6ecb30981,74,265 lbs.,Heavyweight,74,Orthodox,"Mar 03, 1983",2.83,0.6,2.54,0.51,0.0,0.0,0.26,3.2,16-7-1,5140,24,3,False
+Rinat Fakhretdinov,http://ufcstats.com/fighter-details/8f765fd5775a8873,72,170 lbs.,Welterweight,74,Orthodox,"Sep 28, 1991",5.03,0.52,3.61,0.54,3.91,0.34,0.91,0.2,24-1-1,86,26,7,False
+Andrei Arlovski,http://ufcstats.com/fighter-details/3738e68d2261e60f,75,240 lbs.,Heavyweight,77,Orthodox,"Feb 04, 1979",3.82,0.45,3.22,0.57,0.37,0.35,0.76,0.2,34-24-0,520,58,42,False
+Daniel Barez,http://ufcstats.com/fighter-details/e8fe9c15d348e778,66,125 lbs.,Flyweight,66,Orthodox,"Dec 10, 1988",3.65,0.49,5.95,0.5,1.93,0.28,0.8,0.6,17-7-0,261,24,3,False
+Hector Lombard,http://ufcstats.com/fighter-details/db1f2ed63b54b9a7,69,185 lbs.,Middleweight,71,Southpaw,"Feb 02, 1978",3.02,0.46,3.35,0.53,1.69,0.48,0.77,0.5,34-10-1,2627,45,12,False
+Alexandr Romanov,http://ufcstats.com/fighter-details/c0badf3243907e59,74,262 lbs.,Heavyweight,75,Southpaw,"Dec 11, 1990",3.78,0.51,2.13,0.54,4.49,0.55,0.28,0.9,18-3-0,394,21,10,False
+Tony Gravely,http://ufcstats.com/fighter-details/601964f9654f911a,65,135 lbs.,Bantamweight,69,Orthodox,"Sep 28, 1991",3.82,0.48,4.47,0.44,5.4,0.41,0.52,0.3,23-9-0,996,32,8,False
+Erick Silva,http://ufcstats.com/fighter-details/5866fc86183a9fb8,72,170 lbs.,Welterweight,74,Orthodox,"Jun 21, 1984",2.5,0.48,4.18,0.49,0.85,0.35,0.56,1.4,19-9-0,2907,28,15,False
+Mizuto Hirota,http://ufcstats.com/fighter-details/35faad160d346839,67,155 lbs.,Lightweight,67,Orthodox,"May 05, 1981",3.36,0.4,3.5,0.54,1.36,0.5,0.58,0.1,18-10-2,2557,30,7,False
+Din Thomas,http://ufcstats.com/fighter-details/40a604761ca7d64d,69,155 lbs.,Lightweight,,Orthodox,"Sep 28, 1976",1.85,0.37,2.6,0.59,1.38,0.52,0.76,1.2,26-9-0,6452,35,8,False
+Benji Radach,http://ufcstats.com/fighter-details/01b39decaf0abf6a,70,185 lbs.,Middleweight,,Orthodox,"Apr 05, 1979",2.62,0.49,2.31,0.51,1.06,0.41,0.71,0.4,21-7-0,5476,28,3,False
+Ben Alloway,http://ufcstats.com/fighter-details/c4fe2e9a06ea5bcb,71,170 lbs.,Welterweight,76,Orthodox,"Feb 19, 1981",1.28,0.49,1.9,0.59,0.62,0.5,0.26,0.0,18-8-0,4478,26,3,False
+Joe Doerksen,http://ufcstats.com/fighter-details/dbaaf42313af90fa,72,185 lbs.,Middleweight,75,Orthodox,"Oct 09, 1977",1.43,0.42,2.79,0.5,2.02,0.33,0.33,2.3,51-16-0,5469,67,9,False
+Augusto Montano,http://ufcstats.com/fighter-details/94508d80e1f885fc,73,170 lbs.,Welterweight,73,Orthodox,"Oct 25, 1984",3.46,0.46,2.66,0.56,0.0,0.0,0.66,0.0,15-3-0,3362,18,3,False
+Pannie Kianzad,http://ufcstats.com/fighter-details/91dac5e69e28d5b5,67,135 lbs.,Bantamweight,66,Orthodox,"Dec 08, 1991",4.88,0.49,4.09,0.51,0.41,0.33,0.65,0.1,17-9-0,478,26,10,False
+Leslie Smith,http://ufcstats.com/fighter-details/76984112f697631f,69,135 lbs.,Bantamweight,66,Orthodox,"Aug 17, 1982",7.56,0.4,8.41,0.51,0.0,0.0,0.62,0.0,10-7-1,3060,18,7,False
+Derrick Lewis,http://ufcstats.com/fighter-details/d3df1add9d9a7efb,75,260 lbs.,Heavyweight,79,Orthodox,"Feb 07, 1985",2.51,0.5,2.49,0.4,0.56,0.26,0.52,0.0,29-12-0,142,41,29,False
+Cub Swanson,http://ufcstats.com/fighter-details/d247691a6c0e9034,68,145 lbs.,Featherweight,70,Orthodox,"Nov 02, 1983",4.79,0.51,4.0,0.59,1.01,0.5,0.63,0.4,30-14-0,352,44,25,False
+Gilbert Burns,http://ufcstats.com/fighter-details/23024fdfc966410a,70,170 lbs.,Welterweight,71,Orthodox,"Jul 20, 1986",3.15,0.48,3.64,0.52,2.12,0.37,0.53,0.5,22-9-0,198,31,24,False
+Alvin Robinson,http://ufcstats.com/fighter-details/cbe79765d44bd172,69,155 lbs.,Lightweight,68,Southpaw,"Jul 16, 1982",1.57,0.5,1.29,0.51,1.24,0.5,0.25,1.2,15-9-0,6225,24,4,False
+Phil Rowe,http://ufcstats.com/fighter-details/8e382b585a92affe,75,170 lbs.,Welterweight,80,Orthodox,"Jul 18, 1990",3.5,0.5,4.12,0.51,0.52,0.36,0.5,0.3,11-6-0,30,17,8,False
+Brendan O'Reilly,http://ufcstats.com/fighter-details/494b0bfdbac74502,67,170 lbs.,Welterweight,69,Orthodox,"Jun 24, 1987",1.9,0.47,2.77,0.39,2.22,0.43,0.36,0.6,6-3-0,3285,9,3,False
+Jimmy Flick,http://ufcstats.com/fighter-details/09e62c450e754913,67,125 lbs.,Flyweight,68,Orthodox,"Sep 07, 1990",1.67,0.5,4.7,0.43,2.36,0.33,0.0,3.5,17-9-0,219,26,6,False
+Irene Aldana,http://ufcstats.com/fighter-details/578ef12674df1e6a,69,135 lbs.,Bantamweight,68,Orthodox,"Mar 26, 1988",5.19,0.39,6.64,0.56,0.15,0.5,0.77,0.2,15-8-0,443,23,14,False
+Melissa Mullins,http://ufcstats.com/fighter-details/bd532e9a2b93870c,67,135 lbs.,Bantamweight,68,Orthodox,"Jul 23, 1991",3.71,0.5,4.39,0.52,2.03,0.42,0.85,0.0,7-2-0,163,9,4,False
+Che Mills,http://ufcstats.com/fighter-details/6cadfd8f1d9e7685,73,170 lbs.,Welterweight,76,Orthodox,"Sep 29, 1982",2.08,0.52,2.87,0.43,1.18,0.66,0.58,0.0,16-10-0,4671,26,4,False
+Mark Weir,http://ufcstats.com/fighter-details/9ccdd2ce45903f34,74,185 lbs.,Middleweight,,Southpaw,"Sep 19, 1967",1.54,0.56,2.5,0.38,0.8,0.5,0.25,2.4,21-18-1,7183,40,3,False
+Cody Gibson,http://ufcstats.com/fighter-details/700a674c042b7a96,70,135 lbs.,Bantamweight,71,Orthodox,"Sep 11, 1987",3.63,0.46,3.22,0.57,2.12,0.37,0.69,0.6,22-12-0,44,34,10,False
+Ricky Glenn,http://ufcstats.com/fighter-details/814ff3018127e8fc,72,170 lbs.,Welterweight,70,Southpaw,"Apr 12, 1989",3.79,0.42,4.3,0.51,0.72,0.13,0.69,0.4,22-9-2,471,33,10,False
+Teemu Packalen,http://ufcstats.com/fighter-details/8f4eeaf7a0df7c1a,73,155 lbs.,Lightweight,75,Orthodox,"May 22, 1987",2.57,0.54,3.91,0.47,2.31,0.25,1.0,1.5,8-3-0,2277,11,4,False
+TJ Dillashaw,http://ufcstats.com/fighter-details/c849740a3ff51931,66,135 lbs.,Bantamweight,67,Orthodox,"Feb 07, 1986",5.09,0.41,3.47,0.62,1.56,0.3,0.77,0.8,18-5-0,1136,23,17,False
+Kurt Holobaugh,http://ufcstats.com/fighter-details/a7151778b3381036,71,155 lbs.,Lightweight,70,Orthodox,"Sep 08, 1986",4.58,0.44,4.24,0.49,0.65,0.33,0.38,0.8,22-10-0,184,32,9,False
+Jessica-Rose Clark,http://ufcstats.com/fighter-details/6c8072b61c276e67,65,135 lbs.,Bantamweight,64,Orthodox,"Nov 28, 1987",3.73,0.51,3.51,0.58,1.66,0.42,0.62,0.3,11-9-0,933,20,9,False
+Magomed Ankalaev,http://ufcstats.com/fighter-details/d802174b0c0c1f4e,75,205 lbs.,Light Heavyweight,75,Orthodox,"Jun 02, 1992",3.65,0.52,2.59,0.56,0.79,0.22,0.87,0.0,21-2-1,58,24,16,False
+Corey Anderson,http://ufcstats.com/fighter-details/5e4eec08896c9423,75,205 lbs.,Light Heavyweight,79,Orthodox,"Sep 22, 1989",4.43,0.46,2.22,0.59,4.89,0.5,0.83,0.0,14-5-0,2116,19,14,False
+Marlon Moraes,http://ufcstats.com/fighter-details/fea79f9bc8c68769,66,135 lbs.,Bantamweight,67,Orthodox,"Apr 26, 1988",3.37,0.4,4.53,0.54,0.87,0.41,0.46,0.3,23-10-1,1360,34,11,False
+Zhang Tiequan,http://ufcstats.com/fighter-details/c23e3d4875340d8d,68,155 lbs.,Lightweight,69,Orthodox,"Jul 25, 1978",1.23,0.36,2.14,0.51,1.95,0.58,0.75,3.4,15-4-0,4769,19,4,False
+Luis Pena,http://ufcstats.com/fighter-details/2844b047183a1adb,75,155 lbs.,Lightweight,75,Southpaw,"Jul 05, 1993",3.66,0.46,3.12,0.51,1.17,0.33,0.48,1.2,9-3-0,1689,12,7,False
+Jeremy Horn,http://ufcstats.com/fighter-details/8d26912cd2aeb366,73,185 lbs.,Middleweight,74,Orthodox,"Aug 25, 1975",1.19,0.39,1.99,0.55,1.83,0.38,0.29,1.1,91-22-5,6162,118,12,False
+Kron Gracie,http://ufcstats.com/fighter-details/242d36d241b43c12,69,145 lbs.,Featherweight,70,Southpaw,"Jul 11, 1988",2.95,0.42,5.73,0.51,0.35,0.25,0.0,0.7,5-3-0,359,8,4,False
+Chris Gruetzemacher,http://ufcstats.com/fighter-details/feaf00f3373435d6,68,155 lbs.,Lightweight,68,Orthodox,"Jun 16, 1986",6.18,0.57,4.96,0.52,0.21,0.5,0.65,0.0,15-5-0,1458,20,6,False
+Patrick Williams,http://ufcstats.com/fighter-details/39330403ad27c2bb,68,135 lbs.,Bantamweight,73,Orthodox,"Sep 07, 1981",4.12,0.51,4.12,0.52,2.71,0.41,1.0,0.5,8-6-0,2788,14,4,False
+Cole Smith,http://ufcstats.com/fighter-details/56709e66f1c6008f,71,135 lbs.,Bantamweight,67,Orthodox,"Apr 05, 1989",1.78,0.35,1.96,0.49,1.67,0.33,0.45,1.7,7-2-0,1913,9,3,False
+Aaron Riley,http://ufcstats.com/fighter-details/f2c8ebbeafd45f2b,68,155 lbs.,Lightweight,69,Southpaw,"Dec 09, 1980",3.45,0.34,3.78,0.61,1.18,0.34,0.6,0.1,30-14-1,4510,45,9,False
+Cortney Casey,http://ufcstats.com/fighter-details/5f179af5fffeb9f6,67,125 lbs.,Flyweight,67,Orthodox,"May 05, 1987",4.29,0.39,4.0,0.55,0.39,0.31,0.39,0.5,10-10-0,1241,20,15,False
+Michael Trizano,http://ufcstats.com/fighter-details/5bf31a46becc1204,71,145 lbs.,Featherweight,71,Orthodox,"Dec 31, 1991",3.63,0.53,4.4,0.5,0.36,0.66,0.72,0.5,11-3-0,1115,14,6,False
+Luke Sanders,http://ufcstats.com/fighter-details/96428b9e9bd048ea,66,135 lbs.,Bantamweight,67,Southpaw,"Dec 12, 1985",6.61,0.52,4.37,0.5,0.71,0.3,0.72,0.2,13-5-0,1675,18,8,False
+Desmond Green,http://ufcstats.com/fighter-details/f046d724d2a84ac5,70,155 lbs.,Lightweight,73,Southpaw,"Oct 11, 1989",3.7,0.46,2.51,0.69,1.62,0.5,0.75,0.0,23-8-0,2389,31,7,False
+Jeka Saragih,http://ufcstats.com/fighter-details/57186c150c645200,68,145 lbs.,Featherweight,69,Orthodox,"Jan 01, 1995",2.75,0.5,2.82,0.4,2.17,0.8,0.66,0.5,14-5-0,177,19,6,False
+Gillian Robertson,http://ufcstats.com/fighter-details/38c7f72747f4f712,65,115 lbs.,Strawweight,63,Orthodox,"May 17, 1995",2.86,0.48,2.86,0.56,2.74,0.4,0.41,0.9,16-8-0,212,24,18,False
+Nina Nunes,http://ufcstats.com/fighter-details/d343df8ba11f4c4e,65,125 lbs.,Flyweight,64,Orthodox,"Dec 03, 1985",4.39,0.45,3.47,0.55,0.24,0.33,0.73,0.5,11-7-0,1206,18,9,False
+David Michaud,http://ufcstats.com/fighter-details/49f4b511932f71e9,69,155 lbs.,Lightweight,,Orthodox,"Nov 10, 1988",3.25,0.43,4.45,0.54,2.53,0.58,0.77,0.7,11-3-0,3873,14,3,False
+Abdul Razak Alhassan,http://ufcstats.com/fighter-details/eae431e70064e046,70,185 lbs.,Middleweight,73,Orthodox,"Aug 11, 1985",3.64,0.49,4.01,0.54,0.84,0.33,0.51,0.2,12-7-0,324,19,14,False
+Nate Quarry,http://ufcstats.com/fighter-details/52cae54377b433b7,72,185 lbs.,Middleweight,72,Open Stance,"Mar 18, 1972",4.96,0.44,2.8,0.66,0.25,0.33,0.6,0.0,12-4-0,5724,16,9,False
+Virna Jandiroba,http://ufcstats.com/fighter-details/7dda2cf308f24a02,63,115 lbs.,Strawweight,64,Orthodox,"May 30, 1988",2.33,0.41,2.9,0.55,2.85,0.37,0.74,1.5,22-4-0,37,26,12,False
+Luana Pinheiro,http://ufcstats.com/fighter-details/a3a542074109b347,62,115 lbs.,Strawweight,62,Orthodox,"Nov 18, 1992",3.29,0.39,4.06,0.6,2.33,0.37,0.71,0.2,11-5-0,198,16,7,False
+Tim Elliott,http://ufcstats.com/fighter-details/c96d9178c9ed9e62,67,125 lbs.,Flyweight,66,Southpaw,"Dec 24, 1986",3.37,0.44,2.65,0.57,3.71,0.47,0.59,1.1,22-13-1,107,36,19,False
+Nikolay Veretennikov,http://ufcstats.com/fighter-details/0f1efce7d2571d10,73,170 lbs.,Welterweight,74,Orthodox,"Dec 22, 1989",2.49,0.56,3.25,0.44,0.43,0.16,0.62,0.4,13-7-0,58,20,4,False
+Kelvin Gastelum,http://ufcstats.com/fighter-details/8c0580d4fff106c1,69,185 lbs.,Middleweight,71,Southpaw,"Oct 24, 1991",3.67,0.42,3.53,0.57,1.01,0.34,0.6,0.1,21-10-0,79,31,24,False
+Kimo Leopoldo,http://ufcstats.com/fighter-details/08ae5cd9aef7ddd3,75,235 lbs.,Heavyweight,,Orthodox,"Jan 05, 1968",0.76,0.83,2.12,0.3,4.55,1.0,0.0,2.3,10-7-1,7442,18,6,False
+Jordan Espinosa,http://ufcstats.com/fighter-details/215a70f073a7b726,66,125 lbs.,Flyweight,69,Orthodox,"Nov 08, 1989",4.22,0.52,2.94,0.57,0.75,0.28,0.7,0.2,15-9-0,1731,24,6,False
+Carlos Prates,http://ufcstats.com/fighter-details/7ee0fd831c0fe7c3,73,170 lbs.,Welterweight,78,Switch,"Aug 17, 1993",3.77,0.55,4.53,0.47,0.21,1.0,0.8,0.0,23-7-0,16,30,7,False
+Aspen Ladd,http://ufcstats.com/fighter-details/d4691518d012b9e7,66,135 lbs.,Bantamweight,66,Orthodox,"Mar 01, 1995",3.78,0.47,4.65,0.47,1.56,0.47,0.62,0.6,9-3-0,1332,12,7,False
+Yohan Lainesse,http://ufcstats.com/fighter-details/f998f5c102250d6e,73,170 lbs.,Welterweight,76,Orthodox,"Aug 14, 1992",2.22,0.41,3.38,0.58,0.94,0.28,0.72,0.5,9-3-0,681,12,4,False
+Matt Lindland,http://ufcstats.com/fighter-details/0e041d43a47d2e4b,72,185 lbs.,Middleweight,74,Southpaw,"May 17, 1970",2.62,0.5,1.56,0.52,3.01,0.48,0.6,1.3,22-9-0,5476,31,12,False
+Maurice Greene,http://ufcstats.com/fighter-details/068f8a189a47fea6,79,258 lbs.,Heavyweight,80,Orthodox,"Jul 05, 1986",3.28,0.45,3.61,0.45,0.0,0.0,0.27,0.4,9-7-0,1668,16,7,False
+Leandro Issa,http://ufcstats.com/fighter-details/d1e1fdcea7c8a90a,67,135 lbs.,Bantamweight,69,Orthodox,"Sep 19, 1983",2.08,0.37,3.17,0.58,2.38,0.22,0.5,1.2,13-6-0,3376,19,4,False
+Damon Jackson,http://ufcstats.com/fighter-details/29af297d9f1de0f8,71,155 lbs.,Lightweight,71,Switch,"Aug 08, 1988",2.96,0.42,3.47,0.49,2.3,0.32,0.37,1.2,23-8-1,380,32,14,False
+Muin Gafurov,http://ufcstats.com/fighter-details/a54660deb6a8489c,67,135 lbs.,Bantamweight,68,Orthodox,"May 17, 1996",2.89,0.45,2.21,0.52,1.47,0.26,0.7,0.0,20-6-0,317,26,4,False
+Austin Hubbard,http://ufcstats.com/fighter-details/d2cd7a69cc55e7ed,70,155 lbs.,Lightweight,71,Orthodox,"Dec 22, 1991",3.97,0.42,4.1,0.55,1.63,0.28,0.68,0.1,17-10-0,100,27,12,False
+Mark Munoz,http://ufcstats.com/fighter-details/179f1948dc234f1f,72,185 lbs.,Middleweight,71,Orthodox,"Feb 09, 1978",3.12,0.51,2.26,0.57,3.17,0.29,0.57,0.6,14-6-0,3852,20,15,False
+Nate Maness,http://ufcstats.com/fighter-details/6e9f40c706f91f32,70,125 lbs.,Flyweight,72,Orthodox,"Jun 27, 1991",3.14,0.5,3.88,0.42,0.68,0.75,0.8,0.7,16-3-0,534,19,7,False
+Andre Fili,http://ufcstats.com/fighter-details/8fd808923cffff82,71,145 lbs.,Featherweight,74,Orthodox,"Jun 25, 1990",3.87,0.37,4.23,0.51,2.22,0.45,0.71,0.2,25-12-0,114,37,25,False
+Rafa Garcia,http://ufcstats.com/fighter-details/e132d47bd9efbbe0,67,155 lbs.,Lightweight,70,Orthodox,"Aug 05, 1994",4.31,0.45,4.54,0.61,3.13,0.44,0.76,0.5,18-4-0,79,22,10,False
+Joseph Benavidez,http://ufcstats.com/fighter-details/80eacd4da0617c57,64,125 lbs.,Flyweight,65,Southpaw,"Jul 31, 1984",3.52,0.34,2.67,0.61,1.41,0.3,0.62,0.6,28-8-0,1731,36,19,False
+Jeff Hughes,http://ufcstats.com/fighter-details/6a11e325aa60ad02,74,250 lbs.,Heavyweight,77,Orthodox,"May 17, 1988",3.95,0.51,3.67,0.6,0.71,0.5,0.45,0.0,10-4-0,1892,14,4,False
+Renato Moicano,http://ufcstats.com/fighter-details/b6452706b373eea1,71,155 lbs.,Lightweight,72,Orthodox,"May 21, 1989",4.17,0.48,3.57,0.59,1.67,0.41,0.62,0.5,20-7-1,156,28,19,False
+Jafel Filho,http://ufcstats.com/fighter-details/65adf3856c4d9256,67,125 lbs.,Flyweight,68,Orthodox,"May 05, 1993",1.85,0.41,1.62,0.5,2.52,0.45,0.66,2.2,17-4-0,51,21,5,False
+Nick Osipczak,http://ufcstats.com/fighter-details/5b407acfe0ef9b76,74,170 lbs.,Welterweight,76,Orthodox,"Dec 30, 1984",2.83,0.5,3.77,0.5,1.2,0.45,0.71,1.0,6-3-0,5497,9,4,False
+Sijara Eubanks,http://ufcstats.com/fighter-details/4234f0097c83fa62,64,125 lbs.,Flyweight,67,Orthodox,"Apr 27, 1985",4.3,0.43,3.43,0.57,1.9,0.44,0.66,0.3,8-7-0,1444,15,10,False
+Ketlen Souza,http://ufcstats.com/fighter-details/8bd4200561c77a62,63,115 lbs.,Strawweight,63,Orthodox,"Aug 18, 1994",4.56,0.57,4.4,0.53,0.3,0.14,0.5,0.3,15-6-0,121,21,5,False
+Zach Reese,http://ufcstats.com/fighter-details/23dec7c47cb418f8,76,185 lbs.,Middleweight,77,Switch,"Mar 24, 1994",4.32,0.56,3.82,0.39,3.41,0.66,0.57,1.4,10-2-0,23,12,7,False
+Ricardo Almeida,http://ufcstats.com/fighter-details/91186547a7f3f758,72,170 lbs.,Welterweight,74,Orthodox,"Nov 29, 1976",2.02,0.49,1.2,0.61,3.74,0.38,0.31,1.2,13-5-0,5371,18,11,False
+Denise Gomes,http://ufcstats.com/fighter-details/cffb87059e645bd1,62,115 lbs.,Strawweight,63,Orthodox,"Dec 30, 1999",4.43,0.49,3.16,0.51,1.45,0.34,0.66,0.7,12-3-0,23,15,8,False
+Kyle Bochniak,http://ufcstats.com/fighter-details/c5af5750e8bae4f0,67,145 lbs.,Featherweight,70,Orthodox,"Feb 05, 1987",2.63,0.31,5.11,0.58,1.14,0.15,0.62,0.0,8-5-0,2236,13,7,False
+Carlo Pedersoli Jr.,http://ufcstats.com/fighter-details/198994b47f395af0,71,170 lbs.,Welterweight,75,Southpaw,"Jun 08, 1993",4.17,0.37,4.12,0.61,2.91,0.44,0.0,0.0,11-3-0,2473,14,3,False
+Johnny Munoz,http://ufcstats.com/fighter-details/f6bcbd91b114ff58,69,135 lbs.,Bantamweight,71,Orthodox,"Feb 16, 1993",2.44,0.36,2.66,0.55,2.4,0.25,0.45,1.8,12-4-0,786,16,6,False
+Evan Tanner,http://ufcstats.com/fighter-details/8f2d9ee27f206f1f,72,185 lbs.,Middleweight,74,Orthodox,"Feb 11, 1971",3.05,0.59,2.64,0.56,2.55,0.43,0.25,1.3,32-8-0,6372,40,16,False
+Blood Diamond,http://ufcstats.com/fighter-details/9edf2c9082cc2cd8,71,170 lbs.,Welterweight,76,Switch,"Jul 10, 1988",3.12,0.55,2.17,0.48,0.0,0.0,0.73,0.0,3-3-0,814,6,3,False
+Gian Villante,http://ufcstats.com/fighter-details/fcd448a2fe1a23cc,75,230 lbs.,Heavyweight,76,Orthodox,"Aug 18, 1985",4.38,0.44,5.47,0.55,0.45,0.23,0.83,0.0,17-14-0,1486,31,18,False
+Michael Kuiper,http://ufcstats.com/fighter-details/b7f38813485745da,72,185 lbs.,Middleweight,73,Orthodox,"Jun 07, 1989",3.28,0.54,3.62,0.54,2.3,0.55,0.79,0.0,15-5-0,4419,20,4,False
+Wilson Reis,http://ufcstats.com/fighter-details/5aedf14771ca82d2,64,125 lbs.,Flyweight,65,Southpaw,"Jan 06, 1985",1.83,0.29,3.04,0.55,5.15,0.42,0.47,0.6,23-10-0,2424,33,13,False
+Farid Basharat,http://ufcstats.com/fighter-details/a09ed60aa67a3f67,68,135 lbs.,Bantamweight,71,Orthodox,"Aug 02, 1997",4.05,0.52,2.47,0.6,3.6,0.47,0.72,0.4,14-0-0,58,14,5,False
+Kevin Croom,http://ufcstats.com/fighter-details/35b3772629e27a49,71,135 lbs.,Bantamweight,73,Orthodox,"Jul 15, 1987",2.65,0.34,3.1,0.41,0.48,0.05,0.3,0.5,21-15-0,1325,36,4,False
+Brian Ebersole,http://ufcstats.com/fighter-details/32ba186f4b0e3267,72,170 lbs.,Welterweight,73,Southpaw,"Nov 27, 1980",2.32,0.49,2.14,0.56,1.7,0.23,0.61,0.1,51-18-1,3831,70,8,False
+Nikita Krylov,http://ufcstats.com/fighter-details/1091d4d957141094,75,205 lbs.,Light Heavyweight,77,Orthodox,"Mar 07, 1992",4.31,0.54,2.58,0.44,2.17,0.38,0.53,1.4,30-11-0,128,41,20,False
+Miesha Tate,http://ufcstats.com/fighter-details/b96619b3acd7d9da,66,135 lbs.,Bantamweight,65,Orthodox,"Aug 18, 1986",2.62,0.44,3.05,0.51,1.97,0.3,0.56,1.2,20-10-0,212,30,13,False
+Pat Barry,http://ufcstats.com/fighter-details/658c3465581ae46b,71,235 lbs.,Heavyweight,74,Orthodox,"Jul 07, 1979",2.72,0.52,3.54,0.59,0.0,0.0,0.76,0.2,8-7-0,4378,15,11,False
+Jack Della Maddalena,http://ufcstats.com/fighter-details/6b453bc35a823c3f,71,170 lbs.,Welterweight,73,Switch,"Sep 10, 1996",5.57,0.51,3.84,0.63,0.13,0.1,0.64,0.1,18-3-0,16,21,9,False
+Justin Edwards,http://ufcstats.com/fighter-details/e56daf7725a0b5ab,70,155 lbs.,Lightweight,70,Orthodox,"Jan 26, 1983",2.68,0.42,3.32,0.51,2.14,0.26,0.27,1.0,9-5-0,3831,14,6,False
+Rinya Nakamura,http://ufcstats.com/fighter-details/d8c811df0386d5e8,67,135 lbs.,Bantamweight,68,Southpaw,"Mar 23, 1995",3.27,0.52,1.72,0.63,2.58,0.81,1.0,1.4,10-1-0,121,11,7,False
+Hu Yaozong,http://ufcstats.com/fighter-details/f1175ea3aafbf351,75,185 lbs.,Middleweight,72,Orthodox,"Apr 07, 1995",3.35,0.48,5.09,0.35,0.0,0.0,0.33,0.4,3-3-0,1493,6,3,False
+Leon Edwards,http://ufcstats.com/fighter-details/f1fac969a1d70b08,74,170 lbs.,Welterweight,74,Southpaw,"Aug 25, 1991",2.6,0.54,2.44,0.52,1.25,0.37,0.63,0.4,22-6-0,16,28,20,False
+Leonard Garcia,http://ufcstats.com/fighter-details/917e53fa0adea0d3,70,145 lbs.,Featherweight,68,Orthodox,"Jul 14, 1979",2.77,0.24,4.79,0.52,0.3,0.26,0.42,0.5,18-13-1,4601,32,7,False
+Ike Villanueva,http://ufcstats.com/fighter-details/f9d0cae37dabfafc,73,205 lbs.,Light Heavyweight,73,Orthodox,"Apr 04, 1984",3.66,0.38,7.24,0.36,0.6,0.5,1.0,0.0,18-14-0,1318,32,6,False
+Clifford Starks,http://ufcstats.com/fighter-details/5abf827d62f98fee,72,185 lbs.,Middleweight,78,Orthodox,"Apr 25, 1981",1.94,0.33,2.49,0.58,1.94,1.0,0.6,0.0,13-3-0,4608,16,3,False
+Aljamain Sterling,http://ufcstats.com/fighter-details/cb696ebfb6598724,67,145 lbs.,Featherweight,71,Orthodox,"Jul 31, 1989",4.45,0.52,2.21,0.59,2.45,0.3,0.44,0.6,25-5-0,100,30,22,False
+Jason Day,http://ufcstats.com/fighter-details/a6fd2173d5e2d7f0,72,185 lbs.,Middleweight,72,Orthodox,"May 19, 1981",3.61,0.54,3.46,0.47,1.13,1.0,0.0,0.0,19-12-0,6113,31,3,False
+Pat Healy,http://ufcstats.com/fighter-details/50d2f0018bcf9eef,72,155 lbs.,Lightweight,72,Orthodox,"Jul 20, 1983",2.57,0.36,2.57,0.5,3.08,0.37,0.55,1.1,34-23-0,4156,57,6,False
+Yaotzin Meza,http://ufcstats.com/fighter-details/3623bd267a2eef2e,69,145 lbs.,Featherweight,71,Orthodox,"Feb 04, 1981",1.43,0.41,1.62,0.64,1.06,0.2,0.18,1.4,21-11-0,3565,32,7,False
+Marcio Cruz,http://ufcstats.com/fighter-details/6aa1cbc1466e9a0b,76,232 lbs.,Heavyweight,,Orthodox,"Apr 24, 1978",2.92,0.46,1.51,0.68,0.53,0.07,0.37,1.6,8-3-0,6911,11,4,False
+Zac Pauga,http://ufcstats.com/fighter-details/56f7d7ee06be4aab,74,205 lbs.,Light Heavyweight,76,Orthodox,"Feb 25, 1988",4.46,0.62,2.73,0.58,0.38,0.07,1.0,0.0,7-3-0,660,10,4,False
+Alex Oliveira,http://ufcstats.com/fighter-details/57b10fca4f9c9a7a,71,170 lbs.,Welterweight,76,Orthodox,"Feb 21, 1988",2.99,0.51,2.55,0.46,2.35,0.38,0.63,0.6,22-12-1,1367,35,22,False
+John Alessio,http://ufcstats.com/fighter-details/7a15f3694c5cbc02,70,155 lbs.,Lightweight,72,Orthodox,"Jul 05, 1979",2.1,0.39,2.91,0.54,1.85,0.38,0.7,1.2,35-17-0,4895,52,4,False
+Alessio Sakara,http://ufcstats.com/fighter-details/7f955f71fa2ce7ac,72,185 lbs.,Middleweight,72,Orthodox,"Sep 02, 1981",3.96,0.47,2.8,0.59,2.18,0.78,0.62,0.0,19-11-0,4419,30,15,False
+Allan Nascimento,http://ufcstats.com/fighter-details/253076a23d03dcd0,68,125 lbs.,Flyweight,69,Orthodox,"Sep 11, 1991",3.06,0.55,2.53,0.52,1.26,0.23,0.37,1.1,22-6-0,30,28,5,False
+Genaro Valdez,http://ufcstats.com/fighter-details/cda1099995b46cc2,69,155 lbs.,Lightweight,72,Orthodox,"Jan 16, 1992",4.08,0.3,7.16,0.48,1.54,0.44,0.36,0.4,10-3-0,870,13,3,False
+Trey Waters,http://ufcstats.com/fighter-details/31dbfbe4e7a6727c,77,170 lbs.,Welterweight,77,Orthodox,"Feb 21, 1995",6.39,0.44,5.83,0.55,0.4,0.33,0.85,0.8,9-2-0,86,11,3,False
+Adrian Yanez,http://ufcstats.com/fighter-details/0232cabbc30a2372,67,135 lbs.,Bantamweight,70,Orthodox,"Nov 29, 1993",6.23,0.41,5.75,0.54,0.0,0.0,0.81,0.0,17-6-0,352,23,9,False
+Jacob Malkoun,http://ufcstats.com/fighter-details/d4270315cbcf2569,69,185 lbs.,Middleweight,73,Orthodox,"Aug 26, 1995",3.86,0.56,2.48,0.52,6.62,0.42,0.2,0.4,8-3-0,611,11,7,False
+Walt Harris,http://ufcstats.com/fighter-details/03f982ca3735070c,77,250 lbs.,Heavyweight,77,Southpaw,"Jun 10, 1983",3.05,0.39,3.33,0.54,0.29,0.28,0.7,0.1,13-10-0,1640,23,15,False
+Daniel Cormier,http://ufcstats.com/fighter-details/d967f0128c323de6,71,235 lbs.,Heavyweight,72,Orthodox,"Mar 20, 1979",4.25,0.52,2.92,0.54,1.83,0.44,0.8,0.4,22-3-0,1934,25,15,False
+Pablo Garza,http://ufcstats.com/fighter-details/8e5bfd4e82352340,73,145 lbs.,Featherweight,73,Orthodox,"Sep 16, 1983",3.37,0.44,2.7,0.5,0.94,0.25,0.15,1.3,12-4-0,4622,16,5,False
+Nick Diaz,http://ufcstats.com/fighter-details/f57a8a52ca401ed9,73,170 lbs.,Welterweight,76,Southpaw,"Aug 02, 1983",5.71,0.42,3.84,0.59,1.28,0.32,0.6,1.0,26-10-0,1528,36,14,False
+Azamat Bekoev,http://ufcstats.com/fighter-details/3bc3f60b21cddc6a,72,185 lbs.,Middleweight,72,Orthodox,"Dec 30, 1995",4.07,0.45,7.66,0.31,4.49,0.45,0.8,0.0,20-4-0,44,24,3,False
+Alex Reyes,http://ufcstats.com/fighter-details/dc07493a87dc0a6e,71,155 lbs.,Lightweight,73,Orthodox,"Oct 02, 1986",4.46,0.46,6.92,0.48,1.5,0.28,0.0,0.0,13-5-0,471,18,3,False
+Bassil Hafez,http://ufcstats.com/fighter-details/f4d92416da98804b,71,170 lbs.,Welterweight,72,Orthodox,"Jan 31, 1992",3.71,0.38,5.68,0.41,2.21,0.24,0.5,0.0,9-4-1,380,14,3,False
+Joe Proctor,http://ufcstats.com/fighter-details/a36556bb1565e32d,70,155 lbs.,Lightweight,72,Orthodox,"Aug 10, 1985",3.39,0.36,3.93,0.59,0.0,0.0,0.7,1.8,11-5-0,3145,16,6,False
+Kamaru Usman,http://ufcstats.com/fighter-details/f1b2aa7853d1ed6e,72,170 lbs.,Welterweight,76,Switch,"May 11, 1987",4.16,0.51,2.67,0.55,2.79,0.44,0.89,0.1,21-4-0,170,25,17,False
+Kyle Noke,http://ufcstats.com/fighter-details/7339d340aa2889cb,73,170 lbs.,Welterweight,76,Southpaw,"Mar 18, 1980",3.23,0.5,2.09,0.64,1.53,0.54,0.66,0.8,22-10-1,3292,33,11,False
+Guido Cannetti,http://ufcstats.com/fighter-details/d05412b513b19621,66,135 lbs.,Bantamweight,68,Southpaw,"Dec 19, 1979",3.44,0.55,2.84,0.51,2.27,0.55,0.64,0.4,10-8-0,996,18,10,False
+Jarjis Danho,http://ufcstats.com/fighter-details/8614b7134913f5d5,75,265 lbs.,Heavyweight,74,Orthodox,"Oct 15, 1983",3.38,0.5,5.25,0.49,0.51,0.16,1.0,0.0,7-1-1,1696,9,3,False
+Nick Hein,http://ufcstats.com/fighter-details/2816ced060a21be3,66,155 lbs.,Lightweight,66,Southpaw,"Apr 24, 1984",2.65,0.35,3.61,0.59,0.86,0.33,0.83,0.0,14-5-0,2375,19,8,False
+Guangyou Ning,http://ufcstats.com/fighter-details/2c1170b825f58e57,64,145 lbs.,Featherweight,64,Southpaw,"Dec 15, 1981",2.66,0.41,1.91,0.61,1.09,0.5,0.62,0.3,5-4-1,3292,10,4,False
+Manvel Gamburyan,http://ufcstats.com/fighter-details/cc6f9d1e89f3449a,65,135 lbs.,Bantamweight,67,Orthodox,"May 08, 1981",2.13,0.41,2.83,0.55,3.26,0.34,0.69,0.7,15-10-0,3299,25,14,False
+Steve Garcia,http://ufcstats.com/fighter-details/97cf1a2c7c5e7889,72,145 lbs.,Featherweight,75,Southpaw,"May 22, 1992",5.39,0.49,2.12,0.59,0.86,0.4,0.88,0.4,19-5-0,30,24,10,False
+Jordan Wright,http://ufcstats.com/fighter-details/c878270af633eb11,74,205 lbs.,Light Heavyweight,77,Orthodox,"Oct 07, 1991",4.1,0.56,6.03,0.31,2.09,0.45,1.0,0.4,12-5-0,1017,17,7,False
+Sam Sicilia,http://ufcstats.com/fighter-details/b8aef0faf4ce9b31,68,145 lbs.,Featherweight,67,Orthodox,"Feb 01, 1986",2.46,0.33,3.55,0.59,1.45,0.43,0.7,0.9,15-8-0,3207,23,10,False
+Julio Arce,http://ufcstats.com/fighter-details/1291edf2d566a71a,67,145 lbs.,Featherweight,70,Southpaw,"Oct 27, 1989",4.36,0.36,3.05,0.68,0.46,0.28,0.96,0.3,19-6-0,611,25,10,False
+Hector Sandoval,http://ufcstats.com/fighter-details/449c890bd90f3374,62,125 lbs.,Flyweight,64,Orthodox,"Jul 19, 1986",3.31,0.52,2.33,0.65,3.49,0.25,0.71,1.4,14-4-0,3040,18,4,False
+Igor Araujo,http://ufcstats.com/fighter-details/dbea8c1cb327ab3d,73,170 lbs.,Welterweight,77,Orthodox,"Dec 06, 1980",1.52,0.42,2.86,0.49,0.86,0.15,0.22,0.6,25-9-0,3792,34,4,False
+Michal Oleksiejczuk,http://ufcstats.com/fighter-details/0d65c432720accb9,72,185 lbs.,Middleweight,74,Southpaw,"Feb 22, 1995",5.34,0.51,4.41,0.59,1.02,0.43,0.52,0.0,21-9-0,107,30,17,False
+Robert Sanchez,http://ufcstats.com/fighter-details/546f8599a63c29da,66,125 lbs.,Flyweight,66,Orthodox,"Mar 05, 1986",0.96,0.4,1.78,0.46,3.61,0.62,0.5,0.7,8-2-0,2641,10,3,False
+Mohammad Yahya,http://ufcstats.com/fighter-details/3753714927f18437,69,145 lbs.,Featherweight,73,Switch,"May 23, 1994",3.5,0.39,6.39,0.43,0.5,0.2,0.42,0.5,12-6-0,128,18,3,False
+Johnny Case,http://ufcstats.com/fighter-details/1f4b04a926ef1287,70,155 lbs.,Lightweight,72,Orthodox,"Jun 28, 1989",3.95,0.38,2.66,0.61,1.7,0.45,0.72,0.2,22-6-0,3081,28,6,False
+JeongYeong Lee,http://ufcstats.com/fighter-details/d008d785f6347dc2,70,145 lbs.,Featherweight,73,Orthodox,"Nov 13, 1995",3.38,0.49,3.82,0.5,0.63,0.66,0.72,0.3,11-3-0,205,14,6,False
+Tim Means,http://ufcstats.com/fighter-details/4b47e71384a9522f,74,170 lbs.,Welterweight,75,Orthodox,"Feb 20, 1984",5.04,0.49,3.65,0.6,1.14,0.4,0.64,0.2,33-17-1,422,51,29,False
+Gabe Ruediger,http://ufcstats.com/fighter-details/ccba80d4820ef557,70,155 lbs.,Lightweight,,Orthodox,"Aug 29, 1977",1.7,0.31,5.16,0.41,2.04,0.11,0.28,0.0,18-8-0,5413,26,3,False
+Sam Alvey,http://ufcstats.com/fighter-details/d156513a19acf856,74,185 lbs.,Middleweight,75,Southpaw,"May 06, 1986",3.28,0.44,3.63,0.52,0.06,0.14,0.82,0.1,33-18-1,1213,52,24,False
+Ismael Bonfim,http://ufcstats.com/fighter-details/eb393afdbe3293d5,68,155 lbs.,Lightweight,71,Orthodox,"Dec 28, 1995",5.51,0.54,3.71,0.65,1.06,0.33,0.76,0.0,20-6-0,23,26,5,False
+Alvaro Herrera Mendoza,http://ufcstats.com/fighter-details/74d35fbc9c6a61bd,72,155 lbs.,Lightweight,74,Orthodox,"May 14, 1990",1.89,0.38,3.4,0.55,0.0,0.0,0.33,1.1,9-6-0,2683,15,4,False
+Gustavo Lopez,http://ufcstats.com/fighter-details/93b62c5f2ba18e51,65,135 lbs.,Bantamweight,67,Orthodox,"Jun 27, 1989",2.48,0.4,3.87,0.57,1.74,0.41,0.31,0.7,12-6-1,1535,19,4,False
+Adriano Martins,http://ufcstats.com/fighter-details/7dcf06c1967801c1,70,155 lbs.,Lightweight,72,Southpaw,"Dec 16, 1982",1.8,0.38,2.14,0.65,0.83,0.8,0.81,0.4,28-9-0,3005,37,6,False
+Tom Lawlor,http://ufcstats.com/fighter-details/4d44f37107f01b9b,72,205 lbs.,Light Heavyweight,74,Southpaw,"May 15, 1983",2.5,0.42,2.41,0.6,2.46,0.32,0.57,1.4,10-6-0,3558,16,10,False
+Eddie Sanchez,http://ufcstats.com/fighter-details/7f0b4a75ef3039a3,74,230 lbs.,Heavyweight,74,Orthodox,"Nov 04, 1982",3.45,0.43,3.3,0.43,1.13,0.26,0.42,0.0,15-8-0,6200,23,6,False
+Charles Oliveira,http://ufcstats.com/fighter-details/07225ba28ae309b6,70,155 lbs.,Lightweight,74,Orthodox,"Oct 17, 1989",3.35,0.54,3.24,0.49,2.22,0.4,0.54,2.6,36-11-0,51,47,34,False
+Anton Kuivanen,http://ufcstats.com/fighter-details/706f8e2b34e8e18b,68,155 lbs.,Lightweight,72,Orthodox,"May 01, 1984",2.27,0.38,1.63,0.67,1.2,1.0,0.71,0.4,24-10-0,4664,34,3,False
+Jason Von Flue,http://ufcstats.com/fighter-details/c4b9296214f4c09c,72,170 lbs.,Welterweight,,Orthodox,"Aug 01, 1975",1.89,0.36,3.23,0.52,0.62,0.16,0.58,1.5,14-12-1,6737,27,3,False
+Alexander Yakovlev,http://ufcstats.com/fighter-details/d06f8869449ba7bd,75,155 lbs.,Lightweight,74,Southpaw,"Jul 18, 1984",1.74,0.47,2.41,0.58,1.66,0.35,0.72,0.1,24-10-1,1864,35,9,False
+Dennis Hallman,http://ufcstats.com/fighter-details/8a8a84b743ae7699,69,155 lbs.,Lightweight,72,Orthodox,"Dec 02, 1975",1.12,0.44,1.96,0.43,1.79,0.3,0.25,2.1,53-20-2,5105,75,8,False
+Mark Kerr,http://ufcstats.com/fighter-details/a7b48e18ca27795d,75,266 lbs.,Heavyweight,,Switch,"Dec 21, 1968",0.28,0.41,0.89,0.28,2.92,0.77,0.0,0.4,15-11-0,5939,26,4,False
+Travis Browne,http://ufcstats.com/fighter-details/3236bf606fe9fa5b,78,255 lbs.,Heavyweight,79,Orthodox,"Jul 17, 1982",2.93,0.41,4.31,0.42,1.21,0.68,0.75,0.2,18-7-1,3068,26,15,False
+Cory Sandhagen,http://ufcstats.com/fighter-details/65f09bacd3957381,71,135 lbs.,Bantamweight,70,Switch,"Apr 20, 1992",4.86,0.45,3.47,0.56,1.15,0.34,0.56,0.2,18-6-0,58,24,16,False
+Chris Duncan,http://ufcstats.com/fighter-details/fd406a32a6fb3a29,70,155 lbs.,Lightweight,71,Orthodox,"May 10, 1993",4.64,0.44,4.53,0.51,3.17,0.42,0.5,0.5,14-2-0,121,16,6,False
+Nikolas Motta,http://ufcstats.com/fighter-details/37f560436d745c18,69,155 lbs.,Lightweight,70,Orthodox,"Feb 08, 1993",4.13,0.38,5.28,0.52,0.0,0.0,0.83,0.0,15-6-0,163,21,7,False
+Danny Chavez,http://ufcstats.com/fighter-details/0de720c0f1d4ab9c,68,145 lbs.,Featherweight,67,Orthodox,"Mar 14, 1987",2.86,0.38,3.83,0.5,1.95,0.6,0.87,0.0,11-5-1,1262,17,4,False
+Diego Ferreira,http://ufcstats.com/fighter-details/f53d4f21d1b5f2dc,69,155 lbs.,Lightweight,74,Orthodox,"Jan 18, 1985",4.7,0.39,3.46,0.55,0.82,0.3,0.57,0.6,19-7-0,79,26,17,False
+Zach Makovsky,http://ufcstats.com/fighter-details/57ab4d7c0bc09a30,64,125 lbs.,Flyweight,64,Southpaw,"Apr 19, 1983",1.94,0.43,2.24,0.62,3.71,0.3,0.56,0.3,20-8-0,3278,28,7,False
+Chas Skelly,http://ufcstats.com/fighter-details/4bd6b4800070b069,71,145 lbs.,Featherweight,72,Orthodox,"May 11, 1985",2.01,0.4,3.21,0.49,1.74,0.34,0.39,2.3,19-3-0,1381,22,12,False
+Jose Quinonez,http://ufcstats.com/fighter-details/36549928f90f1d36,68,135 lbs.,Bantamweight,69,Southpaw,"Jul 28, 1990",3.6,0.45,3.0,0.64,2.7,0.47,0.42,0.6,9-5-0,1822,14,9,False
+King Green,http://ufcstats.com/fighter-details/887961364be5ceb3,70,155 lbs.,Lightweight,71,Orthodox,"Sep 09, 1986",6.4,0.52,3.72,0.62,1.22,0.39,0.74,0.3,32-17-1,268,50,27,False
+DaMarques Johnson,http://ufcstats.com/fighter-details/322a56923b396b4d,73,170 lbs.,Welterweight,75,Orthodox,"Jun 28, 1982",2.11,0.37,3.75,0.51,1.18,0.55,0.19,0.7,15-15-0,4811,30,9,False
+Jake Hadley,http://ufcstats.com/fighter-details/60a42bf82447c919,67,135 lbs.,Bantamweight,70,Southpaw,"Aug 03, 1996",3.8,0.43,4.16,0.61,0.33,0.11,0.54,1.1,11-4-0,408,15,7,False
+Charles Radtke,http://ufcstats.com/fighter-details/feedf3053472fe56,69,170 lbs.,Welterweight,72,Orthodox,"Jul 09, 1990",2.8,0.54,2.63,0.54,1.32,0.3,1.0,0.7,11-5-0,30,16,6,False
+Zhang Weili,http://ufcstats.com/fighter-details/1ebe20ebbfa15e29,64,115 lbs.,Strawweight,63,Switch,"Aug 13, 1989",4.66,0.52,2.63,0.53,1.96,0.44,0.63,0.5,26-4-0,16,30,13,False
+Nate Landwehr,http://ufcstats.com/fighter-details/583ee11abddfc581,69,145 lbs.,Featherweight,72,Orthodox,"Jun 06, 1988",5.63,0.45,5.83,0.52,0.76,0.41,0.71,0.8,18-7-0,142,25,10,False
+Patrick Cummins,http://ufcstats.com/fighter-details/e51e5cb722bd47a8,74,205 lbs.,Light Heavyweight,76,Orthodox,"Nov 16, 1980",4.26,0.5,3.35,0.55,4.49,0.41,0.28,0.1,10-7-0,2389,17,13,False
+Joanna Jedrzejczyk,http://ufcstats.com/fighter-details/3d6749c4267da18f,66,115 lbs.,Strawweight,65,Orthodox,"Aug 18, 1987",6.28,0.48,3.25,0.62,0.27,0.62,0.8,0.1,16-5-0,1269,21,14,False
+Chad Mendes,http://ufcstats.com/fighter-details/b5b684eac99ae0a3,66,145 lbs.,Featherweight,66,Orthodox,"May 01, 1985",2.78,0.49,2.35,0.67,4.13,0.55,1.0,0.3,18-5-0,2529,23,13,False
+Jay Hieron,http://ufcstats.com/fighter-details/5bb0a618ad03ac64,72,170 lbs.,Welterweight,75,Orthodox,"Jul 29, 1976",1.66,0.32,1.89,0.61,4.05,0.6,0.66,1.0,23-7-0,4685,30,4,False
+Lukasz Brzeski,http://ufcstats.com/fighter-details/0c25d0a5e8cdbf19,75,236 lbs.,Heavyweight,78,Orthodox,"May 17, 1992",4.9,0.5,3.65,0.54,0.41,0.33,0.35,0.4,9-7-1,135,17,7,False
+Andre Petroski,http://ufcstats.com/fighter-details/5f61780fe5e9b6d0,72,185 lbs.,Middleweight,73,Switch,"Jun 12, 1991",2.81,0.49,2.79,0.53,3.15,0.51,0.86,1.3,13-6-0,65,19,12,False
+Mauricio Ruffy,http://ufcstats.com/fighter-details/9c393e836a852f30,71,155 lbs.,Lightweight,75,Orthodox,"Jun 17, 1996",3.84,0.57,4.16,0.6,0.0,0.0,0.84,0.0,12-2-0,86,14,4,False
+Terrance McKinney,http://ufcstats.com/fighter-details/809bd1a871491508,70,155 lbs.,Lightweight,73,Switch,"Sep 15, 1994",5.78,0.56,2.58,0.47,3.59,0.4,0.77,2.2,17-7-0,156,24,11,False
+Ricky Turcios,http://ufcstats.com/fighter-details/cd3d7e37ff2d679c,69,135 lbs.,Bantamweight,71,Orthodox,"Jun 05, 1993",4.73,0.4,3.72,0.52,0.91,0.2,0.44,0.4,13-5-0,317,18,5,False
+Ernest Chavez,http://ufcstats.com/fighter-details/b406da701c479076,68,145 lbs.,Featherweight,70,Orthodox,"Jun 27, 1983",2.79,0.4,3.89,0.59,0.89,0.33,0.5,0.0,10-2-0,4076,12,3,False
+James Moontasri,http://ufcstats.com/fighter-details/c06a9b48d4132c8e,70,170 lbs.,Welterweight,71,Switch,"Apr 10, 1988",2.39,0.48,3.86,0.4,0.0,0.0,0.79,0.2,9-5-0,3271,14,6,False
+Gabe Green,http://ufcstats.com/fighter-details/5eb50529a8418b77,70,155 lbs.,Lightweight,73,Switch,"May 02, 1993",5.6,0.45,6.19,0.47,0.71,0.5,0.5,0.5,12-5-0,198,17,6,False
+Mike de la Torre,http://ufcstats.com/fighter-details/1971869b7e054261,71,145 lbs.,Featherweight,71,Orthodox,"Sep 22, 1986",3.21,0.39,4.75,0.51,0.36,0.16,0.83,0.0,14-7-0,3159,21,6,False
+Enrique Barzola,http://ufcstats.com/fighter-details/be0b310a12eb80b4,67,145 lbs.,Featherweight,70,Orthodox,"Apr 28, 1989",3.91,0.41,2.97,0.68,4.2,0.45,0.66,0.3,17-5-2,2088,24,10,False
+Viviane Araujo,http://ufcstats.com/fighter-details/36541f1e6c5d4955,64,125 lbs.,Flyweight,68,Orthodox,"Nov 21, 1986",3.84,0.47,4.83,0.55,1.72,0.43,0.75,0.6,13-7-0,156,20,13,False
+Jim Alers,http://ufcstats.com/fighter-details/fe5a9547479396ab,69,145 lbs.,Featherweight,71,Orthodox,"Oct 14, 1986",2.9,0.4,4.38,0.56,2.26,0.41,0.8,0.3,13-3-0,3418,16,4,False
+Peter Danesoe,http://ufcstats.com/fighter-details/5f119b24c0f9679c,69,135 lbs.,Bantamweight,68,Orthodox,"Sep 01, 2000",4.99,0.52,6.73,0.38,0.0,0.0,0.62,0.0,8-4-0,192,12,3,False
+Francis Ngannou,http://ufcstats.com/fighter-details/8d03ce87ca14e778,76,250 lbs.,Heavyweight,83,Orthodox,"Sep 05, 1986",2.33,0.41,2.16,0.41,0.76,0.62,0.71,0.3,17-3-0,1409,20,14,False
+Shara Magomedov,http://ufcstats.com/fighter-details/06734ca9d88dec3a,74,185 lbs.,Middleweight,73,Orthodox,"May 16, 1994",5.93,0.62,3.85,0.43,0.0,0.0,0.71,0.0,16-1-0,128,17,6,False
+Jessamyn Duke,http://ufcstats.com/fighter-details/a7ddae0be8b78147,71,135 lbs.,Bantamweight,73,Orthodox,"Jun 24, 1986",4.83,0.53,4.43,0.57,1.27,0.36,0.5,1.9,3-5-0,3782,8,3,False
+Victor Altamirano,http://ufcstats.com/fighter-details/dc7927cd622676a7,68,125 lbs.,Flyweight,70,Switch,"Jan 23, 1991",4.58,0.53,3.82,0.53,2.88,0.38,0.63,0.0,12-5-0,429,17,6,False
+Drew McFedries,http://ufcstats.com/fighter-details/1fd4fbdcc67de844,72,185 lbs.,Middleweight,72,Southpaw,"Jul 27, 1978",5.13,0.51,4.56,0.52,1.42,1.0,0.56,0.7,12-7-0,5917,19,8,False
+Michel Pereira,http://ufcstats.com/fighter-details/595db60957de51d3,73,185 lbs.,Middleweight,73,Orthodox,"Oct 06, 1993",4.49,0.52,4.35,0.51,1.13,0.52,0.76,0.7,31-14-0,100,45,14,False
+Mark Bocek,http://ufcstats.com/fighter-details/cf9d24e4bd0cf2ce,68,155 lbs.,Lightweight,75,Orthodox,"Oct 24, 1981",2.34,0.43,2.32,0.6,3.65,0.36,0.31,1.3,12-5-0,4247,17,12,False
+Diego Rivas,http://ufcstats.com/fighter-details/09f579be4520394a,68,145 lbs.,Featherweight,69,Orthodox,"Nov 11, 1991",1.37,0.4,2.14,0.52,1.79,0.6,0.64,0.9,10-2-0,2753,12,4,False
+Tom Niinimaki,http://ufcstats.com/fighter-details/5fceb45939fc0c8a,69,145 lbs.,Featherweight,69,Orthodox,"Jul 25, 1982",1.91,0.54,2.31,0.58,2.97,0.46,0.33,0.5,22-8-1,3999,31,3,False
+Martin Bravo,http://ufcstats.com/fighter-details/9c44f290f5726d95,68,145 lbs.,Featherweight,71,Southpaw,"Sep 21, 1993",7.66,0.39,5.72,0.51,2.6,0.35,0.85,0.0,11-3-0,2263,14,3,False
+Jerrod Sanders,http://ufcstats.com/fighter-details/12f1b140e248bdb9,68,135 lbs.,Bantamweight,72,Orthodox,"Oct 01, 1979",0.88,0.64,1.14,0.46,2.2,0.33,0.5,1.6,16-3-0,3434,19,3,False
+Jordan Griffin,http://ufcstats.com/fighter-details/ebef46976554f975,70,145 lbs.,Featherweight,73,Southpaw,"Feb 28, 1990",2.52,0.46,3.02,0.5,1.45,0.35,0.42,1.9,18-9-0,1696,27,5,False
+Bec Rawlings,http://ufcstats.com/fighter-details/907e60fd13407e1e,66,125 lbs.,Flyweight,64,Orthodox,"Feb 11, 1989",4.48,0.42,5.66,0.57,0.71,0.4,0.68,0.4,7-8-0,2795,15,6,False
+Darren Elkins,http://ufcstats.com/fighter-details/92a9aa9c93192871,70,145 lbs.,Featherweight,71,Orthodox,"May 16, 1984",3.4,0.38,3.34,0.51,2.87,0.34,0.56,1.1,29-12-0,233,41,30,False
+Viviane Pereira,http://ufcstats.com/fighter-details/d50382dc0565a9e1,61,115 lbs.,Strawweight,63,Orthodox,"Aug 28, 1993",2.7,0.3,4.48,0.58,0.25,1.0,0.28,0.2,13-2-0,2718,15,4,False
+Serghei Spivac,http://ufcstats.com/fighter-details/e2f6b2769aaedd6c,75,260 lbs.,Heavyweight,78,Orthodox,"Jan 24, 1995",3.45,0.48,4.25,0.5,4.21,0.62,0.63,0.5,17-6-0,177,23,14,False
+Bobby Voelker,http://ufcstats.com/fighter-details/fb8a3025ae722e64,72,170 lbs.,Welterweight,74,Orthodox,"Apr 26, 1979",4.01,0.35,5.84,0.42,1.04,0.5,0.66,0.0,19-13-0,4195,32,4,False
+Wulijiburen,http://ufcstats.com/fighter-details/2296125b6c362355,69,135 lbs.,Bantamweight,69,Orthodox,"Mar 01, 1989",1.61,0.42,3.02,0.56,3.28,0.42,0.77,0.4,20-9-0,1270,29,4,False
+Daria Zhelezniakova,http://ufcstats.com/fighter-details/07047eb7d17fb0a2,69,135 lbs.,Bantamweight,68,Orthodox,"Jan 23, 1996",4.75,0.41,2.83,0.68,0.44,1.0,0.5,0.0,10-2-0,163,12,3,False
+Tom Duquesnoy,http://ufcstats.com/fighter-details/e979c76341f19b22,67,135 lbs.,Bantamweight,68,Orthodox,"Jun 21, 1993",3.83,0.45,5.3,0.62,0.42,0.25,0.46,0.0,16-2-0,2816,18,3,False
+Francis Carmont,http://ufcstats.com/fighter-details/3591d0d5d382a381,75,205 lbs.,Light Heavyweight,78,Orthodox,"Oct 11, 1981",2.22,0.42,1.64,0.59,1.79,0.36,0.73,0.6,25-12-0,4118,37,9,False
+Shane Roller,http://ufcstats.com/fighter-details/75e0d3cc2262b732,70,155 lbs.,Lightweight,72,Orthodox,"Jul 14, 1979",2.04,0.34,2.65,0.6,2.46,0.33,0.42,1.9,11-7-0,4805,18,6,False
+Vinicius Salvador,http://ufcstats.com/fighter-details/65cdf4ec31143d86,67,135 lbs.,Bantamweight,70,Southpaw,"Jul 24, 1996",5.48,0.43,6.5,0.48,0.36,0.11,0.86,0.0,14-7-0,562,21,3,False
+Charlie Ontiveros,http://ufcstats.com/fighter-details/318572f6f74b760d,74,155 lbs.,Lightweight,74,Switch,"Jul 04, 1991",1.89,0.41,5.86,0.31,0.0,0.0,0.3,0.0,11-9-0,1206,20,3,False
+Jason MacDonald,http://ufcstats.com/fighter-details/2be6596a9db33bf5,75,185 lbs.,Middleweight,80,Orthodox,"Jun 03, 1975",1.55,0.52,2.7,0.46,1.43,0.16,0.35,2.0,25-16-0,4948,41,12,False
+Michael Morales,http://ufcstats.com/fighter-details/c32aeb1a59e6272d,72,170 lbs.,Welterweight,79,Orthodox,"Jun 24, 1999",5.68,0.49,3.26,0.53,1.04,0.41,0.89,0.0,19-0-0,16,19,7,False
+Chuck Liddell,http://ufcstats.com/fighter-details/a390eb8a9b2df298,74,205 lbs.,Light Heavyweight,76,Orthodox,"Dec 17, 1969",2.97,0.35,2.71,0.56,0.44,0.75,0.81,0.0,21-8-0,5651,29,23,False
+Alan Jouban,http://ufcstats.com/fighter-details/cf65d56b0755ed3b,72,170 lbs.,Welterweight,73,Southpaw,"Nov 25, 1981",5.67,0.5,3.77,0.6,0.51,0.44,0.58,0.3,17-7-0,1836,24,13,False
+Andreas Michailidis,http://ufcstats.com/fighter-details/79325a3c1a5c3bf4,72,170 lbs.,Welterweight,76,Orthodox,"Jul 18, 1988",2.9,0.51,3.57,0.44,1.12,0.27,0.5,0.0,13-6-0,1276,19,4,False
+Bojan Velickovic,http://ufcstats.com/fighter-details/fcce75a25c14a804,72,170 lbs.,Welterweight,76,Southpaw,"Dec 18, 1988",2.18,0.34,2.31,0.57,0.67,0.25,0.55,0.5,15-6-1,2935,22,6,False
+Nate Diaz,http://ufcstats.com/fighter-details/8355922d564b152c,72,170 lbs.,Welterweight,76,Southpaw,"Apr 16, 1985",4.57,0.45,3.77,0.52,1.05,0.3,0.41,1.3,22-13-0,1178,35,24,False
+Raphael Pessoa,http://ufcstats.com/fighter-details/41f90012b86a11bf,75,262 lbs.,Heavyweight,78,Orthodox,"Mar 09, 1989",2.16,0.26,3.43,0.42,0.0,0.0,1.0,0.0,10-2-0,1955,12,3,False
+Marlon Vera,http://ufcstats.com/fighter-details/7c7332319c14094c,68,135 lbs.,Bantamweight,70,Switch,"Dec 02, 1992",4.25,0.48,5.37,0.49,0.49,0.39,0.72,0.8,23-11-1,44,35,25,False
+Molly McCann,http://ufcstats.com/fighter-details/51018a31ddf31eb2,64,115 lbs.,Strawweight,62,Orthodox,"May 04, 1990",5.28,0.49,4.65,0.62,1.78,0.36,0.38,0.5,14-8-0,254,22,14,False
+Dustin Jacoby,http://ufcstats.com/fighter-details/e4277e87a789d687,75,205 lbs.,Light Heavyweight,76,Orthodox,"Apr 04, 1988",5.37,0.47,4.02,0.57,0.33,0.25,0.62,0.0,21-9-1,184,31,16,False
+Mike Davis,http://ufcstats.com/fighter-details/fb3e61720be4690c,72,155 lbs.,Lightweight,72,Orthodox,"Oct 07, 1992",4.73,0.53,5.23,0.54,2.4,0.44,0.6,0.8,12-3-0,142,15,7,False
+Godofredo Pepey,http://ufcstats.com/fighter-details/fa37628269132d1a,67,145 lbs.,Featherweight,73,Orthodox,"Jul 02, 1987",2.32,0.38,3.23,0.47,0.37,0.07,0.35,1.5,13-6-0,2865,19,11,False
+Aleksandra Albu,http://ufcstats.com/fighter-details/e76d9f656ceb82ab,62,115 lbs.,Strawweight,63,Orthodox,"Jul 14, 1990",4.83,0.47,5.56,0.38,2.27,0.5,0.77,0.4,3-2-0,2228,5,4,False
+Mateus Mendonca,http://ufcstats.com/fighter-details/48812daf291a4e23,66,125 lbs.,Flyweight,71,Orthodox,"Jan 17, 1999",1.66,0.4,4.14,0.3,2.54,0.27,0.55,0.4,10-3-0,646,13,3,False
+Andrea Lee,http://ufcstats.com/fighter-details/05fa626cb33d15b8,66,125 lbs.,Flyweight,69,Orthodox,"Feb 11, 1989",4.62,0.45,3.91,0.61,1.65,0.52,0.53,0.6,13-11-0,275,24,14,False
+Kiichi Kunimoto,http://ufcstats.com/fighter-details/71df36d6d8cf0d74,70,170 lbs.,Welterweight,71,Orthodox,"May 01, 1981",1.87,0.44,3.92,0.41,1.59,0.2,0.28,0.3,18-7-2,3096,27,5,False
+Kyle Nelson,http://ufcstats.com/fighter-details/31f8081c7600da93,71,155 lbs.,Lightweight,71,Switch,"Apr 20, 1991",3.6,0.45,4.48,0.53,1.18,0.23,0.66,0.5,17-6-1,44,24,11,False
+Parker Porter,http://ufcstats.com/fighter-details/ac40f7e3cbecdda4,72,265 lbs.,Heavyweight,75,Orthodox,"Apr 22, 1985",6.55,0.5,6.32,0.51,1.35,0.26,0.66,0.5,14-9-0,828,23,8,False
+Daermisi Zhawupasi,http://ufcstats.com/fighter-details/fd52e5f9ab25c94c,68,135 lbs.,Bantamweight,68,Switch,"Sep 15, 1999",1.86,0.4,2.36,0.55,7.74,0.65,0.53,1.4,9-2-0,465,11,4,False
+Shin Haraguchi,http://ufcstats.com/fighter-details/05b17ae24e6bba81,65,145 lbs.,Featherweight,68,Switch,"Nov 27, 1998",2.02,0.63,1.84,0.43,12.32,0.51,0.0,0.0,8-2-0,465,10,5,False
+Ricco Rodriguez,http://ufcstats.com/fighter-details/50cc91ce2982785d,76,265 lbs.,Heavyweight,,Orthodox,"Aug 19, 1977",1.85,0.51,1.15,0.61,2.3,0.39,0.4,1.0,53-25-0,6498,78,7,False
+Quang Le,http://ufcstats.com/fighter-details/32feae6d9a1e5047,67,135 lbs.,Bantamweight,70,Orthodox,"Oct 18, 1991",2.82,0.38,4.59,0.49,2.9,0.33,1.0,0.4,9-3-0,79,12,4,False
+Roosevelt Roberts,http://ufcstats.com/fighter-details/37c5366d18ed6c05,74,155 lbs.,Lightweight,73,Orthodox,"Feb 11, 1994",2.84,0.43,3.1,0.52,1.18,0.26,0.5,0.7,12-6-0,429,18,9,False
+Gabriel Miranda,http://ufcstats.com/fighter-details/b909a9a9688b5284,71,145 lbs.,Featherweight,71,Orthodox,"Mar 25, 1990",3.23,0.43,6.01,0.37,4.75,0.38,0.0,1.9,17-8-0,247,25,4,False
+Antonio Arroyo,http://ufcstats.com/fighter-details/61fb8098ccf81c7f,75,185 lbs.,Middleweight,73,Orthodox,"Jul 01, 1989",2.82,0.66,2.02,0.5,1.14,0.41,0.41,0.2,9-5-0,1535,14,3,False
+Will Campuzano,http://ufcstats.com/fighter-details/901cddcbfa079097,69,125 lbs.,Flyweight,70,Orthodox,"May 27, 1986",2.43,0.31,3.82,0.57,0.88,0.45,0.48,0.2,14-6-0,4279,20,3,False
+Paul Felder,http://ufcstats.com/fighter-details/e5010b1b94ca5755,71,155 lbs.,Lightweight,70,Orthodox,"Apr 25, 1984",3.7,0.44,3.44,0.48,0.29,0.28,0.64,0.2,17-6-0,1843,23,15,False
+Edgar Chairez,http://ufcstats.com/fighter-details/5ef94841c4bc3f86,67,125 lbs.,Flyweight,71,Orthodox,"Jan 27, 1996",3.44,0.44,5.08,0.42,0.0,0.0,0.33,1.7,12-6-0,247,18,5,False
+Thiago Perpetuo,http://ufcstats.com/fighter-details/c1a5d3843596df92,70,170 lbs.,Welterweight,,Orthodox,"Dec 14, 1987",5.39,0.69,3.51,0.51,2.82,0.5,0.66,0.0,9-4-1,4271,14,3,False
+Justine Kish,http://ufcstats.com/fighter-details/928ae2e5b5f7a9ec,65,125 lbs.,Flyweight,64,Orthodox,"Apr 13, 1988",4.51,0.48,4.59,0.57,0.87,0.33,0.5,0.1,7-4-0,1689,11,7,False
+Steven Siler,http://ufcstats.com/fighter-details/d188a3b817860ec6,71,145 lbs.,Featherweight,70,Orthodox,"Feb 15, 1987",3.21,0.41,2.96,0.54,0.47,0.21,0.55,1.6,29-16-0,4146,45,8,False
+Eddie Wineland,http://ufcstats.com/fighter-details/fc9a9559a05f2704,67,135 lbs.,Bantamweight,69,Orthodox,"Jun 26, 1984",3.4,0.29,3.76,0.68,0.34,0.33,0.86,0.1,24-16-1,1262,41,16,False
+Gabriel Gonzaga,http://ufcstats.com/fighter-details/270b89c00ef0c55c,74,242 lbs.,Heavyweight,76,Orthodox,"May 18, 1979",2.12,0.45,2.94,0.57,2.8,0.39,0.66,1.1,17-11-0,3522,28,20,False
+Tony Ferguson,http://ufcstats.com/fighter-details/22a92d7f62195791,71,170 lbs.,Welterweight,76,Orthodox,"Feb 12, 1984",4.91,0.45,4.37,0.55,0.39,0.35,0.66,0.9,26-11-0,485,37,21,False
+Assuerio Silva,http://ufcstats.com/fighter-details/e091482fa6648261,70,241 lbs.,Heavyweight,,Orthodox,"Jun 18, 1974",1.42,0.46,4.2,0.54,2.66,0.34,0.25,1.8,16-8-0,6799,24,3,False
+Alexis Davis,http://ufcstats.com/fighter-details/4c2d90e335e6df19,66,135 lbs.,Bantamweight,68,Orthodox,"Oct 04, 1984",4.63,0.49,4.45,0.54,0.95,0.44,0.34,0.7,21-11-0,1395,32,13,False
+Spike Carlyle,http://ufcstats.com/fighter-details/be68b375707dcb85,68,145 lbs.,Featherweight,71,Switch,"May 06, 1993",2.55,0.54,3.85,0.3,3.34,0.36,0.57,0.5,9-3-0,1829,12,3,False
+Chris Leben,http://ufcstats.com/fighter-details/d43a048a880efdff,71,185 lbs.,Middleweight,73,Southpaw,"Jul 21, 1980",2.87,0.42,2.87,0.52,1.14,0.41,0.53,0.8,22-11-0,4356,33,20,False
+Ramsey Nijem,http://ufcstats.com/fighter-details/22aa91e402d0fe1f,71,155 lbs.,Lightweight,75,Orthodox,"Apr 01, 1988",3.05,0.44,1.62,0.62,5.32,0.62,0.55,1.1,9-6-0,3782,15,9,False
+Jake Collier,http://ufcstats.com/fighter-details/92fa1401b7927da3,75,230 lbs.,Heavyweight,78,Orthodox,"Oct 25, 1988",5.8,0.44,5.08,0.5,0.71,0.33,0.67,0.6,13-10-0,800,23,14,False
+Rayanne dos Santos,http://ufcstats.com/fighter-details/02bb48869eb7ac8f,62,115 lbs.,Strawweight,62,Orthodox,"Jun 08, 1995",4.57,0.4,6.47,0.59,0.5,0.14,0.8,0.0,14-9-0,184,23,3,False
+Alexander Hernandez,http://ufcstats.com/fighter-details/262a7d06203657e6,69,155 lbs.,Lightweight,72,Orthodox,"Oct 01, 1992",4.31,0.4,4.5,0.59,1.14,0.36,0.73,0.1,18-8-0,79,26,17,False
+Jerome Rivera,http://ufcstats.com/fighter-details/c9587d81e1d33925,70,125 lbs.,Flyweight,72,Southpaw,"Apr 22, 1995",3.21,0.33,2.6,0.51,0.0,0.0,0.4,0.0,10-6-0,1605,16,4,False
+Ivan Menjivar,http://ufcstats.com/fighter-details/5755960ebd0b16f6,66,145 lbs.,Featherweight,64,Orthodox,"May 30, 1982",2.78,0.37,2.76,0.65,0.56,0.28,0.38,1.0,25-12-0,4293,37,9,False
+Sangwook Kim,http://ufcstats.com/fighter-details/a264d4e9a4d6bfe4,72,155 lbs.,Lightweight,71,Orthodox,"Oct 17, 1993",5.35,0.57,5.49,0.45,2.1,0.29,0.71,1.7,13-3-0,101,16,4,False
+Takanori Gomi,http://ufcstats.com/fighter-details/3be081c29bf734d9,67,155 lbs.,Lightweight,70,Southpaw,"Sep 22, 1978",3.81,0.41,3.52,0.6,1.23,0.65,0.63,0.8,35-14-0,2992,49,13,False
+Hyun Gyu Lim,http://ufcstats.com/fighter-details/203c957eac95dd87,75,170 lbs.,Welterweight,77,Orthodox,"Jan 16, 1985",4.45,0.41,5.07,0.51,0.23,1.0,0.73,0.2,13-7-1,2992,21,7,False
+Ben Saunders,http://ufcstats.com/fighter-details/484acc7b0f856ce9,74,170 lbs.,Welterweight,77,Orthodox,"Apr 13, 1983",3.23,0.5,3.58,0.51,0.2,0.4,0.66,1.3,22-13-2,2179,37,18,False
+Iuri Alcantara,http://ufcstats.com/fighter-details/2f95a3c6d58b2aad,69,135 lbs.,Bantamweight,71,Southpaw,"Aug 04, 1980",2.72,0.45,2.79,0.49,1.44,0.62,0.6,0.8,35-10-0,2655,45,18,False
+Cody Donovan,http://ufcstats.com/fighter-details/7bc96507e4b38d3b,75,205 lbs.,Light Heavyweight,74,Orthodox,"Feb 20, 1981",5.61,0.59,5.44,0.45,1.67,0.28,0.0,1.7,8-5-0,4153,13,4,False
+Ali Bagautinov,http://ufcstats.com/fighter-details/3dd92ff9fb0412b3,64,125 lbs.,Flyweight,65,Orthodox,"Jun 10, 1985",2.85,0.42,3.09,0.52,2.51,0.36,0.65,0.3,15-6-0,3299,21,7,False
+Brett Johns,http://ufcstats.com/fighter-details/ec52462a1b41f714,67,135 lbs.,Bantamweight,71,Orthodox,"Feb 21, 1992",2.86,0.49,3.84,0.53,4.92,0.49,0.58,1.0,17-2-0,1962,19,6,False
+John Salter,http://ufcstats.com/fighter-details/010986ee359fb863,73,185 lbs.,Middleweight,74,Southpaw,"Mar 21, 1985",1.68,0.32,1.68,0.68,2.85,0.46,0.66,0.5,14-3-0,5442,17,3,False
+Heath Herring,http://ufcstats.com/fighter-details/7450525c7ba032a0,76,250 lbs.,Heavyweight,78,Orthodox,"Mar 02, 1978",2.37,0.5,1.77,0.54,1.22,0.5,0.32,0.7,28-16-0,6323,44,5,False
