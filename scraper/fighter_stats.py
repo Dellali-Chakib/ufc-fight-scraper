@@ -2,10 +2,21 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date, datetime
 
+from scraper.source import fetch_html, checked_page, profile_id, SourceError
+import re
+
+
 def get_fighter_details(url: str) -> dict:
-    
-    response = requests.get(url)
-    page = BeautifulSoup(response.text, "html.parser")
+    return parse_fighter_details(fetch_html(url), url)
+
+
+def parse_fighter_details(html: str, url: str) -> dict:
+    profile_id(url)
+    page = checked_page(html, url)
+    name = page.select_one('span.b-content__title-highlight')
+    record = page.select_one('span.b-content__title-record')
+    if not name or not name.get_text(strip=True) or name.get_text(strip=True).lower() == 'unknown' or not record or not re.fullmatch(r'Record:\s*\d+-\d+-\d+(?:\s*\(\d+ NC\))?', record.get_text(strip=True)):
+        raise SourceError(f'Missing/invalid profile identity or record: {url}')
 
     fighter_data = {}
 
@@ -17,9 +28,15 @@ def get_fighter_details(url: str) -> dict:
     )
     
     for stats in fighterDetails:
+        if not stats.i:
+            continue
         label = stats.i.text.strip()
         stats.i.decompose()
         fighter_data[label.rstrip(":")] = stats.text.strip()
+
+    required_labels = {'Height', 'Weight', 'Reach', 'STANCE', 'DOB', 'SLpM', 'Str. Acc.', 'SApM', 'Str. Def', 'TD Avg.', 'TD Acc.', 'TD Def.', 'Sub. Avg.'}
+    if not required_labels.issubset(fighter_data):
+        raise SourceError(f'Missing profile stat structure: {url}; absent={sorted(required_labels - fighter_data.keys())}')
 
     record = page.find("span", class_="b-content__title-record")
     if record:

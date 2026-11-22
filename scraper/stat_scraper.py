@@ -1,261 +1,181 @@
-from bs4 import BeautifulSoup
-import requests
-import time
-import asyncio
-import aiohttp 
-from scraper.fighter_model import Fighter
-from scraper.clean_data import clean_fighter_stats
-from scraper.fighter_stats import get_fighter_details
-from scraper.filter_data import filter_fighters
+"""Fetch a complete roster, validate fresh candidates, then replace local publications."""
 import csv
+import json
+import os
+import shutil
+import sqlite3
+import tempfile
+from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 
-# === PHASE 1: DATABASE INTEGRATION ===
-# Import our new database module for SQLAlchemy ORM functionality
-from scraper.database import (
-    get_engine,           # Creates database connection
-    init_database,        # Creates tables
-    add_fighters,         # Bulk insert fighters
-    get_fighter_count     # Query fighter count
-)
+from scraper.source import fetch_html, parse_index, profile_id, SourceError
+from scraper.fighter_stats import get_fighter_details
+from scraper.clean_data import clean_fighter_stats
+from scraper.fighter_model import Fighter
+from scraper.database import get_engine, init_database, add_fighters
+from validate_export import validate
 
-alphabet = [
-    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-    'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
-]
-ufc_site_url = "http://ufcstats.com/statistics/fighters?char={}&page=all"
-CONCURRENT_REQUESTS = 10
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/115.0 Safari/537.36"
-}
+INDEX = 'http://ufcstats.com/statistics/fighters?char={}&page=all'
+WORKERS = 4
 
-async def fetch_letter(letter, session, sem, retries=3):
-    async with sem:
-        url = ufc_site_url.format(letter)
-        for attempt in range(retries):
+
+def discover():
+    urls = set()
+    failures = []
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        jobs = {pool.submit(fetch_html, INDEX.format(c)): c for c in 'abcdefghijklmnopqrstuvwxyz'}
+        for future in as_completed(jobs):
+            letter = jobs[future]
             try:
-                async with session.get(url, ssl=False, headers=HEADERS) as response:
-                    return await response.text()
-            except (aiohttp.ClientPayloadError, aiohttp.ClientConnectionError) as e:
-                if attempt < retries - 1:
-                    await asyncio.sleep(1)
-                else:
-                    print(f"Failed to fetch {url}: {e}")
-                    return ""
+                found = parse_index(future.result(), INDEX.format(letter))
+                print(f'Index {letter}: {len(found)} profiles')
+                urls.update(found)
+            except Exception as error:
+                failures.append(letter)
+                print(f'Index fetch/parse failure [{letter}]: {error}', flush=True)
+    print(f'Discovered IDs ({len(urls)}): {json.dumps(sorted(profile_id(u) for u in urls))}')
+    if failures:
+        raise SourceError(f'Discovery incomplete: failed indexes {failures}')
+    if not urls:
+        raise SourceError('Discovery empty: no fighter IDs; publication refused')
+    return sorted(urls)
 
-async def fetch_all_letters():
-    sem = asyncio.Semaphore(CONCURRENT_REQUESTS)
-    async with aiohttp.ClientSession() as session:
-        tasks = [fetch_letter(letter, session, sem) for letter in alphabet]
-        html_pages = await asyncio.gather(*tasks)
-        return html_pages
 
-async def parse_fighter_urls(html):
-    def parse():
-        soup = BeautifulSoup(html, "html.parser")
-        urls = []
-        for tag in soup.find_all("a", href=True):
-            # BeautifulSoup type hints issue - suppress with type: ignore
-            href = tag.get("href")  # type: ignore
-            if href and "fighter-details" in href:
-                urls.append(href)
-        return urls
-    fighter_urls = await asyncio.to_thread(parse)
-    return fighter_urls
-
-async def gather_all_urls(html_pages):
-    tasks = [parse_fighter_urls(html) for html in html_pages]
-    results = await asyncio.gather(*tasks)
-
-    all_urls = set()
-    for url_list in results:
-        all_urls.update(url_list)
-    return list(all_urls)
-
-async def get_all_fighter_urls():
-    html_pages = await fetch_all_letters()
-    fighter_urls = await gather_all_urls(html_pages)
-    return fighter_urls
-
-async def fetch_name(fighter, session, sem, retries=3):
-    url = fighter['url']
-    async with sem:
-        for attempt in range(retries):
+def collect_fighters():
+    urls = discover()
+    fighters, failures = [], []
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        jobs = {pool.submit(get_fighter_details, url): url for url in urls}
+        for future in as_completed(jobs):
+            url = jobs[future]
             try:
-                async with session.get(url, headers=HEADERS, ssl=False) as resp:
-                    # Let aiohttp raise its own error if status is bad
-                    resp.raise_for_status()
-                    text = await resp.text()
-                    soup = BeautifulSoup(text, "html.parser")
-                    name_tag = soup.find("span", class_="b-content__title-highlight")
-                    fighter['name'] = name_tag.text.strip() if name_tag else "Unknown"
-                    return
-            except Exception as e:
-                if attempt < retries - 1:
-                    await asyncio.sleep(1)
-                else:
-                    print(f"Failed to fetch name for {url}: {e}")
-                    fighter['name'] = "Unknown"
+                data = clean_fighter_stats([dict(future.result(), url=url)])[0]
+                fighters.append(Fighter(**data))
+            except Exception as error:
+                failures.append(profile_id(url))
+                print(f'Profile fetch/parse failure [{profile_id(url)}]: {error}', flush=True)
+    print(f'Profiles: discovered={len(urls)} accepted={len(fighters)} failed={len(failures)} low_sample={sum(f.bad_sample for f in fighters)}')
+    # Never interpret retrieval failures as roster removals or valid newcomers.
+    if failures:
+        raise SourceError(f'Incomplete profiles; publication refused. Failed IDs: {json.dumps(sorted(failures))}')
+    return fighters
 
-async def fetch_stats(fighter, session, sem, retries=3):
-    url = fighter['url']
-    async with sem:
-        for attempt in range(retries):
-            try:
-                fighter_info = await asyncio.to_thread(get_fighter_details, url)
-                fighter.update(fighter_info)
-                return
-            except Exception as e:
-                if attempt < retries - 1:
-                    await asyncio.sleep(1)
-                else:
-                    print(f"Failed to fetch stats for {fighter.get('name', url)}: {e}")
 
-async def fetch_all_names_and_stats(fighters):
-    sem = asyncio.Semaphore(CONCURRENT_REQUESTS)
-    async with aiohttp.ClientSession() as session:
-        name_tasks = [fetch_name(fighter, session, sem) for fighter in fighters]
-        await asyncio.gather(*name_tasks)
-
-        stats_tasks = [fetch_stats(fighter, session, sem) for fighter in fighters]
-        await asyncio.gather(*stats_tasks)
-
-def write_csv(fighters):
-    """
-    LEGACY FUNCTION: Writes fighters to CSV (kept for backward compatibility).
-    
-    Phase 1 Update: We're moving to database storage, but keeping this function
-    in case you want to export CSV files for analysis or backup.
-    """
-    file_name = "output.csv"
+def write_csv(fighters, path):
     if not fighters:
-        print("No fighters to write.")
-        return
-    fighter_dicts = [fighter.to_dict() for fighter in fighters]
-    fieldnames = fighter_dicts[0].keys()
-    with open(file_name, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        raise SourceError('Export empty: publication refused')
+    rows = [f.to_dict() for f in sorted(fighters, key=lambda f: profile_id(f.url))]
+    with open(path, 'x', newline='', encoding='utf-8') as stream:
+        writer = csv.DictWriter(stream, fieldnames=rows[0].keys())
         writer.writeheader()
-        writer.writerows(fighter_dicts)
-    print(f"CSV file '{file_name}' has been created successfully!")
+        writer.writerows(rows)
+    print(f'Fresh candidate written: {path}; accepted rows={len(rows)}')
 
 
-def save_to_database(fighters, db_path='ufc_fighters.db'):
-    """
-    NEW FUNCTION (Phase 1): Saves fighters to SQLite database using SQLAlchemy ORM.
-    
-    HOW THIS WORKS:
-    ---------------
-    1. Create/connect to database using get_engine()
-    2. Initialize tables if they don't exist
-    3. Use add_fighters() to bulk insert all fighter data
-    4. Return count of saved fighters
-    
-    LEARNING POINTS:
-    ----------------
-    - This replaces CSV export with persistent database storage
-    - Data is stored in a structured format (SQL table)
-    - You can query, filter, and update data efficiently
-    - The database file (ufc_fighters.db) persists between script runs
-    
-    PARAMETERS:
-    -----------
-    fighters : list
-        List of Fighter objects from fighter_model.py
-    db_path : str
-        Path to SQLite database file (default: 'ufc_fighters.db')
-    
-    RETURNS:
-    --------
-    int : Number of fighters successfully saved
-    """
-    if not fighters:
-        print("No fighters to save to database.")
-        return 0
-    
-    print("\n" + "="*80)
-    print("PHASE 1: SAVING TO DATABASE")
-    print("="*80)
-    
-    # Step 1: Create database engine (connection to SQLite file)
-    engine = get_engine(db_path)
-    
-    # Step 2: Initialize database (creates 'fighters' table if it doesn't exist)
-    init_database(engine)
-    
-    # Step 3: Add all fighters to database
-    count = add_fighters(fighters, engine)
-    
-    # Step 4: Verify the save
-    total_in_db = get_fighter_count(engine)
-    print(f"\n📊 Database now contains {total_in_db} total fighters")
-    print("="*80 + "\n")
-    
-    return count
+def meaningful_changes(previous, candidate):
+    def read(path):
+        with open(path, newline='', encoding='utf-8-sig') as stream:
+            # Recency is derived from today's date, not a changed source statistic.
+            return {profile_id(r['URL']): {k: v for k, v in r.items() if k not in {'URL', 'Most Recent Fight'}} for r in csv.DictReader(stream)}
+    old, new = read(previous), read(candidate)
+    changed = {identity: sorted(k for k in old[identity].keys() | new[identity].keys() if old[identity].get(k) != new[identity].get(k))
+               for identity in old.keys() & new.keys() if old[identity] != new[identity]}
+    report = {'added': sorted(new.keys() - old.keys()), 'removed': sorted(old.keys() - new.keys()), 'changed': changed}
+    print('Meaningful changes by profile ID: ' + json.dumps(report, sort_keys=True))
+    return any(report.values())
 
-def main():
-    """
-    Main scraper function - UPDATED FOR PHASE 1: DATABASE INTEGRATION
-    
-    WHAT CHANGED:
-    -------------
-    - Added save_to_database() call to persist data to SQLite
-    - Kept write_csv() as optional backup/export
-    - Added user choice to use database, CSV, or both
-    
-    WORKFLOW:
-    ---------
-    1. Scrape fighter URLs from ufcstats.com
-    2. Fetch detailed stats for each fighter (async)
-    3. Clean and validate data
-    4. Create Fighter objects
-    5. Filter out bad samples
-    6. **NEW**: Save to database using SQLAlchemy ORM
-    7. (Optional) Export to CSV for backup
-    """
-    start = time.time()
-    
-    # Step 1-2: Scrape fighter URLs and fetch detailed stats
-    fighter_urls = asyncio.run(get_all_fighter_urls())
-    fighters = [{"url": url} for url in fighter_urls]
-    print(f"Total fighters found: {len(fighters)}")
 
-    asyncio.run(fetch_all_names_and_stats(fighters))
+def save_to_database(fighters, db_path):
+    engine = get_engine(str(db_path))
+    try:
+        init_database(engine)
+        add_fighters(fighters, engine)
+    finally:
+        engine.dispose()
 
-    # Step 3: Clean fighter stats
-    print("\nCleaning fighter stats...")
-    fighters = clean_fighter_stats(fighters)
 
-    # Step 4: Ensure all required keys exist before creating Fighter objects
-    required_fields = ['height', 'weight', 'reach', 'stance', 'dob', 'slpm', 'stracc',
-                       'sapm', 'strdef', 'tdavg', 'tdacc', 'tddef', 'subavg', 'record',
-                       'mostrecentfight', 'fightswithinufc']
-    for fighter_data in fighters:
-        for field in required_fields:
-            fighter_data.setdefault(field, None)
+def validate_database_export(export, database):
+    """Compare every exported field; historical DB-only rows remain permitted."""
+    columns = dict(zip(
+        ['Name', 'URL', 'Height', 'Weight', 'Weight Class', 'Reach', 'Stance', 'DOB',
+         'SLpm', 'StrAcc', 'SApM', 'StrDef', 'TDAvg', 'TDAcc', 'TDDef', 'SubAvg',
+         'Record', 'Most Recent Fight', 'FightCount', 'FightsInUFC', 'BadSample'],
+        ['name', 'url', 'height', 'weight', 'weight_class', 'reach', 'stance', 'dob',
+         'slpm', 'stracc', 'sapm', 'strdef', 'tdavg', 'tdacc', 'tddef', 'subavg',
+         'record', 'most_recent_fight', 'fight_count', 'fights_in_ufc', 'bad_sample']))
+    numeric = {'Height', 'Reach', 'SLpm', 'StrAcc', 'SApM', 'StrDef', 'TDAvg',
+               'TDAcc', 'TDDef', 'SubAvg', 'Most Recent Fight', 'FightCount', 'FightsInUFC'}
+    connection = sqlite3.connect(Path(database).resolve().as_uri() + '?mode=ro', uri=True)
+    try:
+        connection.row_factory = sqlite3.Row
+        with open(export, newline='', encoding='utf-8-sig') as stream:
+            for row in csv.DictReader(stream):
+                matches = connection.execute('SELECT * FROM fighters WHERE url = ?', (row['URL'],)).fetchall()
+                if len(matches) != 1:
+                    raise ValueError('CSV/SQLite mismatch: missing or duplicate fighter ' + row['URL'])
+                for field, column in columns.items():
+                    value, stored = row[field], matches[0][column]
+                    if value == '':
+                        equal = stored is None or stored == ''
+                    elif field == 'BadSample':
+                        equal = stored in (0, 1) and (value.lower() in {'true', '1'}) == bool(stored)
+                    elif field in numeric:
+                        equal = stored is not None and float(value) == float(stored)
+                    else:
+                        equal = value == stored
+                    if not equal:
+                        raise ValueError(f'CSV/SQLite mismatch: {row["URL"]} {field}')
+    finally:
+        connection.close()
 
-    # Step 5: Instantiate Fighter objects
-    print("Instantiating Fighter objects...")
-    fighter_class_list = [Fighter(**fighter_data) for fighter_data in fighters]
 
-    # Step 6: Filter fighters (remove those with < 3 UFC fights)
-    print("Filtering fighters...")
-    good_fighters = [f for f in fighter_class_list if not f.bad_sample]
-    print(f"Active/valid fighters: {len(good_fighters)}")
+def main(output_dir='.'):
+    output_dir = Path(output_dir).resolve()
+    published = output_dir / 'output.csv'
+    database = output_dir / 'ufc_fighters.db'
+    # Same filesystem for atomic per-file replacement; unique path prevents stale candidate reuse.
+    with tempfile.TemporaryDirectory(prefix='.fighter-refresh-', dir=output_dir) as directory:
+        stage = Path(directory)
+        candidate = stage / 'candidate.csv'
+        fighters = collect_fighters()
+        collected_count = len(fighters)
+        fighters = [f for f in fighters if not f.bad_sample]
+        write_csv(fighters, candidate)
+        validate(candidate, published)  # Retain the existing 95% minimum.
+        success = stage / 'collection-success.json'
+        success.write_text(json.dumps({'last_successful_collection': datetime.now(timezone.utc).isoformat(),
+                                      'collected': collected_count, 'exported': len(fighters),
+                                      'filtered': collected_count - len(fighters)}, indent=2) + '\n')
+        if not meaningful_changes(published, candidate):
+            validate_database_export(published, database)
+            os.replace(success, output_dir / 'collection-success.json')
+            print('Fresh scrape validated; no meaningful changes. Published files unchanged.')
+            return
+        candidate_db = stage / 'candidate.db'
+        if database.exists():
+            # SQLite backup also captures committed WAL content from a local API database.
+            with sqlite3.connect(f'file:{database}?mode=ro', uri=True) as source, sqlite3.connect(candidate_db) as target:
+                source.backup(target)
+        save_to_database(fighters, candidate_db)
+        validate_database_export(candidate, candidate_db)
+        # All retrieval, parsing, validation and DB work finish before touching published files.
+        shutil.copy2(published, stage / 'previous.csv')
+        if database.exists():
+            shutil.copy2(database, stage / 'previous.db')
+        try:
+            os.replace(candidate_db, database)
+            os.replace(candidate, published)
+            os.replace(success, output_dir / 'collection-success.json')
+        except OSError:
+            os.replace(stage / 'previous.csv', published)
+            if (stage / 'previous.db').exists():
+                os.replace(stage / 'previous.db', database)
+            elif database.exists():
+                database.unlink()
+            raise
+        print('Validated CSV and database replaced; ready for workflow change detection.')
 
-    # ===== PHASE 1: DATABASE INTEGRATION =====
-    # Save to database (primary storage method)
-    save_to_database(good_fighters, db_path='ufc_fighters.db')
-    
-    # Optional: Also export to CSV for backward compatibility and easy viewing
-    print("Also creating CSV backup...")
-    write_csv(good_fighters)
-    # ==========================================
-    
-    end = time.time()
-    elapsed = end - start
-    print(f'\n⏱️  Total elapsed time: {elapsed:.2f} seconds')
-    print(f"✓ Scraping complete! Data saved to database and CSV.")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

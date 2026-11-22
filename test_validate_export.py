@@ -21,6 +21,10 @@ class ValidationTests(unittest.TestCase):
             for count in (100, 95):
                 write(candidate, rows[:count])
                 validate(candidate, previous)
+            write(candidate, [dict(row, BadSample='True') for row in rows])
+            with self.assertRaisesRegex(ValueError, 'bad sample'): validate(candidate, previous)
+            write(candidate, [dict(rows[0], BadSample='unknown')])
+            with self.assertRaisesRegex(ValueError, 'invalid BadSample'): validate(candidate, previous)
             write(candidate, rows[:94])
             with self.assertRaisesRegex(ValueError, 'roster drop'): validate(candidate, previous)
             write(candidate, rows + [rows[0]])

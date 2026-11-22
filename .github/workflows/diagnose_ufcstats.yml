@@ -1,0 +1,73 @@
+name: Diagnose UFCStats access
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install diagnostic dependencies
+        run: python -m pip install requests==2.32.4 beautifulsoup4==4.13.4
+      - name: Probe two public pages without retries
+        shell: bash
+        run: |
+          python -u - <<'PY'
+          import os
+          import requests
+          from scraper.source import checked_page, parse_index, SourceError
+          from scraper.fighter_stats import parse_fighter_details
+
+          targets = [
+              ('Roster k', 'http://ufcstats.com/statistics/fighters?char=k&page=all'),
+              ('Kayla Harrison', 'http://ufcstats.com/fighter-details/1af1170ed937cba7'),
+          ]
+          reports = []
+          failed = False
+          for label, url in targets:
+              status = 'no response'
+              result = 'unavailable'
+              try:
+                  # requests defaults to zero retries. Do not follow redirects:
+                  # each target must cause exactly one HTTP request.
+                  with requests.get(url, timeout=(5, 10), verify=True,
+                                    allow_redirects=False) as response:
+                      status = str(response.status_code)
+                      checked_page(response.text, url)
+                      if response.status_code != 200:
+                          raise SourceError('Unexpected HTTP status')
+                      if 'text/html' not in response.headers.get('Content-Type', '').lower():
+                          raise SourceError('Expected HTML')
+                      if label == 'Roster k':
+                          if not parse_index(response.text, url):
+                              raise SourceError('Empty roster')
+                      else:
+                          profile = parse_fighter_details(response.text, url)
+                          if profile['name'] != 'Kayla Harrison':
+                              raise SourceError('Wrong profile identity')
+                      result = 'genuine expected data'
+              except SourceError as error:
+                  failed = True
+                  result = ('browser challenge/error page' if str(error).startswith('Challenge/error')
+                            else 'missing or invalid expected data')
+              except requests.RequestException as error:
+                  failed = True
+                  # Exception messages may contain proxy URLs; report only type.
+                  result = type(error).__name__
+              reports.append(f'{label}: HTTP {status}; {result}')
+              print(reports[-1])
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('## UFCStats access diagnostic\n\n')
+              summary.write('\n'.join('- ' + report for report in reports) + '\n')
+          raise SystemExit(1 if failed else 0)
+          PY
