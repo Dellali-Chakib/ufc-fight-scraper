@@ -19,6 +19,7 @@ jobs:
   update-database:
     name: Scrape and Update Fighter Data
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     
     steps:
       - name: Checkout repository
@@ -37,40 +38,36 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Save committed baseline
-        run: git show HEAD:output.csv > "$RUNNER_TEMP/previous-output.csv"
+      - name: Test refresh safeguards
+        run: python -m unittest discover -v
 
-      - name: Run scraper
-        run: |
-          echo "Starting scraper at $(date)"
-          python run_scraper.py
-          echo "Scraper completed at $(date)"
-      
-      - name: Validate export before publication
-        run: python validate_export.py output.csv "$RUNNER_TEMP/previous-output.csv"
+      - name: Fetch, validate, and stage fighter refresh
+        run: python run_scraper.py
 
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet ufc_fighters.db output.csv || echo "changes=true" >> $GITHUB_OUTPUT
+          test ! -f collection-success.json || git add collection-success.json
+          git diff HEAD --quiet -- ufc_fighters.db output.csv collection-success.json || echo "changes=true" >> $GITHUB_OUTPUT
       
       - name: Commit updated database
         if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add ufc_fighters.db output.csv
+          git add ufc_fighters.db output.csv collection-success.json
           git commit -m "🤖 Automated data update - $(date +'%Y-%m-%d')"
           git push
       
-      - name: Upload database artifact
+      - name: Upload last known publication
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: updated-database
+          name: published-database
           path: |
             ufc_fighters.db
             output.csv
+            collection-success.json
           retention-days: 30
       
       - name: Generate summary
