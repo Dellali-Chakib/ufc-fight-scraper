@@ -1,0 +1,56 @@
+name: Reconcile full UFC roster
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish validated reconciliation (never bootstrap)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: fighter-data-publish
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+      REQUEST_PUBLISH: ${{ inputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Run scraper tests
+        run: |
+          python -m unittest discover -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Reconcile and optionally publish
+        run: |
+          $arguments = @('scripts/actions_refresh.py', '--mode', 'full', '--budget', '18000')
+          if ($env:REQUEST_PUBLISH -eq 'true') { $arguments += '--publish' }
+          python @arguments
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: full-reconciliation-review
+          path: |
+            actions-refresh-summary.json
+            collection-failure.json
+            candidates/
+          retention-days: 14
