@@ -1,6 +1,7 @@
 """Exact identity reconciliation, including tombstones for absent athletes."""
 
 import csv
+import copy
 import re
 import unicodedata
 import uuid
@@ -88,7 +89,37 @@ def previous_registry(root):
     return registry
 
 
+def favorite_slug(name):
+    """The exact key produced by the legacy frontend, not identity evidence."""
+    return re.sub(r"[^a-z0-9]+", "-", name.lower())
+
+
+def filter_favorite_aliases(profiles, registry, previous_names):
+    """Reserve names belonging to any competing identity, even tombstones.
+
+    A non-exported or unresolved legacy identity must still prevent a unique
+    visible display name from claiming its saved favorite key.
+    """
+    names = [*previous_names, *((fid, row["name"]) for fid, row in registry.items())]
+    name_owners, key_owners = defaultdict(set), defaultdict(set)
+    for fid, name in names:
+        name_owners[name_key(name)].add(fid)
+        key_owners[favorite_slug(name)].add(fid)
+    blocked = {favorite_slug(name) for _, name in names
+               if len(name_owners[name_key(name)]) > 1}
+    for p in profiles:
+        for key in (p.get("favorite_aliases") or "").split():
+            key_owners[key].add(p["fighter_id"])
+    for p in profiles:
+        fid = p["fighter_id"]
+        keys = {key for key in (p.get("favorite_aliases") or "").split()
+                if key not in blocked and key_owners[key] == {fid}}
+        p["favorite_aliases"] = " ".join(sorted(keys)) or None
+        registry[fid]["favorite_aliases"] = p["favorite_aliases"]
+
+
 def reconcile(profiles, registry, aliases, report):
+    previous_names = [(fid, row["name"]) for fid, row in registry.items()]
     by_name = defaultdict(list)
     by_source, by_url = {}, {}
     for fid, old in registry.items():
@@ -153,13 +184,19 @@ def reconcile(profiles, registry, aliases, report):
         num = old.get("id")
         if num is None:
             num, next_id = next_id, next_id + 1
-        # Historic clients persisted numeric IDs and ASCII name slugs in localStorage.
-        favorite_aliases = set((old.get("favorite_aliases") or "").split())
-        favorite_aliases.add(str(num))
-        for name in [old.get("name"), p["name"]]:
-            if name:
-                favorite_aliases.add(re.sub(r"[^a-z0-9]+", "-", name.lower()))
-        p["favorite_aliases"] = " ".join(sorted(favorite_aliases))
+        # Only a corroborated/reviewed legacy identity may supply migration
+        # aliases. A new UFC.com source identity has no legacy name mapping.
+        # Do not carry the former name-only policy forward for ufc-* IDs.
+        favorite_aliases = set()
+        if old and re.fullmatch(r"[a-f0-9]{16}", fid):
+            favorite_aliases.update((old.get("favorite_aliases") or "").split())
+            if old.get("id") is not None:
+                favorite_aliases.add(str(old["id"]))
+            # Only the original legacy record proves a historic name key.
+            # Later source display names must not create new legacy aliases.
+            if not old.get("source_id"):
+                favorite_aliases.add(favorite_slug(old["name"]))
+        p["favorite_aliases"] = " ".join(sorted(favorite_aliases)) or None
         registry[fid] = {
             "favorite_aliases": p["favorite_aliases"],
             "fighter_id": fid,
@@ -170,4 +207,16 @@ def reconcile(profiles, registry, aliases, report):
             "dob": p.get("dob") or old.get("dob"),
         }
         p["fighter_id"] = fid
+    filter_favorite_aliases(profiles, registry, previous_names)
     report["unmatched"] = sorted(old_ids - seen)
+
+
+def validate_favorite_aliases(rows, registry, aliases):
+    """Reject stale candidates created under the former name-only policy."""
+    profiles = [row.model_dump(mode="json") for row in sorted(rows.values(), key=lambda row: row.url)]
+    expected = copy.deepcopy(registry)
+    reconcile(profiles, expected, aliases, {})
+    for profile in profiles:
+        row = rows.get(profile["fighter_id"])
+        if row is None or row.favorite_aliases != profile["favorite_aliases"]:
+            raise ValueError("FavoriteAliases violate supported identity mappings; regenerate candidate")

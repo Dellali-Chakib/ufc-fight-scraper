@@ -11,7 +11,7 @@ from validate_export import changes, coverage, guard, validate
 from .contract import Fighter, HEADERS, VERSION
 from .database import build, reader
 from .events import discover_events, parse_event
-from .identity import previous_registry, reconcile
+from .identity import previous_registry, reconcile, validate_favorite_aliases
 from .publication import FILES, baseline, digest, locked, recover, replace, write_json
 from .refresh_state import (SIDECARS, STATE, SOURCES, due, load, save, source_item, stamp)
 from .runtime import Runtime
@@ -140,6 +140,7 @@ def candidate(root, stage, client, report, current, max_events=3, listing_limit=
     paired=validate(stage/'output.csv',stage/'ufc_fighters.db')
     validate_merge(old,paired,targets)
     validate_routes(root,stage)
+    validate_favorite_aliases(paired, previous_registry(root), json.loads(ALIASES.read_text(encoding="utf-8")))
     save(stage,paired,state,sources,report)
     load(stage,paired)
     report.update(reason='validated event candidate',completed=now(),coverage=coverage(paired),
@@ -164,6 +165,7 @@ def publish(root, stage):
     new=validate(stage/'output.csv',stage/'ufc_fighters.db')
     _, provenance=load(stage,new)
     validate_merge(old,new,report['target_ids'])
+    validate_favorite_aliases(new, previous_registry(root), json.loads(ALIASES.read_text(encoding="utf-8")))
     validate_routes(root,stage)
     fetched = [stamp(item['fetched_at']) for fighter in provenance['fighters'].values()
                for item in [fighter['profile'], *fighter['history']] if item]

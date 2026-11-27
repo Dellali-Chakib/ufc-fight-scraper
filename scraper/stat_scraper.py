@@ -17,7 +17,7 @@ from .contract import HEADERS, VERSION, Fighter
 from .database import build, reader
 from .directory import discover
 from .fighter_stats import parse_profile, put
-from .identity import previous_registry, reconcile
+from .identity import previous_registry, reconcile, validate_favorite_aliases
 from .publication import FILES, baseline, digest, locked, recover, replace, write_json
 from .source import Client, SourceError
 from .runtime import Cancelled, Runtime
@@ -381,6 +381,7 @@ def publish(root, stage, bootstrap):
     if report.get("sidecar_hashes") != {n: digest(stage / n) for n in SIDECARS}:
         raise ValueError("Candidate refresh sidecars missing or changed")
     load_state(stage, rows)
+    validate_favorite_aliases(rows, previous_registry(root), json.loads(ALIASES.read_text(encoding="utf-8")))
     first = initial(root)
     if bootstrap and os.environ.get("GITHUB_ACTIONS") == "true":
         raise ValueError("Bootstrap is unavailable in GitHub Actions")
