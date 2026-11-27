@@ -1,3 +1,9 @@
 .venv/
 __pycache__/
 *.pyc
+.refresh.lock
+.refresh-undo/
+candidates/
+collection-failure.json
+diagnostic-evidence/
+actions-refresh-summary.json
