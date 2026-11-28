@@ -1,11 +1,1573 @@
 {
   "dataset_hashes": {
-    "output.csv": "0b3746ac9fc3b7045f2ce9d5f906fcc1b426735aee793a236e0b9d1150ef4879",
-    "ufc_fighters.db": "4db065b249daf99cfd6d15ffb30a1009b659f4f7373c6713208fd8887a6e8d26"
+    "output.csv": "6c0c37cdfdfd2eac5512a1e68a98731bc6b9a9af114ce4643d2c3ac165392830",
+    "ufc_fighters.db": "abb7d509b4736fd418e65a63e36ba786f539e2077b822a485aa1cb4d8a1ef154"
   },
-  "discovered_through": null,
-  "events": {},
-  "generation": "fd193486b8c1a7044d8113e09747b5fa104d11d3c878cfbec06b164870737a68",
+  "discovered_through": "2026-11-28T04:01:55.556898+00:00",
+  "events": {
+    "https://www.ufc.com/event/ufc-334": {
+      "bouts": [
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/ciryl-gane",
+            "https://www.ufc.com/athlete/josh-hokit"
+          ],
+          "id": "13140",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/kayla-harrison",
+            "https://www.ufc.com/athlete/amanda-nunes"
+          ],
+          "id": "13141",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/caio-borralho",
+            "https://www.ufc.com/athlete/yousri-belgaroui"
+          ],
+          "id": "13142",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/uros-medic",
+            "https://www.ufc.com/athlete/kevin-holland"
+          ],
+          "id": "13143",
+          "outcomes": [
+            "draw",
+            "draw"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/bilal-hasan",
+            "https://www.ufc.com/athlete/luis-gurule"
+          ],
+          "id": "13144",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/stephen-thompson",
+            "https://www.ufc.com/athlete/charles-radtke"
+          ],
+          "id": "13145",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/drew-dober",
+            "https://www.ufc.com/athlete/chris-duncan"
+          ],
+          "id": "13146",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jim-miller",
+            "https://www.ufc.com/athlete/terrance-mckinney"
+          ],
+          "id": "13147",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/donte-johnson",
+            "https://www.ufc.com/athlete/cesar-almeida"
+          ],
+          "id": "13234",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jared-gordon",
+            "https://www.ufc.com/athlete/melquizael-costa"
+          ],
+          "id": "13235",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/macy-chiasson",
+            "https://www.ufc.com/athlete/bia-mesquita"
+          ],
+          "id": "13149",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/heili-alateng",
+            "https://www.ufc.com/athlete/juan-diaz"
+          ],
+          "id": "13257",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/evan-elder",
+            "https://www.ufc.com/athlete/samuel-sanches"
+          ],
+          "id": "13236",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        }
+      ],
+      "checks": {
+        "initial": {
+          "checked_at": "2026-11-28T04:06:21.335922+00:00",
+          "profiles": {
+            "https://www.ufc.com/athlete/amanda-nunes": {
+              "fetched_at": "2026-11-28T04:02:03.998830+00:00",
+              "url": "https://www.ufc.com/athlete/amanda-nunes"
+            },
+            "https://www.ufc.com/athlete/bia-mesquita": {
+              "fetched_at": "2026-11-28T04:02:01.012755+00:00",
+              "url": "https://www.ufc.com/athlete/bia-mesquita"
+            },
+            "https://www.ufc.com/athlete/bilal-hasan": {
+              "fetched_at": "2026-11-28T04:02:07.978532+00:00",
+              "url": "https://www.ufc.com/athlete/bilal-hasan"
+            },
+            "https://www.ufc.com/athlete/caio-borralho": {
+              "fetched_at": "2026-11-28T04:02:14.964243+00:00",
+              "url": "https://www.ufc.com/athlete/caio-borralho"
+            },
+            "https://www.ufc.com/athlete/cesar-almeida": {
+              "fetched_at": "2026-11-28T04:02:16.955998+00:00",
+              "url": "https://www.ufc.com/athlete/cesar-almeida"
+            },
+            "https://www.ufc.com/athlete/charles-radtke": {
+              "fetched_at": "2026-11-28T04:02:22.954789+00:00",
+              "url": "https://www.ufc.com/athlete/charles-radtke"
+            },
+            "https://www.ufc.com/athlete/chris-duncan": {
+              "fetched_at": "2026-11-28T04:02:26.956575+00:00",
+              "url": "https://www.ufc.com/athlete/chris-duncan"
+            },
+            "https://www.ufc.com/athlete/ciryl-gane": {
+              "fetched_at": "2026-11-28T04:02:34.981948+00:00",
+              "url": "https://www.ufc.com/athlete/ciryl-gane"
+            },
+            "https://www.ufc.com/athlete/donte-johnson": {
+              "fetched_at": "2026-11-28T04:02:36.965903+00:00",
+              "url": "https://www.ufc.com/athlete/donte-johnson"
+            },
+            "https://www.ufc.com/athlete/drew-dober": {
+              "fetched_at": "2026-11-28T04:02:49.967654+00:00",
+              "url": "https://www.ufc.com/athlete/drew-dober"
+            },
+            "https://www.ufc.com/athlete/evan-elder": {
+              "fetched_at": "2026-11-28T04:02:51.961019+00:00",
+              "url": "https://www.ufc.com/athlete/evan-elder"
+            },
+            "https://www.ufc.com/athlete/heili-alateng": {
+              "fetched_at": "2026-11-28T04:03:09.953597+00:00",
+              "url": "https://www.ufc.com/athlete/heili-alateng"
+            },
+            "https://www.ufc.com/athlete/jared-gordon": {
+              "fetched_at": "2026-11-28T04:03:08.957156+00:00",
+              "url": "https://www.ufc.com/athlete/jared-gordon"
+            },
+            "https://www.ufc.com/athlete/jim-miller": {
+              "fetched_at": "2026-11-28T04:03:22.016690+00:00",
+              "url": "https://www.ufc.com/athlete/jim-miller"
+            },
+            "https://www.ufc.com/athlete/josh-hokit": {
+              "fetched_at": "2026-11-28T04:03:38.975228+00:00",
+              "url": "https://www.ufc.com/athlete/josh-hokit"
+            },
+            "https://www.ufc.com/athlete/juan-diaz": {
+              "fetched_at": "2026-11-28T04:03:42.969264+00:00",
+              "url": "https://www.ufc.com/athlete/juan-diaz"
+            },
+            "https://www.ufc.com/athlete/kayla-harrison": {
+              "fetched_at": "2026-11-28T04:03:55.967677+00:00",
+              "url": "https://www.ufc.com/athlete/kayla-harrison"
+            },
+            "https://www.ufc.com/athlete/kevin-holland": {
+              "fetched_at": "2026-11-28T04:04:03.972989+00:00",
+              "url": "https://www.ufc.com/athlete/kevin-holland"
+            },
+            "https://www.ufc.com/athlete/luis-gurule": {
+              "fetched_at": "2026-11-28T04:04:16.032138+00:00",
+              "url": "https://www.ufc.com/athlete/luis-gurule"
+            },
+            "https://www.ufc.com/athlete/macy-chiasson": {
+              "fetched_at": "2026-11-28T04:04:23.973784+00:00",
+              "url": "https://www.ufc.com/athlete/macy-chiasson"
+            },
+            "https://www.ufc.com/athlete/melquizael-costa": {
+              "fetched_at": "2026-11-28T04:04:27.978688+00:00",
+              "url": "https://www.ufc.com/athlete/melquizael-costa"
+            },
+            "https://www.ufc.com/athlete/samuel-sanches": {
+              "fetched_at": "2026-11-28T04:05:17.007812+00:00",
+              "url": "https://www.ufc.com/athlete/samuel-sanches"
+            },
+            "https://www.ufc.com/athlete/stephen-thompson": {
+              "fetched_at": "2026-11-28T04:05:19.007148+00:00",
+              "url": "https://www.ufc.com/athlete/stephen-thompson"
+            },
+            "https://www.ufc.com/athlete/terrance-mckinney": {
+              "fetched_at": "2026-11-28T04:05:31.006459+00:00",
+              "url": "https://www.ufc.com/athlete/terrance-mckinney"
+            },
+            "https://www.ufc.com/athlete/uros-medic": {
+              "fetched_at": "2026-11-28T04:05:41.003506+00:00",
+              "url": "https://www.ufc.com/athlete/uros-medic"
+            },
+            "https://www.ufc.com/athlete/yousri-belgaroui": {
+              "fetched_at": "2026-11-28T04:06:19.067658+00:00",
+              "url": "https://www.ufc.com/athlete/yousri-belgaroui"
+            }
+          },
+          "results_evidence": {
+            "fetched_at": "2026-11-28T04:01:56.946328+00:00",
+            "sha256": "ea4c23011d635feb1499b3addc799fc160a412098c69fba015c623a012cbde72",
+            "status": 200,
+            "url": "https://www.ufc.com/event/ufc-334"
+          },
+          "unchanged_fighters": [
+            "1897b7b913736a7c",
+            "3a46b268013afede",
+            "4a28cb716c19157a",
+            "519e4fe37ce9ff75",
+            "7026eca45f65377b",
+            "787bb1f087ccff8a",
+            "80fa8218c99f9c58",
+            "9cdd2da1a9104a0b",
+            "d1941565abf50b16"
+          ],
+          "upstream_incorporation": "unverified; a fresh response or unchanged statistics does not prove event incorporation"
+        }
+      },
+      "id": "https://www.ufc.com/event/ufc-334",
+      "participant_identities": {
+        "https://www.ufc.com/athlete/amanda-nunes": {
+          "canonical_url": "https://www.ufc.com/athlete/amanda-nunes",
+          "fighter_id": "80fa8218c99f9c58",
+          "source_id": "27746"
+        },
+        "https://www.ufc.com/athlete/bia-mesquita": {
+          "canonical_url": "https://www.ufc.com/athlete/bia-mesquita",
+          "fighter_id": "ufc-149999",
+          "source_id": "149999"
+        },
+        "https://www.ufc.com/athlete/bilal-hasan": {
+          "canonical_url": "https://www.ufc.com/athlete/bilal-hasan",
+          "fighter_id": "ufc-159194",
+          "source_id": "159194"
+        },
+        "https://www.ufc.com/athlete/caio-borralho": {
+          "canonical_url": "https://www.ufc.com/athlete/caio-borralho",
+          "fighter_id": "4126a78111c0855a",
+          "source_id": "113465"
+        },
+        "https://www.ufc.com/athlete/cesar-almeida": {
+          "canonical_url": "https://www.ufc.com/athlete/cesar-almeida",
+          "fighter_id": "64d47ef881a437a4",
+          "source_id": "131078"
+        },
+        "https://www.ufc.com/athlete/charles-radtke": {
+          "canonical_url": "https://www.ufc.com/athlete/charles-radtke",
+          "fighter_id": "feedf3053472fe56",
+          "source_id": "132161"
+        },
+        "https://www.ufc.com/athlete/chris-duncan": {
+          "canonical_url": "https://www.ufc.com/athlete/chris-duncan",
+          "fighter_id": "fd406a32a6fb3a29",
+          "source_id": "110807"
+        },
+        "https://www.ufc.com/athlete/ciryl-gane": {
+          "canonical_url": "https://www.ufc.com/athlete/ciryl-gane",
+          "fighter_id": "787bb1f087ccff8a",
+          "source_id": "95201"
+        },
+        "https://www.ufc.com/athlete/donte-johnson": {
+          "canonical_url": "https://www.ufc.com/athlete/donte-johnson",
+          "fighter_id": "ufc-150575",
+          "source_id": "150575"
+        },
+        "https://www.ufc.com/athlete/drew-dober": {
+          "canonical_url": "https://www.ufc.com/athlete/drew-dober",
+          "fighter_id": "519e4fe37ce9ff75",
+          "source_id": "27972"
+        },
+        "https://www.ufc.com/athlete/evan-elder": {
+          "canonical_url": "https://www.ufc.com/athlete/evan-elder",
+          "fighter_id": "d9a56ecb6e94f02e",
+          "source_id": "119311"
+        },
+        "https://www.ufc.com/athlete/heili-alateng": {
+          "canonical_url": "https://www.ufc.com/athlete/heili-alateng",
+          "fighter_id": "1897b7b913736a7c",
+          "source_id": "96642"
+        },
+        "https://www.ufc.com/athlete/jared-gordon": {
+          "canonical_url": "https://www.ufc.com/athlete/jared-gordon",
+          "fighter_id": "7026eca45f65377b",
+          "source_id": "28528"
+        },
+        "https://www.ufc.com/athlete/jim-miller": {
+          "canonical_url": "https://www.ufc.com/athlete/jim-miller",
+          "fighter_id": "d1941565abf50b16",
+          "source_id": "27265"
+        },
+        "https://www.ufc.com/athlete/josh-hokit": {
+          "canonical_url": "https://www.ufc.com/athlete/josh-hokit",
+          "fighter_id": "955da1675ad58a50",
+          "source_id": "150390"
+        },
+        "https://www.ufc.com/athlete/juan-diaz": {
+          "canonical_url": "https://www.ufc.com/athlete/juan-diaz",
+          "fighter_id": "ufc-151791",
+          "source_id": "151791"
+        },
+        "https://www.ufc.com/athlete/kayla-harrison": {
+          "canonical_url": "https://www.ufc.com/athlete/kayla-harrison",
+          "fighter_id": "1af1170ed937cba7",
+          "source_id": "136296"
+        },
+        "https://www.ufc.com/athlete/kevin-holland": {
+          "canonical_url": "https://www.ufc.com/athlete/kevin-holland",
+          "fighter_id": "3a46b268013afede",
+          "source_id": "28712"
+        },
+        "https://www.ufc.com/athlete/luis-gurule": {
+          "canonical_url": "https://www.ufc.com/athlete/luis-gurule",
+          "fighter_id": "29162be25ebef5f0",
+          "source_id": "143049"
+        },
+        "https://www.ufc.com/athlete/macy-chiasson": {
+          "canonical_url": "https://www.ufc.com/athlete/macy-chiasson",
+          "fighter_id": "9cdd2da1a9104a0b",
+          "source_id": "90925"
+        },
+        "https://www.ufc.com/athlete/melquizael-costa": {
+          "canonical_url": "https://www.ufc.com/athlete/melquizael-costa",
+          "fighter_id": "20bccc9bb4ceb23e",
+          "source_id": "125878"
+        },
+        "https://www.ufc.com/athlete/samuel-sanches": {
+          "canonical_url": "https://www.ufc.com/athlete/samuel-sanches",
+          "fighter_id": "ufc-150860",
+          "source_id": "150860"
+        },
+        "https://www.ufc.com/athlete/stephen-thompson": {
+          "canonical_url": "https://www.ufc.com/athlete/stephen-thompson",
+          "fighter_id": "4a28cb716c19157a",
+          "source_id": "27654"
+        },
+        "https://www.ufc.com/athlete/terrance-mckinney": {
+          "canonical_url": "https://www.ufc.com/athlete/terrance-mckinney",
+          "fighter_id": "809bd1a871491508",
+          "source_id": "122277"
+        },
+        "https://www.ufc.com/athlete/uros-medic": {
+          "canonical_url": "https://www.ufc.com/athlete/uros-medic",
+          "fighter_id": "681399317dbf4701",
+          "source_id": "104060"
+        },
+        "https://www.ufc.com/athlete/yousri-belgaroui": {
+          "canonical_url": "https://www.ufc.com/athlete/yousri-belgaroui",
+          "fighter_id": "ufc-132403",
+          "source_id": "132403"
+        }
+      },
+      "participants": [
+        "https://www.ufc.com/athlete/amanda-nunes",
+        "https://www.ufc.com/athlete/bia-mesquita",
+        "https://www.ufc.com/athlete/bilal-hasan",
+        "https://www.ufc.com/athlete/caio-borralho",
+        "https://www.ufc.com/athlete/cesar-almeida",
+        "https://www.ufc.com/athlete/charles-radtke",
+        "https://www.ufc.com/athlete/chris-duncan",
+        "https://www.ufc.com/athlete/ciryl-gane",
+        "https://www.ufc.com/athlete/donte-johnson",
+        "https://www.ufc.com/athlete/drew-dober",
+        "https://www.ufc.com/athlete/evan-elder",
+        "https://www.ufc.com/athlete/heili-alateng",
+        "https://www.ufc.com/athlete/jared-gordon",
+        "https://www.ufc.com/athlete/jim-miller",
+        "https://www.ufc.com/athlete/josh-hokit",
+        "https://www.ufc.com/athlete/juan-diaz",
+        "https://www.ufc.com/athlete/kayla-harrison",
+        "https://www.ufc.com/athlete/kevin-holland",
+        "https://www.ufc.com/athlete/luis-gurule",
+        "https://www.ufc.com/athlete/macy-chiasson",
+        "https://www.ufc.com/athlete/melquizael-costa",
+        "https://www.ufc.com/athlete/samuel-sanches",
+        "https://www.ufc.com/athlete/stephen-thompson",
+        "https://www.ufc.com/athlete/terrance-mckinney",
+        "https://www.ufc.com/athlete/uros-medic",
+        "https://www.ufc.com/athlete/yousri-belgaroui"
+      ],
+      "results_evidence": {
+        "fetched_at": "2026-11-28T04:01:56.946328+00:00",
+        "sha256": "ea4c23011d635feb1499b3addc799fc160a412098c69fba015c623a012cbde72",
+        "status": 200,
+        "url": "https://www.ufc.com/event/ufc-334"
+      },
+      "starts_at": "2026-11-15T02:00:00+00:00",
+      "status": "complete",
+      "title": "Polymarket UFC 334",
+      "url": "https://www.ufc.com/event/ufc-334"
+    },
+    "https://www.ufc.com/event/ufc-fight-night-november-07-2026": {
+      "bouts": [
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/waldo-cortes-acosta",
+            "https://www.ufc.com/athlete/johnny-walker"
+          ],
+          "id": "13238",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/tatiana-suarez",
+            "https://www.ufc.com/athlete/virna-jandiroba"
+          ],
+          "id": "13180",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/davey-grant",
+            "https://www.ufc.com/athlete/elijah-smith"
+          ],
+          "id": "13189",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/billy-elekana",
+            "https://www.ufc.com/athlete/lucas-fernando"
+          ],
+          "id": "13182",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/priscila-cachoeira",
+            "https://www.ufc.com/athlete/nina-milosevic"
+          ],
+          "id": "13185",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/mitch-raposo",
+            "https://www.ufc.com/athlete/marcos-degli"
+          ],
+          "id": "13237",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/keiichiro-nakamura-0",
+            "https://www.ufc.com/athlete/ollie-schmid"
+          ],
+          "id": "13186",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/gabriel-lorenco",
+            "https://www.ufc.com/athlete/thomas-petersen"
+          ],
+          "id": "13239",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/karine-silva",
+            "https://www.ufc.com/athlete/gabriella-fernandes"
+          ],
+          "id": "13184",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jose-delano",
+            "https://www.ufc.com/athlete/murtazali-magomedov"
+          ],
+          "id": "13190",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/austin-bashi",
+            "https://www.ufc.com/athlete/carlos-calderon"
+          ],
+          "id": "13242",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/mantas-kondratavicius",
+            "https://www.ufc.com/athlete/andre-petroski"
+          ],
+          "id": "13233",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/seokhyeon-ko",
+            "https://www.ufc.com/athlete/wellington-turman"
+          ],
+          "id": "13187",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jonny-parsons",
+            "https://www.ufc.com/athlete/jose-souza"
+          ],
+          "id": "13188",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        }
+      ],
+      "checks": {
+        "initial": {
+          "checked_at": "2026-11-28T04:06:21.335922+00:00",
+          "profiles": {
+            "https://www.ufc.com/athlete/andre-petroski": {
+              "fetched_at": "2026-11-28T04:02:02.981341+00:00",
+              "url": "https://www.ufc.com/athlete/andre-petroski"
+            },
+            "https://www.ufc.com/athlete/austin-bashi": {
+              "fetched_at": "2026-11-28T04:02:02.138535+00:00",
+              "url": "https://www.ufc.com/athlete/austin-bashi"
+            },
+            "https://www.ufc.com/athlete/billy-elekana": {
+              "fetched_at": "2026-11-28T04:02:23.979762+00:00",
+              "url": "https://www.ufc.com/athlete/billy-elekana"
+            },
+            "https://www.ufc.com/athlete/carlos-calderon": {
+              "fetched_at": "2026-11-28T04:02:13.963509+00:00",
+              "url": "https://www.ufc.com/athlete/carlos-calderon"
+            },
+            "https://www.ufc.com/athlete/davey-grant": {
+              "fetched_at": "2026-11-28T04:02:46.963831+00:00",
+              "url": "https://www.ufc.com/athlete/davey-grant"
+            },
+            "https://www.ufc.com/athlete/elijah-smith": {
+              "fetched_at": "2026-11-28T04:02:46.015243+00:00",
+              "url": "https://www.ufc.com/athlete/elijah-smith"
+            },
+            "https://www.ufc.com/athlete/gabriel-lorenco": {
+              "fetched_at": "2026-11-28T04:03:00.959772+00:00",
+              "url": "https://www.ufc.com/athlete/gabriel-lorenco"
+            },
+            "https://www.ufc.com/athlete/gabriella-fernandes": {
+              "fetched_at": "2026-11-28T04:03:03.955799+00:00",
+              "url": "https://www.ufc.com/athlete/gabriella-fernandes"
+            },
+            "https://www.ufc.com/athlete/johnny-walker": {
+              "fetched_at": "2026-11-28T04:03:25.952152+00:00",
+              "url": "https://www.ufc.com/athlete/johnny-walker"
+            },
+            "https://www.ufc.com/athlete/jonny-parsons": {
+              "fetched_at": "2026-11-28T04:03:31.976675+00:00",
+              "url": "https://www.ufc.com/athlete/jonny-parsons"
+            },
+            "https://www.ufc.com/athlete/jose-delano": {
+              "fetched_at": "2026-11-28T04:03:32.970585+00:00",
+              "url": "https://www.ufc.com/athlete/jose-delano"
+            },
+            "https://www.ufc.com/athlete/jose-souza": {
+              "fetched_at": "2026-11-28T04:03:33.977648+00:00",
+              "url": "https://www.ufc.com/athlete/jose-souza"
+            },
+            "https://www.ufc.com/athlete/karine-silva": {
+              "fetched_at": "2026-11-28T04:04:05.972918+00:00",
+              "url": "https://www.ufc.com/athlete/karine-silva"
+            },
+            "https://www.ufc.com/athlete/keiichiro-nakamura-0": {
+              "fetched_at": "2026-11-28T04:04:00.971107+00:00",
+              "url": "https://www.ufc.com/athlete/keiichiro-nakamura-0"
+            },
+            "https://www.ufc.com/athlete/lucas-fernando": {
+              "fetched_at": "2026-11-28T04:04:08.975348+00:00",
+              "url": "https://www.ufc.com/athlete/lucas-fernando"
+            },
+            "https://www.ufc.com/athlete/mantas-kondratavicius": {
+              "fetched_at": "2026-11-28T04:04:24.967411+00:00",
+              "url": "https://www.ufc.com/athlete/mantas-kondratavicius"
+            },
+            "https://www.ufc.com/athlete/marcos-degli": {
+              "fetched_at": "2026-11-28T04:04:26.975972+00:00",
+              "url": "https://www.ufc.com/athlete/marcos-degli"
+            },
+            "https://www.ufc.com/athlete/mitch-raposo": {
+              "fetched_at": "2026-11-28T04:04:35.969872+00:00",
+              "url": "https://www.ufc.com/athlete/mitch-raposo"
+            },
+            "https://www.ufc.com/athlete/murtazali-magomedov": {
+              "fetched_at": "2026-11-28T04:04:45.998722+00:00",
+              "url": "https://www.ufc.com/athlete/murtazali-magomedov"
+            },
+            "https://www.ufc.com/athlete/nina-milosevic": {
+              "fetched_at": "2026-11-28T04:04:53.994674+00:00",
+              "url": "https://www.ufc.com/athlete/nina-milosevic"
+            },
+            "https://www.ufc.com/athlete/ollie-schmid": {
+              "fetched_at": "2026-11-28T04:04:55.016133+00:00",
+              "url": "https://www.ufc.com/athlete/ollie-schmid"
+            },
+            "https://www.ufc.com/athlete/priscila-cachoeira": {
+              "fetched_at": "2026-11-28T04:04:56.987765+00:00",
+              "url": "https://www.ufc.com/athlete/priscila-cachoeira"
+            },
+            "https://www.ufc.com/athlete/seokhyeon-ko": {
+              "fetched_at": "2026-11-28T04:05:13.999774+00:00",
+              "url": "https://www.ufc.com/athlete/seokhyeon-ko"
+            },
+            "https://www.ufc.com/athlete/tatiana-suarez": {
+              "fetched_at": "2026-11-28T04:05:27.999096+00:00",
+              "url": "https://www.ufc.com/athlete/tatiana-suarez"
+            },
+            "https://www.ufc.com/athlete/thomas-petersen": {
+              "fetched_at": "2026-11-28T04:05:35.089468+00:00",
+              "url": "https://www.ufc.com/athlete/thomas-petersen"
+            },
+            "https://www.ufc.com/athlete/virna-jandiroba": {
+              "fetched_at": "2026-11-28T04:06:07.007516+00:00",
+              "url": "https://www.ufc.com/athlete/virna-jandiroba"
+            },
+            "https://www.ufc.com/athlete/waldo-cortes-acosta": {
+              "fetched_at": "2026-11-28T04:06:01.027588+00:00",
+              "url": "https://www.ufc.com/athlete/waldo-cortes-acosta"
+            },
+            "https://www.ufc.com/athlete/wellington-turman": {
+              "fetched_at": "2026-11-28T04:05:56.002019+00:00",
+              "url": "https://www.ufc.com/athlete/wellington-turman"
+            }
+          },
+          "results_evidence": {
+            "fetched_at": "2026-11-28T04:01:57.945422+00:00",
+            "sha256": "2f2ffd56a723eabaaedf6136dca4f65f218128756ea64c1b57ae097ab1e7ecd0",
+            "status": 200,
+            "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026"
+          },
+          "unchanged_fighters": [
+            "113df4fde64735c6",
+            "4dcfb28c011c11b2",
+            "7dda2cf308f24a02",
+            "b1e5bcaad32a3cac",
+            "c21f26bbde777573"
+          ],
+          "upstream_incorporation": "unverified; a fresh response or unchanged statistics does not prove event incorporation"
+        }
+      },
+      "id": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+      "participant_identities": {
+        "https://www.ufc.com/athlete/andre-petroski": {
+          "canonical_url": "https://www.ufc.com/athlete/andre-petroski",
+          "fighter_id": "5f61780fe5e9b6d0",
+          "source_id": "112947"
+        },
+        "https://www.ufc.com/athlete/austin-bashi": {
+          "canonical_url": "https://www.ufc.com/athlete/austin-bashi",
+          "fighter_id": "ufc-142082",
+          "source_id": "142082"
+        },
+        "https://www.ufc.com/athlete/billy-elekana": {
+          "canonical_url": "https://www.ufc.com/athlete/billy-elekana",
+          "fighter_id": "07a74004d964c7f4",
+          "source_id": "144835"
+        },
+        "https://www.ufc.com/athlete/carlos-calderon": {
+          "canonical_url": "https://www.ufc.com/athlete/carlos-calderon",
+          "fighter_id": "ufc-161608",
+          "source_id": "161608"
+        },
+        "https://www.ufc.com/athlete/davey-grant": {
+          "canonical_url": "https://www.ufc.com/athlete/davey-grant",
+          "fighter_id": "113df4fde64735c6",
+          "source_id": "27915"
+        },
+        "https://www.ufc.com/athlete/elijah-smith": {
+          "canonical_url": "https://www.ufc.com/athlete/elijah-smith",
+          "fighter_id": "7478b7f959ba61f5",
+          "source_id": "144961"
+        },
+        "https://www.ufc.com/athlete/gabriel-lorenco": {
+          "canonical_url": "https://www.ufc.com/athlete/gabriel-lorenco",
+          "fighter_id": "ufc-159806",
+          "source_id": "159806"
+        },
+        "https://www.ufc.com/athlete/gabriella-fernandes": {
+          "canonical_url": "https://www.ufc.com/athlete/gabriella-fernandes",
+          "fighter_id": "a6eb54ae17a551be",
+          "source_id": "124350"
+        },
+        "https://www.ufc.com/athlete/johnny-walker": {
+          "canonical_url": "https://www.ufc.com/athlete/johnny-walker",
+          "fighter_id": "c21f26bbde777573",
+          "source_id": "88291"
+        },
+        "https://www.ufc.com/athlete/jonny-parsons": {
+          "canonical_url": "https://www.ufc.com/athlete/jonny-parsons",
+          "fighter_id": "ufc-112451",
+          "source_id": "112451"
+        },
+        "https://www.ufc.com/athlete/jose-delano": {
+          "canonical_url": "https://www.ufc.com/athlete/jose-delano",
+          "fighter_id": "ufc-150391",
+          "source_id": "150391"
+        },
+        "https://www.ufc.com/athlete/jose-souza": {
+          "canonical_url": "https://www.ufc.com/athlete/jose-souza",
+          "fighter_id": "ufc-121588",
+          "source_id": "121588"
+        },
+        "https://www.ufc.com/athlete/karine-silva": {
+          "canonical_url": "https://www.ufc.com/athlete/karine-silva",
+          "fighter_id": "9d62c2d8ee151f08",
+          "source_id": "111781"
+        },
+        "https://www.ufc.com/athlete/keiichiro-nakamura-0": {
+          "canonical_url": "https://www.ufc.com/athlete/keiichiro-nakamura-0",
+          "fighter_id": "3618e0632ecdba9c",
+          "source_id": "154167"
+        },
+        "https://www.ufc.com/athlete/lucas-fernando": {
+          "canonical_url": "https://www.ufc.com/athlete/lucas-fernando",
+          "fighter_id": "ufc-130049",
+          "source_id": "130049"
+        },
+        "https://www.ufc.com/athlete/mantas-kondratavicius": {
+          "canonical_url": "https://www.ufc.com/athlete/mantas-kondratavicius",
+          "fighter_id": "ufc-151131",
+          "source_id": "151131"
+        },
+        "https://www.ufc.com/athlete/marcos-degli": {
+          "canonical_url": "https://www.ufc.com/athlete/marcos-degli",
+          "fighter_id": "ufc-160382",
+          "source_id": "160382"
+        },
+        "https://www.ufc.com/athlete/mitch-raposo": {
+          "canonical_url": "https://www.ufc.com/athlete/mitch-raposo",
+          "fighter_id": "0be6776db31d98ec",
+          "source_id": "113841"
+        },
+        "https://www.ufc.com/athlete/murtazali-magomedov": {
+          "canonical_url": "https://www.ufc.com/athlete/murtazali-magomedov",
+          "fighter_id": "ufc-151132",
+          "source_id": "151132"
+        },
+        "https://www.ufc.com/athlete/nina-milosevic": {
+          "canonical_url": "https://www.ufc.com/athlete/nina-milosevic",
+          "fighter_id": "ufc-157411",
+          "source_id": "157411"
+        },
+        "https://www.ufc.com/athlete/ollie-schmid": {
+          "canonical_url": "https://www.ufc.com/athlete/ollie-schmid",
+          "fighter_id": "ufc-156404",
+          "source_id": "156404"
+        },
+        "https://www.ufc.com/athlete/priscila-cachoeira": {
+          "canonical_url": "https://www.ufc.com/athlete/priscila-cachoeira",
+          "fighter_id": "b1e5bcaad32a3cac",
+          "source_id": "28688"
+        },
+        "https://www.ufc.com/athlete/seokhyeon-ko": {
+          "canonical_url": "https://www.ufc.com/athlete/seokhyeon-ko",
+          "fighter_id": "ufc-142079",
+          "source_id": "142079"
+        },
+        "https://www.ufc.com/athlete/tatiana-suarez": {
+          "canonical_url": "https://www.ufc.com/athlete/tatiana-suarez",
+          "fighter_id": "b08012bbe542592a",
+          "source_id": "28407"
+        },
+        "https://www.ufc.com/athlete/thomas-petersen": {
+          "canonical_url": "https://www.ufc.com/athlete/thomas-petersen",
+          "fighter_id": "764d39074a352e33",
+          "source_id": "131073"
+        },
+        "https://www.ufc.com/athlete/virna-jandiroba": {
+          "canonical_url": "https://www.ufc.com/athlete/virna-jandiroba",
+          "fighter_id": "7dda2cf308f24a02",
+          "source_id": "93630"
+        },
+        "https://www.ufc.com/athlete/waldo-cortes-acosta": {
+          "canonical_url": "https://www.ufc.com/athlete/waldo-cortes-acosta",
+          "fighter_id": "fc08099550072fe4",
+          "source_id": "119352"
+        },
+        "https://www.ufc.com/athlete/wellington-turman": {
+          "canonical_url": "https://www.ufc.com/athlete/wellington-turman",
+          "fighter_id": "4dcfb28c011c11b2",
+          "source_id": "95682"
+        }
+      },
+      "participants": [
+        "https://www.ufc.com/athlete/andre-petroski",
+        "https://www.ufc.com/athlete/austin-bashi",
+        "https://www.ufc.com/athlete/billy-elekana",
+        "https://www.ufc.com/athlete/carlos-calderon",
+        "https://www.ufc.com/athlete/davey-grant",
+        "https://www.ufc.com/athlete/elijah-smith",
+        "https://www.ufc.com/athlete/gabriel-lorenco",
+        "https://www.ufc.com/athlete/gabriella-fernandes",
+        "https://www.ufc.com/athlete/johnny-walker",
+        "https://www.ufc.com/athlete/jonny-parsons",
+        "https://www.ufc.com/athlete/jose-delano",
+        "https://www.ufc.com/athlete/jose-souza",
+        "https://www.ufc.com/athlete/karine-silva",
+        "https://www.ufc.com/athlete/keiichiro-nakamura-0",
+        "https://www.ufc.com/athlete/lucas-fernando",
+        "https://www.ufc.com/athlete/mantas-kondratavicius",
+        "https://www.ufc.com/athlete/marcos-degli",
+        "https://www.ufc.com/athlete/mitch-raposo",
+        "https://www.ufc.com/athlete/murtazali-magomedov",
+        "https://www.ufc.com/athlete/nina-milosevic",
+        "https://www.ufc.com/athlete/ollie-schmid",
+        "https://www.ufc.com/athlete/priscila-cachoeira",
+        "https://www.ufc.com/athlete/seokhyeon-ko",
+        "https://www.ufc.com/athlete/tatiana-suarez",
+        "https://www.ufc.com/athlete/thomas-petersen",
+        "https://www.ufc.com/athlete/virna-jandiroba",
+        "https://www.ufc.com/athlete/waldo-cortes-acosta",
+        "https://www.ufc.com/athlete/wellington-turman"
+      ],
+      "results_evidence": {
+        "fetched_at": "2026-11-28T04:01:57.945422+00:00",
+        "sha256": "2f2ffd56a723eabaaedf6136dca4f65f218128756ea64c1b57ae097ab1e7ecd0",
+        "status": 200,
+        "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026"
+      },
+      "starts_at": "2026-11-08T01:00:00+00:00",
+      "status": "complete",
+      "title": "UFC Fight Night",
+      "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026"
+    },
+    "https://www.ufc.com/event/ufc-fight-night-november-21-2026": {
+      "bouts": [
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jiri-prochazka",
+            "https://www.ufc.com/athlete/navajo-stirling"
+          ],
+          "id": "13197",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/aljamain-sterling",
+            "https://www.ufc.com/athlete/kevin-vallejos"
+          ],
+          "id": "13198",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/dan-hooker",
+            "https://www.ufc.com/athlete/brian-ortega"
+          ],
+          "id": "13199",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/kyoji-horiguchi",
+            "https://www.ufc.com/athlete/asu-almabayev"
+          ],
+          "id": "13195",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jared-cannonier",
+            "https://www.ufc.com/athlete/ikram-aliskerov"
+          ],
+          "id": "13192",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/aleksandre-topuria",
+            "https://www.ufc.com/athlete/santiago-luna"
+          ],
+          "id": "13194",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/shamil-gaziev",
+            "https://www.ufc.com/athlete/tallison-teixeira"
+          ],
+          "id": "13200",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/amir-albazi",
+            "https://www.ufc.com/athlete/alessandro-costa"
+          ],
+          "id": "13196",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jake-matthews",
+            "https://www.ufc.com/athlete/tahir-abdullayev"
+          ],
+          "id": "13193",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/nikolas-motta",
+            "https://www.ufc.com/athlete/dom-mar-fan"
+          ],
+          "id": "13262",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/diyar-nurgozhay",
+            "https://www.ufc.com/athlete/alik-lorenz"
+          ],
+          "id": "13263",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/shoaib-yousaf",
+            "https://www.ufc.com/athlete/john-mitchell"
+          ],
+          "id": "13274",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        }
+      ],
+      "checks": {},
+      "id": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+      "participants": [
+        "https://www.ufc.com/athlete/aleksandre-topuria",
+        "https://www.ufc.com/athlete/alessandro-costa",
+        "https://www.ufc.com/athlete/alik-lorenz",
+        "https://www.ufc.com/athlete/aljamain-sterling",
+        "https://www.ufc.com/athlete/amir-albazi",
+        "https://www.ufc.com/athlete/asu-almabayev",
+        "https://www.ufc.com/athlete/brian-ortega",
+        "https://www.ufc.com/athlete/dan-hooker",
+        "https://www.ufc.com/athlete/diyar-nurgozhay",
+        "https://www.ufc.com/athlete/dom-mar-fan",
+        "https://www.ufc.com/athlete/ikram-aliskerov",
+        "https://www.ufc.com/athlete/jake-matthews",
+        "https://www.ufc.com/athlete/jared-cannonier",
+        "https://www.ufc.com/athlete/jiri-prochazka",
+        "https://www.ufc.com/athlete/john-mitchell",
+        "https://www.ufc.com/athlete/kevin-vallejos",
+        "https://www.ufc.com/athlete/kyoji-horiguchi",
+        "https://www.ufc.com/athlete/navajo-stirling",
+        "https://www.ufc.com/athlete/nikolas-motta",
+        "https://www.ufc.com/athlete/santiago-luna",
+        "https://www.ufc.com/athlete/shamil-gaziev",
+        "https://www.ufc.com/athlete/shoaib-yousaf",
+        "https://www.ufc.com/athlete/tahir-abdullayev",
+        "https://www.ufc.com/athlete/tallison-teixeira"
+      ],
+      "results_evidence": {
+        "fetched_at": "2026-11-28T04:01:58.945949+00:00",
+        "sha256": "975fe9ac16923ab47d0476244b9f82e8584a5329cdb01c246463e50da4b24038",
+        "status": 200,
+        "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026"
+      },
+      "starts_at": "2026-11-21T18:00:00+00:00",
+      "status": "complete",
+      "title": "UFC Fight Night",
+      "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026"
+    },
+    "https://www.ufc.com/event/ufc-fight-night-october-31-2026": {
+      "bouts": [
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/renato-moicano",
+            "https://www.ufc.com/athlete/tom-nolan"
+          ],
+          "id": "13133",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/randy-brown",
+            "https://www.ufc.com/athlete/jacobe-smith"
+          ],
+          "id": "13228",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/ode-osbourne",
+            "https://www.ufc.com/athlete/cody-durden"
+          ],
+          "id": "13227",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/yana-santos",
+            "https://www.ufc.com/athlete/luana-santos"
+          ],
+          "id": "13173",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/jean-paul-lebosnoyani",
+            "https://www.ufc.com/athlete/farman-hasanov"
+          ],
+          "id": "13176",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/francis-marshall",
+            "https://www.ufc.com/athlete/dakota-hope"
+          ],
+          "id": "13230",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/rodrigo-sezinando",
+            "https://www.ufc.com/athlete/theodor-berggren"
+          ],
+          "id": "13175",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/julian-erosa",
+            "https://www.ufc.com/athlete/jeongyeong-lee"
+          ],
+          "id": "13178",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/zachary-reese",
+            "https://www.ufc.com/athlete/mickey-gall"
+          ],
+          "id": "13229",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/nick-klein",
+            "https://www.ufc.com/athlete/joseph-kropschot"
+          ],
+          "id": "13096",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/talita-alencar",
+            "https://www.ufc.com/athlete/piera-rodriguez"
+          ],
+          "id": "13174",
+          "outcomes": [
+            "loss",
+            "win"
+          ],
+          "status": "complete"
+        },
+        {
+          "athletes": [
+            "https://www.ufc.com/athlete/lucia-szabova",
+            "https://www.ufc.com/athlete/tainara-lisboa"
+          ],
+          "id": "13117",
+          "outcomes": [
+            "win",
+            "loss"
+          ],
+          "status": "complete"
+        }
+      ],
+      "checks": {
+        "initial": {
+          "checked_at": "2026-11-28T04:06:21.335922+00:00",
+          "profiles": {
+            "https://www.ufc.com/athlete/cody-durden": {
+              "fetched_at": "2026-11-28T04:02:32.960141+00:00",
+              "url": "https://www.ufc.com/athlete/cody-durden"
+            },
+            "https://www.ufc.com/athlete/dakota-hope": {
+              "fetched_at": "2026-11-28T04:02:33.951700+00:00",
+              "url": "https://www.ufc.com/athlete/dakota-hope"
+            },
+            "https://www.ufc.com/athlete/farman-hasanov": {
+              "fetched_at": "2026-11-28T04:02:56.962766+00:00",
+              "url": "https://www.ufc.com/athlete/farman-hasanov"
+            },
+            "https://www.ufc.com/athlete/francis-marshall": {
+              "fetched_at": "2026-11-28T04:02:57.958051+00:00",
+              "url": "https://www.ufc.com/athlete/francis-marshall"
+            },
+            "https://www.ufc.com/athlete/jacobe-smith": {
+              "fetched_at": "2026-11-28T04:03:06.960498+00:00",
+              "url": "https://www.ufc.com/athlete/jacobe-smith"
+            },
+            "https://www.ufc.com/athlete/jean-paul-lebosnoyani": {
+              "fetched_at": "2026-11-28T04:03:16.017181+00:00",
+              "url": "https://www.ufc.com/athlete/jean-paul-lebosnoyani"
+            },
+            "https://www.ufc.com/athlete/jeongyeong-lee": {
+              "fetched_at": "2026-11-28T04:03:16.981312+00:00",
+              "url": "https://www.ufc.com/athlete/jeongyeong-lee"
+            },
+            "https://www.ufc.com/athlete/joseph-kropschot": {
+              "fetched_at": "2026-11-28T04:03:37.992237+00:00",
+              "url": "https://www.ufc.com/athlete/joseph-kropschot"
+            },
+            "https://www.ufc.com/athlete/julian-erosa": {
+              "fetched_at": "2026-11-28T04:03:43.974743+00:00",
+              "url": "https://www.ufc.com/athlete/julian-erosa"
+            },
+            "https://www.ufc.com/athlete/luana-santos": {
+              "fetched_at": "2026-11-28T04:04:04.966384+00:00",
+              "url": "https://www.ufc.com/athlete/luana-santos"
+            },
+            "https://www.ufc.com/athlete/lucia-szabova": {
+              "fetched_at": "2026-11-28T04:04:13.973374+00:00",
+              "url": "https://www.ufc.com/athlete/lucia-szabova"
+            },
+            "https://www.ufc.com/athlete/mickey-gall": {
+              "fetched_at": "2026-11-28T04:04:37.972361+00:00",
+              "url": "https://www.ufc.com/athlete/mickey-gall"
+            },
+            "https://www.ufc.com/athlete/nick-klein": {
+              "fetched_at": "2026-11-28T04:04:50.010263+00:00",
+              "url": "https://www.ufc.com/athlete/nick-klein"
+            },
+            "https://www.ufc.com/athlete/ode-osbourne": {
+              "fetched_at": "2026-11-28T04:04:47.984253+00:00",
+              "url": "https://www.ufc.com/athlete/ode-osbourne"
+            },
+            "https://www.ufc.com/athlete/piera-rodriguez": {
+              "fetched_at": "2026-11-28T04:04:51.983462+00:00",
+              "url": "https://www.ufc.com/athlete/piera-rodriguez"
+            },
+            "https://www.ufc.com/athlete/randy-brown": {
+              "fetched_at": "2026-11-28T04:05:00.043355+00:00",
+              "url": "https://www.ufc.com/athlete/randy-brown"
+            },
+            "https://www.ufc.com/athlete/renato-moicano": {
+              "fetched_at": "2026-11-28T04:04:57.989354+00:00",
+              "url": "https://www.ufc.com/athlete/renato-moicano"
+            },
+            "https://www.ufc.com/athlete/rodrigo-sezinando": {
+              "fetched_at": "2026-11-28T04:05:15.000975+00:00",
+              "url": "https://www.ufc.com/athlete/rodrigo-sezinando"
+            },
+            "https://www.ufc.com/athlete/tainara-lisboa": {
+              "fetched_at": "2026-11-28T04:05:29.006258+00:00",
+              "url": "https://www.ufc.com/athlete/tainara-lisboa"
+            },
+            "https://www.ufc.com/athlete/talita-alencar": {
+              "fetched_at": "2026-11-28T04:05:24.007633+00:00",
+              "url": "https://www.ufc.com/athlete/talita-alencar"
+            },
+            "https://www.ufc.com/athlete/theodor-berggren": {
+              "fetched_at": "2026-11-28T04:05:34.030806+00:00",
+              "url": "https://www.ufc.com/athlete/theodor-berggren"
+            },
+            "https://www.ufc.com/athlete/tom-nolan": {
+              "fetched_at": "2026-11-28T04:05:42.048941+00:00",
+              "url": "https://www.ufc.com/athlete/tom-nolan"
+            },
+            "https://www.ufc.com/athlete/yana-santos": {
+              "fetched_at": "2026-11-28T04:05:58.007780+00:00",
+              "url": "https://www.ufc.com/athlete/yana-santos"
+            },
+            "https://www.ufc.com/athlete/zachary-reese": {
+              "fetched_at": "2026-11-28T04:06:11.007969+00:00",
+              "url": "https://www.ufc.com/athlete/zachary-reese"
+            }
+          },
+          "results_evidence": {
+            "fetched_at": "2026-11-28T04:01:59.959480+00:00",
+            "sha256": "f8f151f6e6a06cd30e27417a3952dbed6244e2cbd570b0afa5fc481b04d5918d",
+            "status": 200,
+            "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026"
+          },
+          "unchanged_fighters": [
+            "3143bf892608139a",
+            "7f6ed67d3ed3c036",
+            "902ec2cc48c8ae8a",
+            "9e50097a89442158",
+            "b6452706b373eea1",
+            "c6aee362c7a7d482",
+            "d008d785f6347dc2",
+            "ufc-96635"
+          ],
+          "upstream_incorporation": "unverified; a fresh response or unchanged statistics does not prove event incorporation"
+        }
+      },
+      "id": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
+      "participant_identities": {
+        "https://www.ufc.com/athlete/cody-durden": {
+          "canonical_url": "https://www.ufc.com/athlete/cody-durden",
+          "fighter_id": "7f6ed67d3ed3c036",
+          "source_id": "103548"
+        },
+        "https://www.ufc.com/athlete/dakota-hope": {
+          "canonical_url": "https://www.ufc.com/athlete/dakota-hope",
+          "fighter_id": "ufc-155623",
+          "source_id": "155623"
+        },
+        "https://www.ufc.com/athlete/farman-hasanov": {
+          "canonical_url": "https://www.ufc.com/athlete/farman-hasanov",
+          "fighter_id": "ufc-156571",
+          "source_id": "156571"
+        },
+        "https://www.ufc.com/athlete/francis-marshall": {
+          "canonical_url": "https://www.ufc.com/athlete/francis-marshall",
+          "fighter_id": "ufc-119389",
+          "source_id": "119389"
+        },
+        "https://www.ufc.com/athlete/jacobe-smith": {
+          "canonical_url": "https://www.ufc.com/athlete/jacobe-smith",
+          "fighter_id": "85497ffd934ecf7e",
+          "source_id": "144713"
+        },
+        "https://www.ufc.com/athlete/jean-paul-lebosnoyani": {
+          "canonical_url": "https://www.ufc.com/athlete/jean-paul-lebosnoyani",
+          "fighter_id": "ufc-150696",
+          "source_id": "150696"
+        },
+        "https://www.ufc.com/athlete/jeongyeong-lee": {
+          "canonical_url": "https://www.ufc.com/athlete/jeongyeong-lee",
+          "fighter_id": "d008d785f6347dc2",
+          "source_id": "119842"
+        },
+        "https://www.ufc.com/athlete/joseph-kropschot": {
+          "canonical_url": "https://www.ufc.com/athlete/joseph-kropschot",
+          "fighter_id": "ufc-159324",
+          "source_id": "159324"
+        },
+        "https://www.ufc.com/athlete/julian-erosa": {
+          "canonical_url": "https://www.ufc.com/athlete/julian-erosa",
+          "fighter_id": "902ec2cc48c8ae8a",
+          "source_id": "28365"
+        },
+        "https://www.ufc.com/athlete/luana-santos": {
+          "canonical_url": "https://www.ufc.com/athlete/luana-santos",
+          "fighter_id": "5078e1dacf9d25f4",
+          "source_id": "130708"
+        },
+        "https://www.ufc.com/athlete/lucia-szabova": {
+          "canonical_url": "https://www.ufc.com/athlete/lucia-szabova",
+          "fighter_id": "ufc-159570",
+          "source_id": "159570"
+        },
+        "https://www.ufc.com/athlete/mickey-gall": {
+          "canonical_url": "https://www.ufc.com/athlete/mickey-gall",
+          "fighter_id": "9e50097a89442158",
+          "source_id": "28386"
+        },
+        "https://www.ufc.com/athlete/nick-klein": {
+          "canonical_url": "https://www.ufc.com/athlete/nick-klein",
+          "fighter_id": "ufc-143052",
+          "source_id": "143052"
+        },
+        "https://www.ufc.com/athlete/ode-osbourne": {
+          "canonical_url": "https://www.ufc.com/athlete/ode-osbourne",
+          "fighter_id": "ufc-96635",
+          "source_id": "96635"
+        },
+        "https://www.ufc.com/athlete/piera-rodriguez": {
+          "canonical_url": "https://www.ufc.com/athlete/piera-rodriguez",
+          "fighter_id": "e375cb5caf4717b6",
+          "source_id": "110798"
+        },
+        "https://www.ufc.com/athlete/randy-brown": {
+          "canonical_url": "https://www.ufc.com/athlete/randy-brown",
+          "fighter_id": "c6aee362c7a7d482",
+          "source_id": "28380"
+        },
+        "https://www.ufc.com/athlete/renato-moicano": {
+          "canonical_url": "https://www.ufc.com/athlete/renato-moicano",
+          "fighter_id": "b6452706b373eea1",
+          "source_id": "28232"
+        },
+        "https://www.ufc.com/athlete/rodrigo-sezinando": {
+          "canonical_url": "https://www.ufc.com/athlete/rodrigo-sezinando",
+          "fighter_id": "ufc-150179",
+          "source_id": "150179"
+        },
+        "https://www.ufc.com/athlete/tainara-lisboa": {
+          "canonical_url": "https://www.ufc.com/athlete/tainara-lisboa",
+          "fighter_id": "2c5f5749569eef66",
+          "source_id": "120474"
+        },
+        "https://www.ufc.com/athlete/talita-alencar": {
+          "canonical_url": "https://www.ufc.com/athlete/talita-alencar",
+          "fighter_id": "d35298b6df168456",
+          "source_id": "131110"
+        },
+        "https://www.ufc.com/athlete/theodor-berggren": {
+          "canonical_url": "https://www.ufc.com/athlete/theodor-berggren",
+          "fighter_id": "ufc-157423",
+          "source_id": "157423"
+        },
+        "https://www.ufc.com/athlete/tom-nolan": {
+          "canonical_url": "https://www.ufc.com/athlete/tom-nolan",
+          "fighter_id": "6c3b2525436cf5d4",
+          "source_id": "129776"
+        },
+        "https://www.ufc.com/athlete/yana-santos": {
+          "canonical_url": "https://www.ufc.com/athlete/yana-santos",
+          "fighter_id": "3143bf892608139a",
+          "source_id": "28695"
+        },
+        "https://www.ufc.com/athlete/zachary-reese": {
+          "canonical_url": "https://www.ufc.com/athlete/zachary-reese",
+          "fighter_id": "ufc-129462",
+          "source_id": "129462"
+        }
+      },
+      "participants": [
+        "https://www.ufc.com/athlete/cody-durden",
+        "https://www.ufc.com/athlete/dakota-hope",
+        "https://www.ufc.com/athlete/farman-hasanov",
+        "https://www.ufc.com/athlete/francis-marshall",
+        "https://www.ufc.com/athlete/jacobe-smith",
+        "https://www.ufc.com/athlete/jean-paul-lebosnoyani",
+        "https://www.ufc.com/athlete/jeongyeong-lee",
+        "https://www.ufc.com/athlete/joseph-kropschot",
+        "https://www.ufc.com/athlete/julian-erosa",
+        "https://www.ufc.com/athlete/luana-santos",
+        "https://www.ufc.com/athlete/lucia-szabova",
+        "https://www.ufc.com/athlete/mickey-gall",
+        "https://www.ufc.com/athlete/nick-klein",
+        "https://www.ufc.com/athlete/ode-osbourne",
+        "https://www.ufc.com/athlete/piera-rodriguez",
+        "https://www.ufc.com/athlete/randy-brown",
+        "https://www.ufc.com/athlete/renato-moicano",
+        "https://www.ufc.com/athlete/rodrigo-sezinando",
+        "https://www.ufc.com/athlete/tainara-lisboa",
+        "https://www.ufc.com/athlete/talita-alencar",
+        "https://www.ufc.com/athlete/theodor-berggren",
+        "https://www.ufc.com/athlete/tom-nolan",
+        "https://www.ufc.com/athlete/yana-santos",
+        "https://www.ufc.com/athlete/zachary-reese"
+      ],
+      "results_evidence": {
+        "fetched_at": "2026-11-28T04:01:59.959480+00:00",
+        "sha256": "f8f151f6e6a06cd30e27417a3952dbed6244e2cbd570b0afa5fc481b04d5918d",
+        "status": 200,
+        "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026"
+      },
+      "starts_at": "2026-11-01T00:00:00+00:00",
+      "status": "complete",
+      "title": "UFC Fight Night",
+      "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026"
+    }
+  },
+  "generation": "af0d850f861429a5d30eadc1ff585824ec2c1659ea22dfe8c35001b63bf120fa",
   "schema_version": 1,
   "tracking_since": "2026-10-28T22:09:31.582630+00:00"
 }
