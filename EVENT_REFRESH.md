@@ -200,3 +200,31 @@ or explicitly rebuild/review a coherent baseline; do not silently reseed state.
 Workflow reference: [GitHub workflow syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax),
 [repository token permissions](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token),
 and [scheduled workflow behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
+
+
+## Favorite migration safety prerequisite
+
+For UFC.com rows, the frontend must use only exported `FavoriteAliases` for
+legacy migration. It must not recreate aliases from display names or numeric
+API IDs. Explicit current `FighterID` matches always survive; unmatched keys
+remain saved and retryable. Old-format UFCStats rows retain their previous
+compatibility behavior. Exports contain aliases only for corroborated/reviewed
+legacy identities, with name collisions checked against non-exported registry
+entries as well as visible fighters. Publication revalidates this policy and
+rejects older candidates containing unsupported aliases.
+
+The former baseline packet with 95 name-only migrations is superseded. Review
+and merge the scraper safety fix and the separate compatible frontend changes,
+deploy and verify the frontend first, and only then approve the regenerated
+baseline dataset. Do not use a successful local frontend build as proof that
+GitLab Pages serves that version. An authenticated Pages URL and deployed asset
+check are required when the site redirects to GitLab sign-in.
+
+
+The read-only `Validate scraper and baseline review` workflow tests safety/code
+review branches on Windows. A `review/ufc-com-baseline-*` branch must contain the
+five saved candidate files under `review-baseline/` (CSV, SQLite, both state
+sidecars and `report.json`). It validates the manifest, baseline, API schema and
+favorite-policy stability without network collection or publication. The main
+`output.csv` is not changed by this review layout. Hosted checks remain pending
+until an authenticated review-branch push succeeds.

@@ -128,7 +128,7 @@ The shared Pydantic model and exact CSV header mapping are in [scraper/contract.
 | CSV fields | Meaning |
 | --- | --- |
 | FighterID, SourceAthleteID, URL, Source | Stable app key, optional Drupal node number, canonical HTTPS athlete URL, and the literal UFC.com. |
-| FavoriteAliases | Space-separated historical frontend IDs including the numeric API ID and name slugs. A client resolves an alias only when it has one target. |
+| FavoriteAliases | Supported legacy favorite keys from corroborated/reviewed identity mappings. New UFC.com identities have no inferred name/numeric aliases; competing identities and tombstones block ambiguous names. |
 | Name, Weight Class, Status | Displayed profile name, division (without the trailing word Division), and source bio status. |
 | Height, Reach, Weight | Numeric inches, inches and pounds, including decimals. A displayed height of `0.00` is unusable source data: normalize to null with the raw text in a structured source-inconsistency warning. Normalized heights must still be positive; other numeric zero values retain their defined meanings. |
 | DOB, Stance | Explicit ISO birth date from the athlete's JSON-LD and explicitly labeled stance when supplied. |

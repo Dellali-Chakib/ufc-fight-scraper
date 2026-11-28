@@ -1,0 +1,51 @@
+name: Validate scraper and baseline review
+on:
+  push:
+    branches:
+      - fix/ufc-favorite-migration-safety
+      - 'review/ufc-com-baseline-*'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - name: Preserve manifest bytes during checkout
+        run: git config --global core.autocrlf false
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Test scraper safeguards without live requests
+        run: |
+          python -B -m unittest discover -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Validate saved baseline when present
+        run: |
+          if (Test-Path 'review-baseline/report.json') {
+            python scripts/validate_baseline_review.py --candidate review-baseline --summary baseline-review-summary.json
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          } elseif ($env:GITHUB_REF_NAME -like 'review/ufc-com-baseline-*') {
+            throw 'Baseline review branch is missing its candidate manifest'
+          } else {
+            'Source tests passed; full baseline validation awaits a baseline review branch.' | Add-Content $env:GITHUB_STEP_SUMMARY
+          }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: baseline-review-validation
+          path: baseline-review-summary.json
+          if-no-files-found: ignore
+          retention-days: 14

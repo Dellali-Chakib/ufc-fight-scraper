@@ -237,19 +237,46 @@ class EventRefreshTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'manifest'):refresh.main(self.root,reviewed=stage)
 
     def test_transaction_failure_restores_dataset_state_and_provenance(self):
-        stage=self.run_candidate();before=publication.baseline(self.root)
+        # Exercise a noncanonical root even when TEMP has no Windows path alias.
+        (self.root/'path-alias').mkdir()
+        self.root=self.root/'path-alias'/'..'
+        self.html[BASE+'kayla-harrison']=self.html[BASE+'kayla-harrison'].replace('4.29','4.99')
+        before_bytes={name:(self.root/name).read_bytes() for name in publication.FILES}
+        before=publication.baseline(self.root)
+        stage=self.run_candidate().resolve();root=self.root.resolve()
+        report=json.loads((stage/'report.json').read_text())
+        self.assertTrue(report['work'])
+        installed=['output.csv','ufc_fighters.db',state.STATE]
+        # All three replacements must change real bytes before the injected error.
+        for name in installed:
+            self.assertNotEqual((stage/name).read_bytes(),before_bytes[name],name)
         real=publication.install
         failed=False
+        attempted=[]
         def install(src,dest):
             nonlocal failed
-            if dest==self.root/state.SOURCES and not failed:
+            src,dest=Path(src).resolve(),Path(dest).resolve()
+            if src.parent==stage and dest.parent==root:
+                attempted.append(dest.name)
+            if src==stage/state.SOURCES and dest==root/state.SOURCES and not failed:
+                self.assertEqual(attempted,installed+[state.SOURCES])
+                for name in installed:
+                    self.assertEqual((root/name).read_bytes(),(stage/name).read_bytes(),name)
+                for name in [state.SOURCES,'collection-success.json']:
+                    self.assertEqual((root/name).read_bytes(),before_bytes[name],name)
+                self.assertTrue((root/'.refresh-undo').is_dir())
                 failed=True;raise OSError('injected source sidecar install failure')
             real(src,dest)
-        with patch.object(publication,'install',side_effect=install),self.assertRaises(OSError):
+        with patch.object(publication,'install',side_effect=install),self.assertRaisesRegex(OSError,'injected source sidecar install failure'):
             refresh.main(self.root,reviewed=stage)
+        self.assertTrue(failed)
+        self.assertEqual(attempted,installed+[state.SOURCES])
+        for name in publication.FILES:
+            self.assertEqual((root/name).read_bytes(),before_bytes[name],name)
         self.assertEqual(publication.baseline(self.root),before)
         self.assertFalse((self.root/'.refresh-undo').exists())
-        refresh.main(self.root,reviewed=stage)
+        state.load(root,validate(root/'output.csv',root/'ufc_fighters.db'))
+        self.assertTrue(refresh.main(self.root,reviewed=stage))
         state.load(self.root,validate(self.root/'output.csv',self.root/'ufc_fighters.db'))
 
     def test_legacy_baseline_no_bootstrap_and_missing_sources(self):
