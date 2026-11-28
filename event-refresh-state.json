@@ -1,0 +1,11 @@
+{
+  "dataset_hashes": {
+    "output.csv": "0b3746ac9fc3b7045f2ce9d5f906fcc1b426735aee793a236e0b9d1150ef4879",
+    "ufc_fighters.db": "4db065b249daf99cfd6d15ffb30a1009b659f4f7373c6713208fd8887a6e8d26"
+  },
+  "discovered_through": null,
+  "events": {},
+  "generation": "fd193486b8c1a7044d8113e09747b5fa104d11d3c878cfbec06b164870737a68",
+  "schema_version": 1,
+  "tracking_since": "2026-10-28T22:09:31.582630+00:00"
+}
